@@ -1,0 +1,304 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>2020 Flash Paint マニュアル</title>
+
+  <style>
+    #title
+    {
+      font-size: 2em;
+      font-weight: bold;
+      text-align: center;
+      border-style: dotted;
+      border-width: 0px 0px 2px 0px;
+      border-color:gray;
+      position: relative;
+      padding-bottom: 15px;
+    }
+    #leftdiv
+    {
+      font-size:1.2em;
+      min-width:220px;
+      width:220px;
+      height:360px;
+      /* background-color: #dddddd; */
+      padding:7px;
+      position: sticky;
+      top:0px;
+      margin-right:20px;
+      line-height: 200%;
+    }
+    #rightdiv
+    {
+      position: relative;
+      width:100%;
+      height:100%;
+      font-size:1.2em;
+      line-height: 160%;
+    }
+
+    ul
+    {
+      list-style-type : none;
+    }
+    li
+    {
+      margin: 0px 0px 10px 0px;
+    }
+    hr
+    {
+      border-bottom: 0px;
+      margin-top:-20px;
+    }
+
+    .navLink
+    {
+      margin-right:10px;
+      font-weight: bold;
+    }
+
+    #mother
+    {
+      height:10700px;
+    }
+
+    h2
+    {
+      margin-top:50px;
+    }
+
+
+    a
+    {
+      color:rgb(84, 107, 240);
+    }
+
+
+    .navfont
+    {
+      background-color:white;
+    }
+
+    #content
+    {
+      display:flex;
+    }
+
+  </style>
+</head>
+<body>
+<div id="mother">
+  <div id="title">
+    ２０２０ Flash Paint 説明書
+  </div>
+
+  <div id="content">
+
+    <div id="leftdiv">
+      <img src="img/iconimage.jpg"><p></p>
+      <a class="navLink" href="#c0">0.ワコムドライバー設定</a><br>
+      <a class="navLink" href="#c1">1.ツールの使い方</a><br>
+      <a class="navLink" href="#c2">2.ペンオプション</a><br>
+      <a class="navLink" href="#c3">3.メニューボタン</a><br>
+      <a class="navLink" href="#c4">4.カラーヒストリー</a><br>
+      <a class="navLink" href="#c5">5.リプレイモード</a><br>
+      <a class="navLink" href="#c6">6.アプリ初期化</a><br>
+      <a class="navLink" href="#c7">7.Lassoツール使い方</a><br>
+      <a class="navLink" href="#c8">8.キャンバスサイズの変更</a><br>
+    </div>
+
+    <div id="rightdiv">
+      説明は一番重要な順番で並びました。<br>
+
+      <h2 id="c0">ワコムドライバー設定</h2><hr>
+      ワコムドライバー設定のマッピングの<b>「デジタルイング機能を使う」のチェックを外してください。</b> これをしないと線を描くのが少し変になります。<br>
+      ワコム以外のタブレットにはテストしてないので、正常な作動を保証できません。<br>
+
+      <h2 id="c1">ツールの使い方</h2><hr>
+      <h4><i>1.マウスの右ボタンを使って選択</i></h4>
+      <img src="img/pensetting_jp.png"><p></p>
+      このアプリの基本設定です。ショートカットキーを使わず、片手で速く操作できるように考案した方法です。<br>
+      もし、マウス右ボタンを使いたくない場合 <a href="#norightmouse">２番目の場合を読んでください。</a><br>
+      まず、タブレットのペンのボタンの設定を上の画像のようにしてください。<br>
+
+
+      <img src="img/toolmenu.png" align="left"><p></p>
+      マウス右ボタンを押すとツールメニューが現れ、右ボタンを外すと消えます。<br>
+      ツールメニューは暗いボタンと明るいボタンで分かれています。<p></p>
+      暗いボタンはマウス左クリックを押したまま、Dragするとツールによってズームしたり、キャンバスが回転したりします。<br>
+      ズームボタンはクリックした位置を中心にして、拡大/縮小がされるので、ズームしたい位置でカーソルを移動して使いましょう。ツールメニューはカーソルを沿います。<br>
+      もし、何のツールを選択してない状態でツールメニューを消したい場合はこの暗いボタンにカーソルを位置してマウス右ボタンを外してください。<p></p>
+      明るいボタンを選択するにはカーソルを選択したいアイコンに位置してマウス右ボタンを外してください。<br>
+      明るいボタンをなんでもクリックしたままDragするとキャンバスを移動することができます。<br>
+
+      右下に点アイコンを、Click+Dragするとツールメニューのサイズが調節できます。<br>
+      ペンツールと消しゴムアイコンは代わる代わるＯＮします。ペンアイコン上の小さな直線アイコンは直線ツールアイコンです。<br>
+      消しゴムツール選択すると、直線ツールは「消しゴム直線ツール」になります。<p></p>
+      Lassoを使った場合このツールメニューと似ているメニューが現れますが、使い方が少し変わるので、<a href="#c7">これを参考してください。</a><p></p>
+
+      下の動画はツールメニューの使い方です。マウスのボタン操作を気を付けながら見てください。<p></p>
+      <video controls="controls">
+        <source src="img/toolmenu.mp4" type="video/mp4"/>
+      </video><p></p>
+
+      <h4 id="norightmouse"><i>2.マウス右ボタンを使わずツール選択</i></h4>
+      <img src="img/toolboxon.png" align="left"><p></p>
+      マウス右ボタンを使いたくない場合, このアプリの上のTool-box ON/OFF ボタンをクリックすると、ツールメニューが現れます。<br>
+      これをONにしたらマウス右ボタンを使うことができません。<br>
+      基本的に普通のクリックでツールを選択できます。<br>
+      ただし移動ツール(Move tool)と キャンバス回転ツール(Rotate canvas)の操作は Click+Dragです。<br>
+      キャンバス移動は明るいアイコンをなんでもクリックして、Dragしてください。<br>
+      ツールメニュー上の小さい突起をClick+Dragするとツールメニューを移動することができます。<br>
+
+      <h4><i>3.ショートカットキーを使ってツール選択</i></h4>
+      <img src="img/shortcut.png"><p></p>
+
+      ショートカットキーの配置です。緑色は右利き用、青色は左利き用です。<br>
+      基本的にキーを押せばONで、外せばOFFです。<br>
+      A,Z,X (K,M,comma)キーは普通に押しても作動します。<br>
+      ペンサイズ調節キー(Q,Iキー)は ペン、直線、消しゴムツールの サイズ,透明度を速く変更できます。<p></p>
+      Q(I)キーを 押したまま, マウス左クリックしたまま, 左右にDragするとペンサイズを変更し, 上下のDragすると透明度を変更できます。<br>
+      Q+D(I+H)キーを押したまま上の説明と同じくDragすると消しゴムのサイズと透明度を変更します。<br>
+      Shift+D(Shift+H)キーは直線＋消しゴムになります。<br>
+      Shift+D+Q(Shift+H+Q)キーは Q+D(I+H)キーと同じです。上と同じ方法で直線消しゴムのサイズと透明度を変更します。<br>
+      ショートカットキーが作動してない場合はキーボードの言語が英語になっているのかチェックしてください。<br>
+
+
+      <h2 id="c2">ペンオプション</h2><hr>
+      <img src="img/pbox.png"><p></p>
+      ペン(消しゴム,直線ツール)の かたち, サイズ, 透明度, 色を変更させるボックスです。<br>
+      ボックスの空いた部分をClick+Dragするとボックスを移動し、右下の点アイコンはボックスのサイズを変更します。<p></p>
+      「14px」と書いてある部分はサイズを意味します。このボックスの右側部分をクリックするとサイズ増加,左側部分はサイズ減少です。<br>
+      「100%」と書いてある部分は透明度です。調整方法は上の説明と同じです。<br>
+      この２つのボックスはClick+Drag(左右または上下)すると速く数値を変わることができます。<br>
+      消しゴムとペンのサイズ、透明度データは別に分かれています。<br>
+      青い円は ペン(直線,消しゴム)のかたち変更アイコンです。クリックするたび, 円形、四角形に変更します。<br>
+      その下にあるアイコンをクリックすると色選択（Color Picker)窓が現れます。<br>
+      Color Picker窓下には drawrのカラープリセットがあります。<p></p>
+      左下には選択した色と元の色を表示する２つのボックスがあります。右の元の色ボックスをクリックすると色変更を初期化することができます。<br>
+      Color Picker窓を閉じる方法は, 窓以外をクリックまたは,マウス右ボタンを押してください。<br>
+      下の動画はペンオプションの使い方です。<p></p>
+      <video controls="controls">
+        <source src="img/pbox.mp4" type="video/mp4"/>
+      </video><p></p>
+      <h2 id="c3">メニューボタン</h2><hr>
+      アプリの上にある白い四角ボタンのことです。<p></p>
+      <img src="img/savebutton.png" align="left"><h4><i>セーブボタン</i></h4>
+      画像を保存するボタンです。最初だけファイルの経路と名前を確認します。後は自動的に同じファイルに書き込みます。<br>
+      もし、新しく保存したい場合はこのボタンを長くクリックしたください。<br>
+      *.pngファイルと *.2020ファイル, ２つのファイルがセーブされます。 *.2020ファイルは背景が透明の元のイメージデータと,筆跡再生データを含まれています。なので、普通は*.2020ファイルを読み込んで作業することがおすすめです。<br>
+      めったにありえないケースですが、ほかのアプリが保存したファイルを使っているとき、セーブボタンを押してもセーブができない場合があります。その時はファイルの名前を変えてセーブしてみましょう。<p>
+
+      ショートカットキーは Ctrl+Sで, Save Asは Shift+Ctrl+Sです。<p></p>
+
+      <img src="img/savebutton.png" align="left"><h4><i>読み込みボタン</i></h4>
+      ファイル読み込みは *.2020 ファイルとともに, *.png, *.gif, *.jpgを読み込むことができます。ファイルアイコンをアプリ窓にDragして読み込むこともできます。<br>
+      アプリで支援する最大イメージサイズは 2000x2000で,もし読み込むイメージがこのサイズを超えた場合強制リサイズさせます。<br>
+      ショートカットキーは Ctrl+Oです。<p></p>
+
+      <img src="img/deletebutton.png" align="left"><h4><i>データの消去</i></h4>
+      このボタンを３回押すと, 筆跡データと描いたイメージを消します。<br>
+      ショートカットキー ESCを 3回押しても同じです。</p>
+
+      <img id="bgbutton" src="img/bgbutton.png" align="left"><h4><i>背景色変更ボタン</i></h4>
+      キャンバス自体の背景色を変更します。<br> 消しゴムツールの色が背景色と同じく設定します。<br>
+      このボタンを Click+Dragしてキャンバス内部色やカラーヒストリーの色に背景色にすることもできます。<br>
+      下の動画は背景色の変更ボタンの使い方です。<p></p>
+      <video controls="controls">
+        <source src="img/bgcoloruse.mp4" type="video/mp4"/>
+      </video><p></p>
+
+      <img src="img/toolonoffButton.png" align="left"><h4><i>ツールメニューON/OFFボタン</i></h4>
+      ツールメニューON/OFFします。詳しい説明は<a href="#norightmouse">ここです。</a><p></p>
+
+      <img src="img/aboutbutton.png" align="left"><h4><i>アプリの情報ボタン</i></h4>
+      アプリを実行時間,私のTwitterとE-Mail, 言語別の説明書がリンクされています。<br>
+      窓の下の Used memoryはキャンバスのサイズが広いほど複雑なイメージを描くほど増加します。<br>
+      Cached imageは リプレイモードでフレーム探索の性能を高めるために作っイメージデータの総サイズです。長い時間描くほど、サイズが大きくなります。<br>
+      もし、新しいバージョンがある場合もこのアプリ情報窓が出てきます。<p></p>
+
+      <img id="repButton" src="img/replaybutton.png" align="left"><h4><i>リプレイモードボタン</i></h4>
+      筆跡再生モードに変更します。このモードの説明は <a href="#c5">ここです。</a><p></p>
+
+      <img src="img/re-recbutton.png" align="left"><h4><i>再録画ボタン</i></h4>
+      筆跡再生モードで特定のイメージから最初から記録したい場合はこのボタンを２回押したください。<br>
+      今までの筆跡データを消します。特定フレームのイメージから筆跡を記録します。<p></p>
+
+      <img src="img/superundobutton.png" align="left"><h4><i>スーパーUndoボタン</i></h4>
+      普通Draw Modeでは７回までundoできます。<br>
+      しかし、リプレイモードはすべての過程が含まれているので、特定地点にUndoして書くことができます。<br><br>
+      フレーム探索で描きなおしたいイメージを選択して、このボタンを2回押してください。<br>
+      このボタンは普通Undoできるフレームでは現れません。<br>
+      フレーム探索バーに灰色の区分線があります。その線より小さいフレームだけ、このボタンが現れます。<p></p>
+
+      <img src="img/captbutton.png" align="left"><h4><i>イメージキャプチャーボタン</i></h4>
+      特定フレームのイメージを保存したい時,このボタンを押してください。<br>ファイル名+現在フレーム番号.png 形式で保存します。<p></p>
+
+      <img src="img/drawbutton.png" align="left"><h4><i>ドローモードボタン</i></h4>
+      普通のお絵かきモードに戻ります。<p></p>
+
+      <h2 id="c4">カラーヒストリー</h2><hr>
+      <img src="img/colorhistory.png"><p></p>
+      アプリの窓下の色たちのことです。<br>
+      使った色を30個まで記録します。Eye-dropperで選択した色は記録しません。<br>
+      背景色変更ボタンをClick+Dragしてこの色たちを背景色に使えます。 <a href="#bgbutton">ここを参考してください。</a><p></p>
+
+      <h2 id="c5">リプレイモード</h2><hr>
+      自分が書いた絵の全過程を観ることができるモードです。途中のイメージで書き直すこともできますし、*.2020ファイルでセーブと読み込むこともできます。<br>
+      リプレイモードのメニューボタンの説明は<a href="#repButton">ここです。</a><p></p>
+
+      <img src="img/replaybar.png"></img><br>
+      フレーム探索バーを利用して、普通の動画のように筆跡を途中から再生することができます。<p></p>
+      しかしスーパーUndo(Super undo)など機能を使う時、探索バーでは自分が望んだフレームやイメージを選択することは難しいです。<br>
+      その時は, 探索バー左にある２つの Nextと Prevボタンを使いましょう。ストローク単位でフレーム探索することができます。<br>
+      ショートカットキーは 左右の矢印キーです。 Shiftキーを押したままボタンを使うと 1フレーム単位で探索することができます。<p></p>
+      以前のフレームを探索するときはイメージを最初から描き直すため、探索性能が遅くなるでしょう。<p></p>
+
+      <img src="img/replaymenu.png" align="left"></img><br> リプレイモードもツールメニューがあります。マウス右ボタンでON/OFFしたり, Tool-box ON/OFFボタン<img src="img/toolonoffButton.png">を押してください。<br>
+      キャンバスズーム, 回転, 再生速度の変更, カーソルを沿うキャンバス移動。 この４つのボタンがあります。 Click+Dragが基本操作です。カーソルを沿うキャンバス移（Follow replay-cursor)ボタンはDragする必要がありません。<br>
+      キャンバスをClick+Dragをするとキャンバスを移動させます。<br>
+      再生速度変更でかっこのなかの数値は総再生時間を意味します。 例えば x43［12.6 min］は 43倍速で再生したら、総再生時間が12.6分という意味です。<br>
+      再生速度が速くなるほどCPU負荷が増加します。<p></p>
+      Follow replay-cursorボタンをONにすると カーソルがアプリの窓の外に移動したとき、自動的にキャンバスを移動させて今描く位置を見せる機能です。<br>
+
+      ショートカットキー Enterで 再生/停止します。<br>
+      上/下 矢印キーで再生速度を調節します。<p></p>
+
+      <h2 id="c6">アプリ初期化</h2><hr>
+      基本的にこのアプリは起動するたび、最後に閉じた時の状態を復元します。<br>
+      アプリがエラーをおこしたり、完全に初期化状態に戻したい時は<br>
+      Shiftキーを押したままアプリを閉じると、初期化されます。<br>
+      筆跡データと最後に書いた絵などのすべてのデータが消されます。<p></p>
+      もしこのアプリを終了する前に、パソコンを終了したり再起動すると、<br>
+      データが保存されないので、先にアプリを終了して、パソコンを終了してください。<p></p>
+
+      <h2 id="c7">Lassoツール使い方</h2><hr>
+      Lassoツールボタンを選択して、キャンバスに調節したい領域を描きます。<br>
+      で、Lassoツールメニューがカーソルがに現れます。<br>
+      Mirrorボタンは普通クリック, ほかのボタンはClick+Dragでイメージを調節します。<br>
+      マウス右クリックでツールメニューを使うこともできます。<br>
+      ショートカットキーEnterとESCキーでOKとCancelすることができます。<br>
+      下の動画を参考してください。<p></p>
+
+      <video controls="controls">
+        <source src="img/lassoexam.mp4" type="video/mp4"/>
+      </video><p></p>
+
+      <h2 id="c8">キャンバスサイズの変更</h2><hr>
+      マウス右ボタンで灰色のキャンバスの枠をクリックすると青色に色が変わります。<br>
+      その状態でClick+Dragしてください。<br>
+      キャンバス外に出たイメージデータは消されます。<br>
+      最大サイズは 2000x2000ピクセルです。<br>
+      ショートカットキーCtrlキーを押したままキャンバスの枠をClick+Dragしてもサイズは調節できます。<br>
+      下の動画を参考してください。<p></p>
+
+      <video controls="controls">
+        <source src="img/canvassize.mp4" type="video/mp4"/>
+      </video><p></p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

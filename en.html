@@ -1,0 +1,302 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>2020 Flash Paint Manual</title>
+
+  <style>
+    #title
+    {
+      font-size: 2em;
+      font-weight: bold;
+      text-align: center;
+      border-style: dotted;
+      border-width: 0px 0px 2px 0px;
+      border-color:gray;
+      position: relative;
+      padding-bottom: 15px;
+    }
+    #leftdiv
+    {
+      font-size:1.2em;
+      min-width:220px;
+      width:220px;
+      height:360px;
+      /* background-color: #dddddd; */
+      padding:7px;
+      position: sticky;
+      top:0px;
+      margin-right:20px;
+      line-height: 200%;
+    }
+    #rightdiv
+    {
+      position: relative;
+      width:100%;
+      height:100%;
+      font-size:1.2em;
+      line-height: 160%;
+    }
+
+    ul
+    {
+      list-style-type : none;
+    }
+    li
+    {
+      margin: 0px 0px 10px 0px;
+    }
+    hr
+    {
+      border-bottom: 0px;
+      margin-top:-20px;
+    }
+
+    .navLink
+    {
+      margin-right:10px;
+      font-weight: bold;
+    }
+
+    #mother
+    {
+      height:10700px;
+    }
+
+    h2
+    {
+      margin-top:50px;
+    }
+
+
+    a
+    {
+      color:rgb(84, 107, 240);
+    }
+
+
+    .navfont
+    {
+      background-color:white;
+    }
+
+    #content
+    {
+      display:flex;
+    }
+
+  </style>
+</head>
+<body>
+<div id="mother">
+  <div id="title">
+    ２０２０ Flash Paint 説明書
+  </div>
+
+  <div id="content">
+
+    <div id="leftdiv">
+      <img src="img/iconimage.jpg"><p></p>
+      <a class="navLink" href="#c0">0.Wacom driver settings</a><br>
+      <a class="navLink" href="#c1">1.How to select tools</a><br>
+      <a class="navLink" href="#c2">2.Pen options</a><br>
+      <a class="navLink" href="#c3">3.Menu buttons</a><br>
+      <a class="navLink" href="#c4">4.Color history</a><br>
+      <a class="navLink" href="#c5">5.Replay mode</a><br>
+      <a class="navLink" href="#c6">6.Reset app</a><br>
+      <a class="navLink" href="#c7">7.How to use Lasso tool</a><br>
+      <a class="navLink" href="#c8">8.How to change canvas size</a><br>
+    </div>
+
+    <div id="rightdiv">
+      The descriptions are listed in the order in which they are most important.<br>
+
+      <h2 id="c0">Wacom driver settings</h2><hr>
+      <b>Uncheck “Use Windows ink" function</b> on Wacom driver's mapping tap.<br>
+      If you using non-wacom tablet. I'm not sure it is working correctly.<p></p>
+
+      <h2 id="c1">How to select tools</h2><hr>
+      <h4><i>1.Select using the right mouse button</i></h4>
+      <img src="img/pensetting_en.png"><p></p>
+      Basic settings for this app. This method is designed so that it can be operated quickly with one hand without using a shortcut key.<br>
+      If you do not want to use the right mouse button <a href="#norightmouse">Read the second case.</a><br>
+      First, set the tablet pen button settings as shown above image.<br>
+
+
+      <img src="img/toolmenu.png" align="left"><p></p>
+      The tool menu appears when you press the right mouse button and disappears when you release the right button.<br>
+      The tool menu is divided into dark and bright buttons.<p></p>
+      hold down left mouse button on dark button and drag. It will zoom with the tool or rotate the canvas.<br>
+      If you use the zoom tool, the canvas zooms in and out around the clicked position., so move the mouse cursor at the position you want to zoom. The tool menu turns around with the cursor.<br>
+      If you want to close the tool menu with no any select tools, place the cursor on dark buttons and release the right mouse button.<p></p>
+      To select a bright button, move the cursor to the icon you want to select and release the right mouse button.<br>
+      Click and drag any bright button to move the canvas.<br>
+
+      You can adjust the size of the tool menu by click+drag the dot icon.<br>
+      The pen tool and eraser icon will turn on instead. The small line icon above the pen icon is line tool icon.<p></p>
+      When the eraser tool is selected, the straight line tool changes the "Eraser straight line tool".<p></p>
+      When using Lasso, a similar menu appears, but the usage is slightly different.<a href="#c7"> click here to see how to use lasso tool.</a><p></p>
+
+      The video below shows how to use the tool menu. Watch the mouse button operation carefully.<p></p>
+      <video controls="controls">
+        <source src="img/toolmenu.mp4" type="video/mp4"/>
+      </video><p></p>
+
+      <h4 id="norightmouse"><i>2.How to select tools without using the right mouse button</i></h4>
+      <img src="img/toolboxon.png" align="left"><p></p>
+      If you do not want to use the right mouse button, click the Tool-box ON / OFF button on the top, and the tool menu will appear.<br>
+      If this is ON, you cannot use the right mouse button.<br>
+      Basically you can select a tool with a left mouse click.<br>
+      However, the operation of "Move tool" and "Rotate canvas" is Click + Drag.<br>
+      To move the canvas, click on any bright icon and drag.<br>
+      Click + Drag a small protrusion on the tool menu to move the tool menu.<br>
+
+      <h4><i>3.Tool selection using shortcut keys</i></h4>
+      <img src="img/shortcut.png"><p></p>
+
+      Shortcut key layout. Green is for right-handed and blue is for left-handed.<br>
+      Basically it is ON when a key is pressed and OFF when it is released.<br>
+      A,Z,X (K,M,comma)keys works even if you press it normally<br>
+      The pen size adjustment keys (Q, I) can quickly change the size and transparency of the pen, line, and eraser tools.<p></p>
+      Holding down the Q (I) key and click+drag. Dragging left and right changes the pen size, and dragging up and down changes the transparency.<br>
+      If you hold down the Q + D (I + H) key and drag as described above, the eraser size and transparency will change.<br>
+      Shift + D (Shift + H) key is erase-straight line tool.<br>
+      The Shift + D + Q (Shift + H + Q) key is the same as the Q + D (I + H) key. Change the size and transparency of erase-straight line in the same way as above.<br>
+      If the shortcut key is not working, check if the keyboard language is English<br>
+
+
+      <h2 id="c2">Pen options</h2><hr>
+      <img src="img/pbox.png"><p></p>
+      This box changes the shape, size, transparency, and color of the pen (eraser, straight line tool).<br>
+      Click + Drag the empty part of the box to move the box, and the dot icon at the bottom right changes the size of the box.<p></p>
+      The part written as “14px” means the size. Click on the right side of this box to increase the size and the left side to decrease the size.<br>
+      The part written as “100%” means transparency. The adjustment method is the same as described above.<br>
+      These two boxes can change numerical values quickly by clicking + Drag (left / right or up / down).<br>
+      Eraser and pen size and transparency data are separated.<br>
+      The blue circle is a pen (straight line, eraser) shape change icon. Each time you click, it changes to a circle or a rectangle.<br>
+      Click on the icon below blue shape icon to bring up the Color Picker window.<br>
+      There is a "drawr" color preset under the Color Picker window.<p></p>
+      In the bottom left are two boxes that display the selected color and the original color. Click the original color box on the right to initialize the color change.<br>
+      To close the Color Picker window, click outside the window or press the right mouse button.<br>
+      The video below shows how to use the pen option.<p></p>
+      <video controls="controls">
+        <source src="img/pbox.mp4" type="video/mp4"/>
+      </video><p></p>
+      <h2 id="c3">Menu buttons</h2><hr>
+      The white square button on the top of the app.<p></p>
+      <img src="img/savebutton.png" align="left"><h4><i>Save button</i></h4>
+      This button saves an image. Check the file path and name only at the beginning. After that, it automatically writes to the same file.<br>
+      If you want to save a new file, please click this button for a long time.<br>
+      Two files are saved: "*.png" file and "*.2020" file. *.2020 file contains original image data with transparent background and replay-data. So usually it is recommended to work with * .2020 files.<br>
+      In rare cases, If another application is using the save file, saving may not respond even if you press the save button. Try saving with a different file name. <p></p>
+      The shortcut key is Ctrl+S, and Save As is Shift+Ctrl+S.<p></p>
+
+      <img src="img/savebutton.png" align="left"><h4><i>Load button</i></h4>
+      You can load *.png, *.gif, *.jpg and *.2020 files. You can also load file icons by dragging them into the application window.<br>
+      The maximum image size is 2000x2000 pixel. If the image to be exceeds this size, it will be forcibly resized.<br>
+      The shortcut key is Ctrl+O.<p></p>
+
+      <img src="img/deletebutton.png" align="left"><h4><i>Delete all data button</i></h4>
+      Press this button 3 times to delete the replay-data and drawn image.<br>
+      You can also press the shortcut key ESC 3 times.</p>
+
+      <img id="bgbutton" src="img/bgbutton.png" align="left"><h4><i>Background color button</i></h4>
+      Change the background color of the canvas itself. <br> This set the eraser tool color the same as the background color.<br>
+      You can also Click+Drag this button to make it the background color by the color inside the canvas or color-history bar.<br>
+      The video below shows how to use the background color button.<p></p>
+      <video controls="controls">
+        <source src="img/bgcoloruse.mp4" type="video/mp4"/>
+      </video><p></p>
+
+      <img src="img/toolonoffButton.png" align="left"><h4><i>Tool-box ON/OFF button</i></h4>
+      <a href="#norightmouse">Click here to see details.</a><p></p>
+
+      <img src="img/aboutbutton.png" align="left"><h4><i>About button</i></h4>
+      You can see running time of this app, and my Twitter and E-Mail, and language-specific instructions are linked.<br>
+      Bottom side of window, "Used memory" increases as you draw more complex images as the canvas size increases.<br>
+      "Cached image" is the total size of images created to improve performance when frame search on replay mode. The more you draw, the larger the size.<br>
+      If new version released, about window will appear.<p></p>
+
+      <img id="repButton" src="img/replaybutton.png" align="left"><h4><i>Replay mode button</i></h4>
+      Changes replay mode。<a href="#c5">Click here to see details.</a><p></p>
+
+      <img src="img/re-recbutton.png" align="left"><h4><i>Re-recording button</i></h4>
+      Press this button twice to record from the beginning in the image of a specific frame.<p></p>
+
+      <img src="img/superundobutton.png" align="left"><h4><i>Super-undo button</i></h4>
+      You can undo up to 7 times in Draw Mode.<br>
+      However, if you want to restore previous image, select the frame and press this button twice.<br>
+      This button does not usually appear in frames that can be normal undo.<br>
+      There is a gray dividing line in the frame search bar. This button appears only for frames smaller than that line.<p></p>
+
+      <img src="img/captbutton.png" align="left"><h4><i>Image capture button</i></h4>
+      Click this button to save an image of a specific frame.<p></p>
+
+      <img src="img/drawbutton.png" align="left"><h4><i>Draw mode button</i></h4>
+      Return to drawing mode.<p></p>
+
+      <h2 id="c4">Color history</h2><hr>
+      <img src="img/colorhistory.png"><p></p>
+      These are the colors bottom of app window.<br>
+      Record up to 30 used colors. The color selected with Eye-dropper is not recorded.<br>
+      Click+Drag the background color button to use these colors as the background color.<a href="#bgbutton"> Click here to dee details.</a><p></p>
+
+      <h2 id="c5">Replay mode</h2><hr>
+      You can see see the whole process of image you drawn.<br>
+      Replay mode menu button description is <a href="#repButton">here.</a><p></p>
+
+      <img src="img/replaybar.png"></img><br>
+      Using the frame search bar, You can play it wherever you want like a normal video.<p></p>
+      However, when using features such as Super-undo, it is difficult to select the frame or image you want with this search bar.<br>
+      At that time, use the two "Next" and "Prev" buttons on the left of the search bar. You can search the frame by stroke unit.<br>
+      The shortcut keys are the left and right arrow keys. If you hold down the Shift key and use the buttons, you can search by frame.<p></p>
+      When searching for the previous frame, the image will be redrawn from the beginning, which will slow down the search performance.<p></p>
+
+      <img src="img/replaymenu.png" align="left"></img><br> The replay mode also has a tool menu. Using right mouse button or <img src="img/toolonoffButton.png">Tool-box ON/OFF button <br>
+      There are 4 buttons, Canvas zoom, Canvas rotate, Change playback speed, Follow replay-cursor. Click+Drag is the basic operation for buttons but only "follow replay-cursor button" does not need drag.<br>
+      To move canvas, Click+Drag on canvas.<br>
+      The numerical value in parentheses indicates the total playback time. For example, x43 [12.6 min] means that the total playback time is 12.6 minutes when playing at 43 times speed.<br>
+      The higher the playback speed, the higher the CPU load.<p></p>
+      When the "Follow replay-cursor" button is turned ON, when the cursor moves outside the app window, it automatically moves the canvas to show the current drawing position.<br>
+
+      the shortcut key Enter to play / stop.<br>
+      up / down arrow keys to adjust the playback speed.<p></p>
+
+
+      <h2 id="c6">Reset app</h2><hr>
+      Basically, every time this app starts, it restores the state when it was last closed.<br>
+      When an application makes an error or wants to return to a fully initialized state<br>
+      holding down the Shift key and close the app. it will be initialized.<br>
+      also replay data and drawn image etc data will be deleted.<p></p>
+      If you turn off or restart your computer before closing this app, data is not saved. <br>
+      So recommend close this app first and turn off your computer.<p></p>
+
+      <h2 id="c7">How to use Lasso tool</h2><hr>
+      Select the Lasso tool button and draw the area you want to adjust on the canvas.<br>
+      If drawing area finished, Lasso tool menu will appear.<br>
+      Click+Drag is basic operation. but mirror buttons does not need drag.<br>
+      You can also open tool menu with a right mouse click.<br>
+      shortcut keys Enter and ESC is OK and cancel.<br>
+      See the video below how to use lasso tool.<p></p>
+
+      <video controls="controls">
+        <source src="img/lassoexam.mp4" type="video/mp4"/>
+      </video><p></p>
+
+      <h2 id="c8">How to change canvas size</h2><hr>
+      Right mouse click on the gray bar of the canvas border. <br>
+      then left mouse click+Drag.<br>
+      Any image data that goes out of the canvas will be erased.<br>
+      The maximum size is 2000x2000 pixels.<br>
+      You can also adjust the size by Click + Drag with holding down the Ctrl key<br>
+      See the video below how to change canvas size.<p></p>
+
+      <video controls="controls">
+        <source src="img/canvassize.mp4" type="video/mp4"/>
+      </video><p></p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

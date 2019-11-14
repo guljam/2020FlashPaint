@@ -23,22 +23,23 @@
 
     main
     {
-      /* min-width: 500px; */
       display: flex;
-      margin:0 auto;
       justify-content: center;
       flex-wrap: wrap;
-      width:100%;
+      margin: 0 auto;
     }
 
     section
     {
-      width:calc(70%-20px);
+      width:680px;
       margin-right:20px;
     }
+
     aside
     {
+      min-width:400px;
       width:30%;
+      margin-bottom: 500px;
     }
 
     h1
@@ -46,17 +47,13 @@
       padding:0.3em;
       background-color:#ceecff;
       margin-top: 0px;
+      margin-bottom: -19px;
       width:100%;
     }
 
     p
     {
       margin:20px;
-    }
-
-    #manuals
-    {
-      font-size: 1,5em;
     }
 
     a
@@ -69,46 +66,52 @@
       font-size:1.4em;
       font-weight: bold;
     }
+
+    #manuals
+    {
+      font-size: 1,5em;
+    }
+
   </style>
 </head>
 <body>
-<header id="title">2020 FLASH PAINT</header>
-  <main>
-    <section>
-      <video controls="controls" loop autoplay muted>
-          <source src="main_img/titlemov.mp4" type="video/mp4"/>
-      </video><p></p>
-    </section>
-    <aside>
-      <h1>What is 2020 Flash Paint?</h1>
-      <p>
-        2020 플래시 페인트는, Adobe Air으로 만든 무료 오에카키 툴입니다.<br>
-        그림 녹화기능이 있어서 자신이 그린 모든 과정을 볼 수 있는 기능이 들어가 있습니다.<br>
-        <br>
+  <header id="title">2020 FLASH PAINT</header>
+    <main id="main">
+      <section>
+        <video controls="controls" loop autoplay muted>
+            <source src="main_img/titlemov.mp4" type="video/mp4"/>
+        </video><p></p>
+      </section>
+      <aside id="aside">
+        <h1>What is 2020 Flash Paint?</h1>
+        <p>
+          2020 플래시 페인트는, Adobe Air으로 만든 무료 오에카키 툴입니다.<br>
+          그림 녹화기능이 있어서 자신이 그린 모든 과정을 볼 수 있는 기능이 들어가 있습니다.<br>
+          <br>
 
-        2020 Flash Paintは, Adobe Airで作った設置型の無料お絵描きアプリです。<br>
-        筆跡記録機能を搭載し、自分が描いたすべての過程を見られます。<br>
-        <br>
+          2020 Flash Paintは, Adobe Airで作った設置型の無料お絵描きアプリです。<br>
+          筆跡記録機能を搭載し、自分が描いたすべての過程を見られます。<br>
+          <br>
 
-        2020 Flash Paint is a free drawing application created with Adobe Air. <br>
-        Feature is Replay-mode what you can see all the processes you have drawn.<br>
-      </p>
-      <h1>Download</h1>
-      <p><a href="https://github.com/guljam/2020FlashPaint/releases/download/1.0/2020FlashPaint_10.zip"><span>Windows(ver 1.0)</span></a></p>
-      <h1>Manual</h1>
-      <p>
-          <a href="kr.html"><span>한국어</span></a>
-          <a href="jp.html"><span>日本語</span></a>
-          <a href="en.html"><span>English</span></a>
-      </p>
-      <h1>Another drawing tool what I made</a></h1>
-      <p>
-        <a href="https://guljam.github.io/drawin98/" target="_blank"><span>Drawin98</span></a><br>
-        윈도우 98 테마로 만든 그림 툴입니다.<br>
-        Windows98スタイルのお絵描きツールです。<br>
-        Drawing tool with Windows 98 theme.<br>
-      </p>
-    </aside>
-  </main>
-</body>
+          2020 Flash Paint is a free drawing application created with Adobe Air. <br>
+          Feature is Replay-mode what you can see all the processes you have drawn.<br>
+        </p>
+        <h1>Download</h1>
+        <p><a href="https://github.com/guljam/2020FlashPaint/releases/download/1.0/2020FlashPaint_10.zip"><span>Windows (ver 1.0)</span></a></p>
+        <h1>Manual</h1>
+        <p>
+            <a href="kr.html"><span>한국어</span></a>
+            <a href="jp.html"><span>日本語</span></a>
+            <a href="en.html"><span>English</span></a>
+        </p>
+        <h1>Another drawing tool what I made</a></h1>
+        <p>
+          <img src="img/dr2.png" align="left"> <a href="https://guljam.github.io/drawin98/" target="_blank"><span>Drawin98</span></a><br>
+          윈도우 98 테마로 만든 그림 툴입니다.<br>
+          Windows98スタイルのお絵描きツールです。<br>
+          Drawing tool with Windows 98 theme.<br>
+        </p>
+      </aside>
+    </main>
+  </body>
 </html>

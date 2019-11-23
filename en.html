@@ -4,95 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>2020 Flash Paint Manual</title>
-
-  <style>
-    html
-    {
-      font-family: Arial, Helvetica, sans-serif;
-	    -webkit-text-size-adjust: 100%;
-    }
-
-    #title
-    {
-      font-size: 2em;
-      font-weight: bold;
-      text-align: center;
-      border-style: dotted;
-      border-width: 0px 0px 2px 0px;
-      border-color:gray;
-      position: relative;
-      padding-bottom: 15px;
-    }
-    #leftdiv
-    {
-      font-size:1.2em;
-      min-width:250px;
-      width:250px;
-      height:360px;
-      /* background-color: #dddddd; */
-      padding:7px;
-      position: sticky;
-      top:0px;
-      margin-right:20px;
-      line-height: 200%;
-    }
-    #rightdiv
-    {
-      position: relative;
-      width:100%;
-      height:100%;
-      font-size:1.2em;
-      line-height: 160%;
-    }
-
-    ul
-    {
-      list-style-type : none;
-    }
-    li
-    {
-      margin: 0px 0px 10px 0px;
-    }
-    hr
-    {
-      border-bottom: 0px;
-      margin-top:-20px;
-    }
-
-    .navLink
-    {
-      margin-right:10px;
-      font-weight: bold;
-    }
-
-    #mother
-    {
-      height:10700px;
-    }
-
-    h2
-    {
-      margin-top:50px;
-    }
-
-
-    a
-    {
-      color:rgb(84, 107, 240);
-    }
-
-
-    .navfont
-    {
-      background-color:white;
-    }
-
-    #content
-    {
-      display:flex;
-    }
-
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <div id="mother">
@@ -163,6 +75,93 @@
 
       <h4><i>3.Tool selection using shortcut keys</i></h4>
       <img src="img/shortcut.png"><p></p>
+      <table class="tg">
+          <tr>
+            <th class="tg-0pky"><b class="tds">Function</b></th>
+            <th class="tg-0pky"><b class="tds">Shortcut key</b></th>
+            <th class="tg-0pky"><b class="tds">Function</b></th>
+            <th class="tg-0pky"><b class="tds">Shortcut key</b></th>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">Erase tool</b></td>
+            <td class="tg-0pky"><kbd>D</kbd><kbd class="ls">H</kbd></td>
+            <td class="tg-0pky"><b class="tds">Zoom canvas</b></td>
+            <td class="tg-0pky"><kbd>W</kbd><kbd class="ls">U</kbd></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">Line tool</b></td>
+            <td class="tg-0pky"><kbd>Shift</kbd></td>
+            <td class="tg-0pky"><b class="tds">Move canvas</b></td>
+            <td class="tg-0pky"><kbd class="ns class="ns"">Space</kbd></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">Line-erase tool</b></td>
+            <td class="tg-0pky"><kbd>Shift+D</kbd> <kbd class="ls">Shift+H</kbd></td>
+            <td class="tg-0pky"><b class="tds">Flip canvas</b></td>
+            <td class="tg-0pky"><kbd>A</kbd><kbd class="ls">K</kbd></td>
+          </tr>
+          <tr>
+              <td class="tg-0pky"><b class="tds">Lasso tool</b></td>
+              <td class="tg-0pky"><kbd>R</kbd><kbd class="ls">T</kbd></td>
+
+            <td class="tg-0pky"><b class="tds">Rotate canvas</b></td>
+            <td class="tg-0pky"><kbd>S</kbd><kbd class="ls">J</kbd></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">Eye-dropper tool</b></td>
+            <td class="tg-0pky"><kbd>C</kbd><kbd class="ls">N</kbd></td>
+            <td class="tg-0pky"><b class="tds">Move canvas image</b></td>
+            <td class="tg-0pky"><kbd>E</kbd><kbd class="ls">Y</kbd></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">Color picker</b></td>
+            <td class="tg-0pky"><kbd>F</kbd><kbd class="ls">G</kbd></td>
+            <td class="tg-0pky"><b class="tds">Undo</b></td>
+            <td class="tg-0pky"><kbd>Z</kbd><kbd class="ls">,</kbd>(comma)</td>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">Adjust pen opacity / size</b></td>
+            <td class="tg-0pky"><kbd>Q</kbd><kbd class="ls">I</kbd></td>
+            <td class="tg-0pky"><b class="tds">Redo</b></td>
+            <td class="tg-0pky"><kbd>X</kbd><kbd class="ls">M</kbd></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">Adjust erase opacity / size</b></td>
+            <td class="tg-0pky"><kbd>Q+D</kbd><kbd class="ls">I+H</kbd></td>
+            <td class="tg-0pky"><b class="tds">Replay mode</b></td>
+            <td class="tg-0pky"><kbd>2</kbd><kbd class="ls">7</kbd></td>
+          </tr>
+          <tr>
+              <td class="tg-0pky"><b class="tds">Draw mode</b></td>
+              <td class="tg-0pky"><kbd>1</kbd><kbd class="ls">6</kbd></td>
+            <td class="tg-0pky"><b class="tds">Playback start / stop</b></td>
+            <td class="tg-0pky"><kbd class="ns">Enter</kbd></td>
+          </tr>
+          <tr>
+              <td class="tg-0pky"><b class="tds">Save file</b></td>
+              <td class="tg-0pky"><kbd class="ns">Ctrl+S</kbd></td>
+            <td class="tg-0pky"><b class="tds">Adjust playback speed</b></td>
+            <td class="tg-0pky"><kbd class="ns">&nbsp;&uarr;&nbsp;</kbd> <kbd class="ns">&nbsp;&darr;&nbsp;</kbd></td>
+          </tr>
+          <tr>
+              <td class="tg-0pky"><b class="tds">Save as</b></td>
+              <td class="tg-0pky"><kbd class="ns">Ctrl+Shift+S</kbd></td>
+            <td class="tg-0pky"><b class="tds">Search frames by stroke</b></td>
+            <td class="tg-0pky"><kbd class="ns">&larr;</kbd> <kbd class="ns">&rarr;</kbd></td>
+          </tr>
+          <tr>
+              <td class="tg-0pky"><b class="tds">load file</b></td>
+              <td class="tg-0pky"><kbd class="ns">Ctrl+O</kbd></td>
+            <td class="tg-0pky"><b class="tds">Search frames by 1 frame</b></td>
+            <td class="tg-0pky"><kbd class="ns">Shift</kbd>+<kbd class="ns">&larr;</kbd> <kbd class="ns">&rarr;</kbd></td>
+          </tr>
+          <tr>
+              <td class="tg-0pky"></td>
+              <td class="tg-0pky"></td>
+            <td class="tg-0pky"><b class="tds">Save current image of replay mode</b></td>
+            <td class="tg-0pky"><kbd class="ns">Alt+S</kbd></td>
+          </tr>
+        </table>
 
       Shortcut key layout. Green is for right-handed and blue is for left-handed.<br>
       Basically it is ON when a key is pressed and OFF when it is released.<br>

@@ -1,0 +1,125 @@
+html
+{
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+#title
+{
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  border-style: dotted;
+  border-width: 0px 0px 2px 0px;
+  border-color:gray;
+  position: relative;
+  padding-bottom: 15px;
+}
+#leftdiv
+{
+  font-size:1.2em;
+  min-width:250px;
+  width:250px;
+  height:360px;
+  /* background-color: #dddddd; */
+  padding:7px;
+  position: sticky;
+  top:0px;
+  margin-right:20px;
+  line-height: 200%;
+}
+#rightdiv
+{
+  position: relative;
+  width:100%;
+  height:100%;
+  font-size:1.2em;
+  line-height: 160%;
+}
+
+ul
+{
+  list-style-type : none;
+}
+li
+{
+  margin: 0px 0px 10px 0px;
+}
+hr
+{
+  border-bottom: 0px;
+  margin-top:-20px;
+}
+
+.navLink
+{
+  margin-right:10px;
+  font-weight: bold;
+}
+
+#mother
+{
+  height:10000px;
+}
+
+h2
+{
+  margin-top:50px;
+}
+
+a
+{
+  color:rgb(84, 107, 240);
+}
+
+.navfont
+{
+  background-color:white;
+}
+
+#content
+{
+  display:flex;
+}
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+
+kbd
+{
+    padding: .2em .2em .2em .2em;
+    font-size: 1.2em;
+    line-height: 19.5px;
+    color: #242729;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #c8fde0;
+    border: 1px solid #79c248;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(12,13,14,0.2), 0 0 0 2px #FFF inset;
+    width:auto;
+    height: 17px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 2px;
+}
+
+.ls
+{
+  margin: 10px;
+  background-color: #d1ecff;
+  border: 1px solid #4a9ee2;
+}
+
+.ns
+{
+  background-color: #ffeaf6;
+  border: 1px solid #e092a6;
+}
+
+.tds
+{
+  font-size: 1.2em;
+}

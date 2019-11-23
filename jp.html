@@ -4,95 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>2020 Flash Paint マニュアル</title>
-
-  <style>
-    html
-    {
-      font-family: Arial, Helvetica, sans-serif;
-	    -webkit-text-size-adjust: 100%;
-    }
-
-    #title
-    {
-      font-size: 2em;
-      font-weight: bold;
-      text-align: center;
-      border-style: dotted;
-      border-width: 0px 0px 2px 0px;
-      border-color:gray;
-      position: relative;
-      padding-bottom: 15px;
-    }
-    #leftdiv
-    {
-      font-size:1.2em;
-      min-width:250px;
-      width:250px;
-      height:360px;
-      /* background-color: #dddddd; */
-      padding:7px;
-      position: sticky;
-      top:0px;
-      margin-right:20px;
-      line-height: 200%;
-    }
-    #rightdiv
-    {
-      position: relative;
-      width:100%;
-      height:100%;
-      font-size:1.2em;
-      line-height: 160%;
-    }
-
-    ul
-    {
-      list-style-type : none;
-    }
-    li
-    {
-      margin: 0px 0px 10px 0px;
-    }
-    hr
-    {
-      border-bottom: 0px;
-      margin-top:-20px;
-    }
-
-    .navLink
-    {
-      margin-right:10px;
-      font-weight: bold;
-    }
-
-    #mother
-    {
-      height:10700px;
-    }
-
-    h2
-    {
-      margin-top:50px;
-    }
-
-
-    a
-    {
-      color:rgb(84, 107, 240);
-    }
-
-
-    .navfont
-    {
-      background-color:white;
-    }
-
-    #content
-    {
-      display:flex;
-    }
-
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <div id="mother">
@@ -161,6 +73,93 @@
 
       <h4><i>3.ショートカットキーを使ってツール選択</i></h4>
       <img src="img/shortcut.png"><p></p>
+      <table class="tg">
+          <tr>
+            <th class="tg-0pky"><b class="tds">機能</b></th>
+            <th class="tg-0pky"><b class="tds">ショートカットキー</b></th>
+            <th class="tg-0pky"><b class="tds">機能</b></th>
+            <th class="tg-0pky"><b class="tds">ショートカットキー</b></th>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">消しゴム</b></td>
+            <td class="tg-0pky"><kbd>D</kbd><kbd class="ls">H</kbd></td>
+            <td class="tg-0pky"><b class="tds">キャンバスの拡大 / 縮小</b></td>
+            <td class="tg-0pky"><kbd>W</kbd><kbd class="ls">U</kbd></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">直線ツール</b></td>
+            <td class="tg-0pky"><kbd>Shift</kbd></td>
+            <td class="tg-0pky"><b class="tds">キャンバス移動</b></td>
+            <td class="tg-0pky"><kbd class="ns class="ns"">Space</kbd></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">直線消しゴム</b></td>
+            <td class="tg-0pky"><kbd>Shift+D</kbd> <kbd class="ls">Shift+H</kbd></td>
+            <td class="tg-0pky"><b class="tds">キャンバス左右反転</b></td>
+            <td class="tg-0pky"><kbd>A</kbd><kbd class="ls">K</kbd></td>
+          </tr>
+          <tr>
+              <td class="tg-0pky"><b class="tds">Lassoツール</b></td>
+              <td class="tg-0pky"><kbd>R</kbd><kbd class="ls">T</kbd></td>
+
+            <td class="tg-0pky"><b class="tds">キャンバス回転</b></td>
+            <td class="tg-0pky"><kbd>S</kbd><kbd class="ls">J</kbd></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">スポイト</b></td>
+            <td class="tg-0pky"><kbd>C</kbd><kbd class="ls">N</kbd></td>
+            <td class="tg-0pky"><b class="tds">キャンバスイメージ移動</b></td>
+            <td class="tg-0pky"><kbd>E</kbd><kbd class="ls">Y</kbd></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">色の選択</b></td>
+            <td class="tg-0pky"><kbd>F</kbd><kbd class="ls">G</kbd></td>
+            <td class="tg-0pky"><b class="tds">Undo</b></td>
+            <td class="tg-0pky"><kbd>Z</kbd><kbd class="ls">,</kbd>(コンマ)</td>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">ペンの透明度 / サイズ 変更</b></td>
+            <td class="tg-0pky"><kbd>Q</kbd><kbd class="ls">I</kbd></td>
+            <td class="tg-0pky"><b class="tds">Redo</b></td>
+            <td class="tg-0pky"><kbd>X</kbd><kbd class="ls">M</kbd></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">消しゴムの透明度 / サイズ 変更</b></td>
+            <td class="tg-0pky"><kbd>Q+D</kbd><kbd class="ls">I+H</kbd></td>
+            <td class="tg-0pky"><b class="tds">リプレイモードに変更</b></td>
+            <td class="tg-0pky"><kbd>2</kbd><kbd class="ls">7</kbd></td>
+          </tr>
+          <tr>
+              <td class="tg-0pky"><b class="tds">お絵描きモードに変更</b></td>
+              <td class="tg-0pky"><kbd>1</kbd><kbd class="ls">6</kbd></td>
+            <td class="tg-0pky"><b class="tds">リプレイ 再生 / 停止</b></td>
+            <td class="tg-0pky"><kbd class="ns">Enter</kbd></td>
+          </tr>
+          <tr>
+              <td class="tg-0pky"><b class="tds">イメージ保存</b></td>
+              <td class="tg-0pky"><kbd class="ns">Ctrl+S</kbd></td>
+            <td class="tg-0pky"><b class="tds">リプレイの再生速度調節</b></td>
+            <td class="tg-0pky"><kbd class="ns">&nbsp;&uarr;&nbsp;</kbd> <kbd class="ns">&nbsp;&darr;&nbsp;</kbd></td>
+          </tr>
+          <tr>
+              <td class="tg-0pky"><b class="tds">新しい名前でイメージ保存</b></td>
+              <td class="tg-0pky"><kbd class="ns">Ctrl+Shift+S</kbd></td>
+            <td class="tg-0pky"><b class="tds">リプレイストローク単位でフレーム探索</b></td>
+            <td class="tg-0pky"><kbd class="ns">&larr;</kbd> <kbd class="ns">&rarr;</kbd></td>
+          </tr>
+          <tr>
+              <td class="tg-0pky"><b class="tds">イメージ読み込み</b></td>
+              <td class="tg-0pky"><kbd class="ns">Ctrl+O</kbd></td>
+            <td class="tg-0pky"><b class="tds">リプレイ 1フレーム単位探索</b></td>
+            <td class="tg-0pky"><kbd class="ns">Shift</kbd>+<kbd class="ns">&larr;</kbd> <kbd class="ns">&rarr;</kbd></td>
+          </tr>
+          <tr>
+              <td class="tg-0pky"></td>
+              <td class="tg-0pky"></td>
+            <td class="tg-0pky"><b class="tds">リプレイ現在フレームのイメージ保存</b></td>
+            <td class="tg-0pky"><kbd class="ns">Alt+S</kbd></td>
+          </tr>
+        </table>
 
       ショートカットキーの配置です。緑色は右利き用、青色は左利き用です。<br>
       基本的にキーを押せばONで、外せばOFFです。<br>

@@ -4,95 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>2020 Flash Paint 설명서</title>
-
-  <style>
-    html
-    {
-      font-family: Arial, Helvetica, sans-serif;
-	    -webkit-text-size-adjust: 100%;
-    }
-
-    #title
-    {
-      font-size: 2em;
-      font-weight: bold;
-      text-align: center;
-      border-style: dotted;
-      border-width: 0px 0px 2px 0px;
-      border-color:gray;
-      position: relative;
-      padding-bottom: 15px;
-    }
-    #leftdiv
-    {
-      font-size:1.2em;
-      min-width:250px;
-      width:250px;
-      height:360px;
-      /* background-color: #dddddd; */
-      padding:7px;
-      position: sticky;
-      top:0px;
-      margin-right:20px;
-      line-height: 200%;
-    }
-    #rightdiv
-    {
-      position: relative;
-      width:100%;
-      height:100%;
-      font-size:1.2em;
-      line-height: 160%;
-    }
-
-    ul
-    {
-      list-style-type : none;
-    }
-    li
-    {
-      margin: 0px 0px 10px 0px;
-    }
-    hr
-    {
-      border-bottom: 0px;
-      margin-top:-20px;
-    }
-
-    .navLink
-    {
-      margin-right:10px;
-      font-weight: bold;
-    }
-
-    #mother
-    {
-      height:10000px;
-    }
-
-    h2
-    {
-      margin-top:50px;
-    }
-
-
-    a
-    {
-      color:rgb(84, 107, 240);
-    }
-
-
-    .navfont
-    {
-      background-color:white;
-    }
-
-    #content
-    {
-      display:flex;
-    }
-
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <div id="mother">
@@ -120,7 +32,7 @@
       설명은 프로그램 사용할때 가장 필요한 순서대로 나열했습니다.<br>
 
       <h2 id="c0">필수 세팅</h2><hr>
-      와콤 드라이버 설정 창을 열고 맵핑 탭의 <b>"Windows 잉크 사용" 체크를 해제해 주세요</b>, 사용 시 선이 이상하게 그어집니다.<br>
+      와콤 드라이버 설정 창을 열고 맵핑 탭의 <b class="tds">"Windows 잉크 사용" 체크를 해제해 주세요</b>, 사용 시 선이 이상하게 그어집니다.<br>
       와콤 이외의 타블렛에서는 테스트 되지 않아, 정상작동 하지 않을 수 있습니다.<br>
 
       <h2 id="c1">툴 선택 방법</h2><hr>
@@ -162,7 +74,94 @@
 
       <h4><i>3.단축키를 사용해서 툴 선택</i></h4>
       <img src="img/shortcut.png"><p></p>
-      단축키 배열은 위의 이미지와 같습니다. 녹색 영역은 오른손잡이, 파란색 영역은 왼손잡이 용 입니다.<br>
+      <table class="tg">
+          <tr>
+            <th class="tg-0pky"><b class="tds">기능</b></th>
+            <th class="tg-0pky"><b class="tds">단축키</b></th>
+            <th class="tg-0pky"><b class="tds">기능</b></th>
+            <th class="tg-0pky"><b class="tds">단축키</b></th>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">지우개</b></td>
+            <td class="tg-0pky"><kbd>D</kbd><kbd class="ls">H</kbd></td>
+            <td class="tg-0pky"><b class="tds">캔버스 확대/축소</b></td>
+            <td class="tg-0pky"><kbd>W</kbd><kbd class="ls">U</kbd></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">직선툴</b></td>
+            <td class="tg-0pky"><kbd>Shift</kbd></td>
+            <td class="tg-0pky"><b class="tds">캔버스 이동</b></td>
+            <td class="tg-0pky"><kbd class="ns class="ns"">Space</kbd></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">직선지우개</b></td>
+            <td class="tg-0pky"><kbd>Shift+D</kbd> <kbd class="ls">Shift+H</kbd></td>
+            <td class="tg-0pky"><b class="tds">캔버스 반전</b></td>
+            <td class="tg-0pky"><kbd>A</kbd><kbd class="ls">K</kbd></td>
+          </tr>
+          <tr>
+              <td class="tg-0pky"><b class="tds">라소 툴</b></td>
+              <td class="tg-0pky"><kbd>R</kbd><kbd class="ls">T</kbd></td>
+
+            <td class="tg-0pky"><b class="tds">캔버스 회전</b></td>
+            <td class="tg-0pky"><kbd>S</kbd><kbd class="ls">J</kbd></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">스포이드 툴</b></td>
+            <td class="tg-0pky"><kbd>C</kbd><kbd class="ls">N</kbd></td>
+            <td class="tg-0pky"><b class="tds">이미지 이동</b></td>
+            <td class="tg-0pky"><kbd>E</kbd><kbd class="ls">Y</kbd></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">색깔 선택 창</b></td>
+            <td class="tg-0pky"><kbd>F</kbd><kbd class="ls">G</kbd></td>
+            <td class="tg-0pky"><b class="tds">작업 취소</b></td>
+            <td class="tg-0pky"><kbd>Z</kbd><kbd class="ls">,</kbd>(콤마)</td>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">펜 투명도,크기조절</b></td>
+            <td class="tg-0pky"><kbd>Q</kbd><kbd class="ls">I</kbd></td>
+            <td class="tg-0pky"><b class="tds">되돌리기</b></td>
+            <td class="tg-0pky"><kbd>X</kbd><kbd class="ls">M</kbd></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">지우개 투명도, 크기조절</b></td>
+            <td class="tg-0pky"><kbd>Q+D</kbd><kbd class="ls">I+H</kbd></td>
+            <td class="tg-0pky"><b class="tds">리플레이 모드로 변경</b></td>
+            <td class="tg-0pky"><kbd>2</kbd><kbd class="ls">7</kbd></td>
+          </tr>
+          <tr>
+              <td class="tg-0pky"><b class="tds">그리기 모드로 변경</b></td>
+              <td class="tg-0pky"><kbd>1</kbd><kbd class="ls">6</kbd></td>
+            <td class="tg-0pky"><b class="tds">리플레이 재생/정지</b></td>
+            <td class="tg-0pky"><kbd class="ns">Enter</kbd></td>
+          </tr>
+          <tr>
+              <td class="tg-0pky"><b class="tds">파일 저장</b></td>
+              <td class="tg-0pky"><kbd class="ns">Ctrl+S</kbd></td>
+            <td class="tg-0pky"><b class="tds">리플레이 재생 속도 조절</b></td>
+            <td class="tg-0pky"><kbd class="ns">&nbsp;&uarr;&nbsp;</kbd> <kbd class="ns">&nbsp;&darr;&nbsp;</kbd></td>
+          </tr>
+          <tr>
+              <td class="tg-0pky"><b class="tds">다른이름으로 저장</b></td>
+              <td class="tg-0pky"><kbd class="ns">Ctrl+Shift+S</kbd></td>
+            <td class="tg-0pky"><b class="tds">리플레이 스트로크 단위 프레임 탐색</b></td>
+            <td class="tg-0pky"><kbd class="ns">&larr;</kbd> <kbd class="ns">&rarr;</kbd></td>
+          </tr>
+          <tr>
+              <td class="tg-0pky"><b class="tds">파일 불러오기</b></td>
+              <td class="tg-0pky"><kbd class="ns">Ctrl+O</kbd></td>
+            <td class="tg-0pky"><b class="tds">리플레이 1프레임 단위 탐색</b></td>
+            <td class="tg-0pky"><kbd class="ns">Shift</kbd>+<kbd class="ns">&larr;</kbd> <kbd class="ns">&rarr;</kbd></td>
+          </tr>
+          <tr>
+              <td class="tg-0pky"></td>
+              <td class="tg-0pky"></td>
+            <td class="tg-0pky"><b class="tds">리플레이 현재 프레임 이미지 저장</b></td>
+            <td class="tg-0pky"><kbd class="ns">Alt+S</kbd></td>
+          </tr>
+        </table>
+      단축키 배열은 위와 같습니다. 녹색 영역은 오른손잡이, 파란색 영역은 왼손잡이 용 입니다.<br>
       기본적인 사용법은 키를 누르고 있으면 활성화되고, 떼면 꺼집니다.<br>
       A,Z,X (K,M,콤마)키는 그냥 눌렀다 떼도 됩니다.<br>
       펜 사이즈 조절키(Q,I키)는 펜, 직선, 지우개의 크기와, 투명도를 빠르게 조절할 수 있는 키 입니다.<p></p>
@@ -170,6 +169,7 @@
       Q+D(I+H)키를 누르면 지우개의 크기와 투명도를 조절합니다.<br>
       Shift+D(Shift+H)키를 누르면 지우개직선이 됩니다.<br>
       Shift+D+Q(Shift+H+Q)키는 Q+D(I+H)키와 누르는 것과 같습니다. 누르면 지우개 직선의 크기와 투명도를 조절합니다. <br>
+      <p></p>
 
       <h2 id="c2">펜 옵션 박스</h2><hr>
       <img src="img/pbox.png"><p></p>
@@ -198,7 +198,8 @@
       만일 새로운 경로와 이름하고 싶다면, 이 버튼을 길게 누르세요.<br>
       *.png 파일과 *.2020 파일, 2개를 저장합니다. 2020 확장자의 파일은 배경이 투명색인 원래 이미지 데이터와, 리플레이 데이터를 담고 있습니다. 만일 이어서 그릴경우 2020확장자 파일을 불러오는것을 권장합니다.<br>
       극히 드문 경우이지만, 다른 프로그램에서 저장한 파일을 사용하고 있을경우 세이브 버튼을 눌렀는데도 아무런 반응이 없고 저장 되지 않습니다. 파일의 이름을 바꾸어서 저장해보세요.<p>
-      단축키는 Ctrl+S이며, 다른 이름으로 저장은 Shift+Ctrl+S입니다.<p></p>
+
+      단축키는 Ctrl+S이며, 다른 이름으로 저장은 Shift+Ctrl+S 입니다.<p></p>
 
       <img src="img/savebutton.png" align="left"><h4><i>불러오기 버튼</i></h4>
       이미지 불러오기는 *.2020 파일과, *.png, *.gif, *.jpg를 불러올 수 있습니다. 파일을 창에 끌어놓아 불러올 수도 있습니다.<br>
@@ -241,7 +242,9 @@
       프레임 탐색막대에 회색으로 된 구분선이 있는데, 그 선보다 작은 프레임 이어야만 이 버튼이 활성화 됩니다.<p></p>
 
       <img src="img/captbutton.png" align="left"><h4><i>이미지 캡쳐 버튼</i></h4>
-      리플레이의 특정 프레임의 이미지를 저장하고 싶은 경우, 이 버튼을 누르세요.<br>기본적으로 파일명+현재 프레임.png 형식으로 저장됩니다.<p></p>
+      리플레이의 특정 프레임의 이미지를 저장하고 싶은 경우, 이 버튼을 누르세요. 기본적으로 파일명+현재 프레임.png 형식으로 저장됩니다.<br>
+      Shift키를 누른채로 클릭하면 세이브 버튼과 마찬가지고 배경이 투명한 PNG파일로 저장이 가능합니다<p></p>
+      단축키는 Alt+S이며, 투명배경으로 저장은 Alt+Shift+S입니다.<p></p>
 
       <img src="img/drawbutton.png" align="left"><h4><i>그리기 모드 버튼</i></h4>
       일반적인 그리기 모드로 변경합니다.<p></p>

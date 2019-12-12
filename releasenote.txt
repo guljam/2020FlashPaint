@@ -1,0 +1,19 @@
+1.1
+-----------------------
+캡쳐 모드에서 선택영역이 제대로 그려지지 않던 문제 수정
+캡쳐 모드에서 이미지 회전과 이미지 좌우 반전 기능 추가
+
+キャプチャーモードで領域選択ができない問題修正
+キャプチャーモードでイメージ回転、左右反転機能追加
+
+fixed bug on capture mode
+added function image rotation, flip horizontal on capture mode
+
+
+1.0
+-----------------------
+첫 릴리즈
+
+初リリーズ
+
+Initial release

@@ -1,4 +1,13 @@
 -----
+1.8
+-----
+펜 옵션 박스에 손떨림방지 수치 10단계로 조절할 수 있음.
+
+ペンオプションボックスの手ぶれ補正数値を１０段階で調節できるようにしました。 
+
+stroke smoothing value now adjustable with 10 steps
+
+-----
 1.7
 -----
 줌 툴에서 줌 지점을 리플레이 커서로 했을때 줌이 안되는 버그 수정
@@ -47,7 +56,7 @@ fixed bug image resize function on lasso tool
 
 軽い手ぶれ補正機能を追加、ペンオプションボックスの下の小さい円ボタンをクリックしたください。
 
-added pen smoothing function, check small circle button at the bottom of the pen options box.
+added stroke smoothing function, check small circle button at the bottom of the pen options box.
 
 
 -----

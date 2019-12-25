@@ -2,10 +2,13 @@
 2.1
 -----
 단축키를 이용해서 캔버스 회전할때 나오는 원형 가이드 위치를 자연스럽게 변경
+새 버전 다운 버튼을 누르면 1초후에 앱이 닫히도록 변경
 
 ショートカットキーを使ってキャンバス回転するとき角度案内円の位置を自然に変更
+新しいバージョンダウンロードリンクをクリックするとアプリが１秒ご閉じるように変更
 
 improved angle guide position when using canvas rotate tool with shortcut key
+added app closing after 1 second when clicked new version download link
 -----
 2.0
 -----

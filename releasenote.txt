@@ -1,4 +1,12 @@
 -----
+2.1
+-----
+단축키를 이용해서 캔버스 회전할때 나오는 원형 가이드 위치를 자연스럽게 변경
+
+ショートカットキーを使ってキャンバス回転するとき角度案内円の位置を自然に変更
+
+improved angle guide position when using canvas rotate tool with shortcut key
+-----
 2.0
 -----
 자잘한 버그 수정및 about 이미지 변경

@@ -7,6 +7,7 @@
 
 fixed minor bug with pen size cursor
 
+
 -----
 2.2
 -----
@@ -17,6 +18,7 @@ fixed minor bug with pen size cursor
 ペンサイズカーソルは5px未満のサイズには現れません
 
 changed pen size cursor function
+
 
 -----
 2.1
@@ -30,6 +32,7 @@ changed pen size cursor function
 improved angle guide position when using canvas rotate tool with shortcut key
 closing the app after 1 second when clicked new version download link
 
+
 -----
 2.0
 -----
@@ -38,6 +41,7 @@ closing the app after 1 second when clicked new version download link
 細かいバグ修正、アプリ情報イメージ変更
 
 fixed mitor bugs and changed about image
+
 
 -----
 1.9
@@ -48,14 +52,16 @@ fixed mitor bugs and changed about image
 
 fixed mitor bugs on replay mode
 
+
 -----
 1.8
 -----
 펜 옵션 박스에 손떨림방지 수치 10단계로 조절할 수 있음.
 
-ペンオプションボックスの手ぶれ補正数値を１０段階で調節できるようにしました。 
+ペンオプションボックスの手ぶれ補正数値を１０段階で調節できるようにしました。
 
 stroke smoothing value now adjustable with 10 steps
+
 
 -----
 1.7
@@ -65,6 +71,7 @@ stroke smoothing value now adjustable with 10 steps
 ズームツールでリプレイカーソルにポイントをクリックした場合ズームができないバグ修正
 
 fixed zoom tool bug
+
 
 -----
 1.6

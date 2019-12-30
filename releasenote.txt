@@ -3,9 +3,9 @@
 -----
 드래그로 펜/지우개 사이즈 조절시 감도를 약간 민감하게 함
 
-ドラッグでペン・消しゴムサイズ変更の時感度を少し高くしました。
+ペン・消しゴムサイズ変更の時drag感度を少し高くしました。
 
-changed drag sensitivity little higher of pen/erase tool
+increase sensitivity of drag when changing pen/erase size
 
 
 -----

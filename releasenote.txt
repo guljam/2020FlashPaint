@@ -1,4 +1,14 @@
 -----
+2.8
+-----
+창 하단에 작은 정보창 추가
+
+アプリ窓の下に小さい情報ボックスを追加
+
+added small information box on bottom of app window
+
+
+-----
 2.7
 -----
 펜 미리보기 커서를 검은색으로 변경

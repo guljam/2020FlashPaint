@@ -1,4 +1,13 @@
 -----
+3.0
+-----
+정보 박스 없앰, 버전 체크 버그 수정
+
+情報ボックス消し、バージョンチェックバグ修正
+
+removed information box, fixed version check bug
+
+-----
 2.9
 -----
 작은 버그들 수정

@@ -1,4 +1,32 @@
 -----
+3.2
+-----
+UI변경
+컬러박스 추가
+Drawr컬러 프리셋 자동 색깔 섞기 추가
+키보드 딜레이 버그 고침
+키보드 단축키 일부 변경
+라소툴에서 이미지 회전 크기 변경시 약한 샤프 필터 적용
+캡쳐 모드에서 닫기 버튼과 전체 이미지 저장 버튼 추가
+
+
+UI変更
+カラーボックスを追加
+DrawrカラーPresetに色混ぜ機能追加
+ショートカットキーバグ修正
+ショートカットキーの機能を一部変更
+Lasso ツールで イメージ操作した後 弱いSharpenフィルター適用
+キャプチャーモードで閉じるボタンと全体イメージ保存ボタン追加
+
+change UI
+added color options box
+added color auto-gradation box on drawr color preset
+fixed minor short key bugs
+changed shortkey functions
+apply weak sharpening after image manipulation with lasso tool
+added close and save full image button on capture mode
+
+-----
 3.1
 -----
 펜 스무딩 버그 수정

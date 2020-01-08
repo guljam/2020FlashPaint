@@ -1,11 +1,22 @@
 -----
 3.4
 -----
+컬러픽커 창 버그 수정
+
+ColorPicker窓バグ修正
+
+fixed color picker window bugs
+
+
+-----
+3.4
+-----
 캔버스 회전툴 버그 수정
 
 キャンバス回転ツールバグ修正
 
 fixed rotate canvas tool bug
+
 
 -----
 3.3
@@ -15,6 +26,7 @@ fixed rotate canvas tool bug
 直線ツールバグ修正
 
 fixed line tool bug
+
 
 -----
 3.2
@@ -26,7 +38,6 @@ Drawr컬러 프리셋 자동 색깔 섞기 추가
 키보드 단축키 일부 변경
 라소툴에서 이미지 회전 크기 변경시 약한 샤프 필터 적용
 캡쳐 모드에서 닫기 버튼과 전체 이미지 저장 버튼 추가
-
 
 UI変更
 カラーボックスを追加
@@ -44,6 +55,7 @@ changed shortkey functions
 apply weak sharpening after image manipulation with lasso tool
 added close and save full image button on capture mode
 
+
 -----
 3.1
 -----
@@ -52,6 +64,7 @@ added close and save full image button on capture mode
 手ぶれ機能バグ修正
 
 fixed stroke smoothing bug
+
 
 -----
 3.0
@@ -62,6 +75,7 @@ fixed stroke smoothing bug
 
 removed information box, fixed version check bug
 
+
 -----
 2.9
 -----
@@ -70,6 +84,7 @@ removed information box, fixed version check bug
 小さいバグ修正
 
 fixed minor bugs
+
 
 -----
 2.8

@@ -1,4 +1,14 @@
 -----
+3.7
+-----
+Stroke smoothing 알고리즘 개선선
+
+Stroke smoothing アルゴリズム改善
+
+improved stroke smoothing algorithm
+
+
+-----
 3.6
 -----
 Lasso툴에 이미지 복사 기능 추가

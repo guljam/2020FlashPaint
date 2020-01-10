@@ -20,12 +20,11 @@
       <a class="navLink" href="#c1">1.How to select tools</a><br>
       <a class="navLink" href="#c2">2.Pen options</a><br>
       <a class="navLink" href="#c3">3.Menu buttons</a><br>
-      <a class="navLink" href="#c4">4.Color history</a><br>
-      <a class="navLink" href="#c5">5.Replay mode</a><br>
-      <a class="navLink" href="#c6">6.Reset app</a><br>
-      <a class="navLink" href="#c7">7.How to use Lasso tool</a><br>
-      <a class="navLink" href="#c8">8.How to change canvas size</a><br>
-      <a class="navLink" href="#c9">9.Usage example</a><p></p>
+      <a class="navLink" href="#c4">4.Replay mode</a><br>
+      <a class="navLink" href="#c5">5.Reset app</a><br>
+      <a class="navLink" href="#c6">6.How to use Lasso tool</a><br>
+      <a class="navLink" href="#c7">7.How to change canvas size</a><br>
+      <a class="navLink" href="#c8">8.Usage example</a><p></p>
       <a class="navLink" href="index.html""><- back</a><br>
     </div>
 
@@ -58,7 +57,7 @@
       You can adjust the size of the tool box by click+drag the dot icon.<br>
       The pen icon and the eraser icon are activated alternately. The small line icon above the pen icon is line tool icon.<p></p>
       When the eraser tool is selected, the straight line tool changes the "Eraser straight line tool".<p></p>
-      When using Lasso, a similar menu appears, but the usage is slightly different.<a href="#c7"> click here to see how to use lasso tool.</a><p></p>
+      When using Lasso, a similar menu appears, but the usage is slightly different.<a href="#c6"> click here to see how to use lasso tool.</a><p></p>
 
       The video below shows how to use the tool box. Watch the mouse button operation carefully.<p></p>
       <video controls="controls">
@@ -206,13 +205,29 @@
 
       <h2 id="c2">Pen options</h2><hr>
       <img src="img/pbox.png"><p></p>
-
       Bright box is adjust pen size, dark box is adjust pen color.<br>
       The option window just appear when hovering the mouse cursor on the box. and the option window disappears when the mouse cursor leaves the window.<br>
       To move the box, Click+drag the empty area. To close option, window press ESC or press right mouse button.<p></p>
-      "a" icon in the color picker window is drawr's color preset. there is auto-color mixing box below.<br>
-      pen opacity changes color mixing intensity.<br>
-      click the button of up-right side to reset picked color.<br>
+
+      <img src="img/penlist.png"><p></p>
+      1: Change pen shape<br>
+      2: Adjust Stroke Smoothing <br>
+      3: Pen seting preset box. Click right mouse button or Ctrl+Click to add new pen setting presets<br>
+      4: Pen size list<br>
+      5: Adjust opacity<p></p>
+
+
+      <img src="img/pickerbox.png"><p></p>
+      1: Select color sets<br>
+      2: Selected color<br>
+      3: Current color, Click to reset selected color box<br>
+      4: Color history, Ctrl+Click to add color manually<br>
+      5: Color picker<br>
+      6: Adjust opacity<p></p>
+
+      <img src="img/colormixer.png"><p></p>
+      This is the "Drawr" color set that appears when the "a" icon is selected.<br>
+      When you select a color, mix the color into the gradient in the box below.<p></p>
       See the video below how to use pen options box.<p></p>
 
       <video controls="controls">
@@ -231,7 +246,7 @@
       Use this if you want to save only *.png file, or save the image being drawn in replay mode.
       Click this button and draw the area you want to capture with Click+Drag. It will be saved as 'FileName_|RandomString|.png'.<br>
       To cancel the capture mode, just click canvas without dragging.<br>
-      The Shortcut Key is Shift+S, see the video how to use.<p></p>
+      The Shortcut Key is Alt+S, see the video how to use.<p></p>
       <video controls="controls">
         <source src="img/capture.mp4" type="video/mp4"/>
       </video><p></p>
@@ -275,7 +290,7 @@
       If new version released, about window will appear.<p></p>
 
       <img id="repButton" src="img/replaybutton.png" align="left"><h4><i>Replay mode button</i></h4>
-      Changes replay mode.<a href="#c5">Click here to see details.</a><p></p>
+      Changes replay mode.<a href="#c4">Click here to see details.</a><p></p>
 
       <img src="img/re-recbutton.png" align="left"><h4><i>Re-recording button</i></h4>
       This button is located at the bottom of the window in replay-mode.<br>
@@ -300,16 +315,7 @@
       <img src="img/drawbutton.png" align="left"><h4><i>Draw mode button</i></h4>
       Return to drawing mode.<p></p>
 
-      <h2 id="c4">Color history</h2><hr>
-      <img src="img/colorhistory.png"><p></p>
-      These are the colors bottom of app window.<br>
-      Record up to 30 used colors. The color selected with Eye-dropper is not recorded.<br>
-      To add a color manually, place the cursor on the color history bar and click the right mouse button or hold down the Ctrl key and click. <br>
-      The leftmost color is always same with background color. <br>
-      Clicking on a color automatically changes to the Pen tool unless the Line-tool is enabled.<br>
-      Click+Drag the background color button to use these colors as the background color.<a href="#bgbutton"> Click here to dee details.</a><p></p>
-
-      <h2 id="c5">Replay mode</h2><hr>
+      <h2 id="c4">Replay mode</h2><hr>
       You can see see the whole process of image you drawn.<br>
       Replay mode menu button description is <a href="#repButton">here.</a><p></p>
 
@@ -331,7 +337,7 @@
       up / down arrow keys to adjust the playback speed.<p></p>
 
 
-      <h2 id="c6">Reset app</h2><hr>
+      <h2 id="c5">Reset app</h2><hr>
       Basically, every time this app starts, it restores the state when it was last closed.<br>
       When an application makes an error or wants to return to a fully initialized state<br>
       holding down the "Shift key" and close the app. it will be initialized.<br>
@@ -339,7 +345,7 @@
       If you turn off or restart your computer before closing this app, auto-save is not working. <br>
       So recommend close this app first and turn off your computer.<p></p>
 
-      <h2 id="c7">How to use Lasso tool</h2><hr>
+      <h2 id="c6">How to use Lasso tool</h2><hr>
       <img src="img/lassomenu.png"><p></p>
       Select the Lasso tool button and draw the area you want to adjust on the canvas.<br>
       If drawing area finished, Lasso tool box will appear.<br>
@@ -352,7 +358,7 @@
         <source src="img/lassoexam.mp4" type="video/mp4"/>
       </video><p></p>
 
-      <h2 id="c8">How to change canvas size</h2><hr>
+      <h2 id="c7">How to change canvas size</h2><hr>
       Right mouse click on the gray bar of the canvas border. <br>
       then left mouse click+Drag.<br>
       Any image data that goes out of the canvas will be erased.<br>
@@ -365,7 +371,7 @@
       </video><p></p>
 
 
-      <h2 id="c9">Application usage example</h2><hr>
+      <h2 id="c8">Application usage example</h2><hr>
 
       <iframe width="900" height="651" src="https://www.youtube.com/embed/MpQ1U68FFuk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p></p>
 

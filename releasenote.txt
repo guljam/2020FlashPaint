@@ -1,4 +1,17 @@
 -----
+3.9
+-----
+펜 설정 프리셋 기능 추가
+컬러 히스토리를 컬러 픽커로 이동
+
+ペン設定プリセット機能追加
+カラーヒストリーをカラー選択窓に移動
+
+added pen settings preset function
+moved color history to color picker box
+
+
+-----
 3.8
 -----
 단축키 버그 수정

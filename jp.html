@@ -20,12 +20,11 @@
       <a class="navLink" href="#c1">1.ツールの使い方</a><br>
       <a class="navLink" href="#c2">2.ペンオプション</a><br>
       <a class="navLink" href="#c3">3.メニューボタン</a><br>
-      <a class="navLink" href="#c4">4.カラーヒストリー</a><br>
-      <a class="navLink" href="#c5">5.リプレイモード</a><br>
-      <a class="navLink" href="#c6">6.アプリ初期化</a><br>
-      <a class="navLink" href="#c7">7.Lassoツール使い方</a><br>
-      <a class="navLink" href="#c8">8.キャンバスサイズの変更</a><br>
-      <a class="navLink" href="#c9">9.アプリ使い例</a><p></p>
+      <a class="navLink" href="#c4">4.リプレイモード</a><br>
+      <a class="navLink" href="#c5">5.アプリ初期化</a><br>
+      <a class="navLink" href="#c6">6.Lassoツール使い方</a><br>
+      <a class="navLink" href="#c7">7.キャンバスサイズの変更</a><br>
+      <a class="navLink" href="#c8">8.アプリ使い例</a><p></p>
       <a class="navLink" href="index.html"><- 戻る</a><br>
     </div>
 
@@ -56,7 +55,7 @@
       右下に点アイコンを、Click+Dragするとツールボックスのサイズが調節できます。<br>
       ペンアイコンと消しゴムアイコンは代わる代わるＯＮします。ペンアイコン上の小さな直線アイコンは直線ツールアイコンです。<br>
       消しゴムツール選択すると、直線ツールは「消しゴム直線ツール」になります。<p></p>
-      Lassoを使った場合このツールボックスと似ているメニューが現れますが、使い方が少し変わるので、<a href="#c7">これを参考してください。</a><p></p>
+      Lassoを使った場合このツールボックスと似ているメニューが現れますが、使い方が少し変わるので、<a href="#c6">これを参考してください。</a><p></p>
 
       下の動画はツールボックスの使い方です。マウスのボタン操作を気を付けながら見てください。<p></p>
       <video controls="controls">
@@ -203,6 +202,32 @@
 
       <h2 id="c2">ペンオプション</h2><hr>
       <img src="img/pbox.png"><p></p>
+      白いボックスはペンサイズを黒いボックスはぺん色を変えます。.<br>
+      カーソルがボックスの上に色だけでオプションが現れ、カーソルが窓を外れると窓が消えます。<br>
+      ボックスの移動は空く部分をClick+Dragです。もし失敗で窓が現れた場合、ESCキーや、マウス右ボタンを押すと速く閉じることができます。<p></p>
+
+      <img src="img/penlist.png"><p></p>
+      1: ペンの形を変更します。<br>
+      2: 手ぶれ補正バーです。<br>
+      3: ペン設定プリセットです。ペンのサイズ、形などを設定して、臨んだところにマウス右クリック、もしやCtrl+クリックするとプリセットを登録できます。<br>
+      4: ペンサイズリストです。<br>
+      5: 透明度調節バーです。<br>
+      * 消しゴムとペン（直線ツール）のデータは別で管理されています。<p></p>
+
+      <img src="img/pickerbox.png"><p></p>
+      1: カラーセット選択ボタンです。<br>
+      2: 選択した色を見せるボックスです。<br>
+      3: 現在のペン色を見せるボックスです。クリックすると2番ボックスの色を初期化できます。<br>
+      4: カラーヒストリーです。使った色を記録します。マウス右クリック、もしや Ctrl+クリックすると選択した色を手動で登録できます。<br>
+      5: カラー選択ボックスです。<br>
+      6: 透明度調節バーです<p></p>
+
+      <img src="img/colormixer.png"><p></p>
+      1番のカラーセットボタンで 「a」アイコンを選択したら出るカラーセットです。drawrのカラープリセットで,<br>
+      色を選択するたび下のボックスにグラデーションに色を混ぜます。<p></p>
+
+       <h2 id="c2">ペンオプション</h2><hr>
+      <img src="img/pbox.png"><p></p>
 
       白いボックスはペンサイズを黒いボックスはぺん色を変えます。.<br>
       カーソルがボックスの上に色だけでオプションが現れ、カーソルが窓を外れると窓が消えます。<br>
@@ -217,6 +242,7 @@
       <video controls="controls">
         <source src="img/pbox.mp4" type="video/mp4"/>
       </video><p></p>
+
       <h2 id="c3">メニューボタン</h2><hr>
       白い四角ボタンのことです。<p></p>
       <img src="img/savebutton.png" align="left"><h4><i>セーブボタン</i></h4>
@@ -231,7 +257,7 @@
       イメージだけ保存したい場合や、リプレイモードで描いているイメージを保存したい場合使います。<br>
       このボタンを押して保存したい部分をClick+Dragすると、ファイル名＿ランダム文字.pngで保存されます。<br>
       取り消しはDragしないで、ただクリックしてください。<br>
-      ショートカットキーは Shift+Sです。下の動画を参考してください。<p></p>
+      ショートカットキーは Alt+Sです。下の動画を参考してください。<p></p>
       <video controls="controls">
         <source src="img/capture.mp4" type="video/mp4"/>
       </video><p></p>
@@ -275,7 +301,7 @@
       新しいバージョンがリリーズした場合もこの窓が出てきます。<p></p>
 
       <img id="repButton" src="img/replaybutton.png" align="left"><h4><i>リプレイモードボタン</i></h4>
-      筆跡再生モードに変更します。このモードの説明は <a href="#c5">ここです。</a><p></p>
+      筆跡再生モードに変更します。このモードの説明は <a href="#c4">ここです。</a><p></p>
 
       <img src="img/re-recbutton.png" align="left"><h4><i>再録画ボタン</i></h4>
       このボタンはリプレイモードでアプリの窓の下に位置しています。<br>
@@ -298,16 +324,7 @@
       <img src="img/drawbutton.png" align="left"><h4><i>ドローモードボタン</i></h4>
       普通のお絵かきモードに戻ります。<p></p>
 
-      <h2 id="c4">カラーヒストリー</h2><hr>
-      <img src="img/colorhistory.png"><p></p>
-      アプリの窓下の色のことです。<br>
-      使った色を30個まで記録します。Eye-dropperで選択した色は記録しません。<br>
-      手動で色を追加したい時は、カーソルをカラーヒストリーバーに置いてマウス右ボタンをクリックまたはCtrlキーを押したままクリックしてください。<br>
-      色をクリックすると、Lineツールが有効になっている場合を除いて自動的にペンツールに変わります。<br>
-      一番左にある色は背景色と同じく設定されます。<br>
-      背景色変更ボタンをClick+Dragしてこの色を背景色に使えます。 <a href="#bgbutton">ここを参考してください。</a><p></p>
-
-      <h2 id="c5">リプレイモード</h2><hr>
+      <h2 id="c4">リプレイモード</h2><hr>
       自分が書いた絵の全過程を観ることができるモードです。描き直したいところに戻って描いたり、*.2020ファイルでセーブと読み込むこともできます。<br>
       リプレイモードのメニューボタンの説明は<a href="#repButton">ここです。</a><p></p>
 
@@ -328,7 +345,7 @@
       ショートカットキー Enterで 再生/停止します。<br>
       上/下 矢印キーで再生速度を調節します。<p></p>
 
-      <h2 id="c6">アプリ初期化</h2><hr>
+      <h2 id="c5">アプリ初期化</h2><hr>
       基本的にこのアプリは起動するたび、最後のイメージと状態を復元します。<br>
       アプリの調子が悪くなったり、初期化状態に戻したい時は、<br>
       Shiftキーを押したままアプリを閉じると、初期化されます。<br>
@@ -336,7 +353,7 @@
       もしこのアプリを終了する前に、パソコンを終了したり再起動すると、<br>
       自動データ保存が作動しないので、先にアプリを終了するのがおすすめです。<p></p>
 
-      <h2 id="c7">Lassoツール使い方</h2><hr>
+      <h2 id="c6">Lassoツール使い方</h2><hr>
       <img src="img/lassomenu.png"><p></p>
       Lassoツールボタンを選択して、キャンバスに調節したい領域を描きます。<br>
       で、Lassoツールメボックスがカーソルがに現れます。<br>
@@ -349,7 +366,7 @@
         <source src="img/lassoexam.mp4" type="video/mp4"/>
       </video><p></p>
 
-      <h2 id="c8">キャンバスサイズの変更</h2><hr>
+      <h2 id="c7">キャンバスサイズの変更</h2><hr>
       マウス右ボタンで灰色のキャンバスの枠をクリックすると青色に色が変わります。<br>
       その状態でClick+Dragしてください。<br>
       キャンバス外に出たイメージデータは消されます。<br>
@@ -361,7 +378,7 @@
         <source src="img/canvassize.mp4" type="video/mp4"/>
       </video><p></p>
 
-      <h2 id="c9">アプリ使い例</h2><hr>
+      <h2 id="c8">アプリ使い例</h2><hr>
 
       <iframe width="900" height="651" src="https://www.youtube.com/embed/MpQ1U68FFuk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p></p>
       <iframe width="900" height="651" src="https://www.youtube.com/embed/U5FL6CX7Z3Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

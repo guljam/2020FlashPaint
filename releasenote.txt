@@ -1,4 +1,17 @@
 -----
+3.8
+-----
+단축키 버그 수정
+캡쳐 모드 저장, 회전, 반전 단축키 추가
+
+ショートカットキーバグ修正
+キャプチャーモードでセーブ、回転、反転ショートカットキー追加
+
+fixed shortcut key bugs
+added shortcut key for save image, rotate image, flip image on capture mode
+
+
+-----
 3.7
 -----
 Stroke smoothing 알고리즘 개선

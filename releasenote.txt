@@ -2,10 +2,13 @@
 4.0
 -----
 다른 이름으로 저장 단축키가 작동하지 않던 버그 수정
+리플레이 최대 배속을 300배속으로 증가
 
 Save as　ショートカットキーが作動しないバグ修正
+リプレイ最大速度をｘ３００まで増加
 
 fixed save as shortcut key bug
+increased max replay speed to x300
 
 
 -----

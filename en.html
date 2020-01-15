@@ -234,15 +234,16 @@
         <source src="img/pbox.mp4" type="video/mp4"/>
       </video><p></p>
       <h2 id="c3">Menu buttons</h2><hr>
-      The white square buttons of this app.<p></p>
-      <img src="img/savebutton.png" align="left"><h4><i>Save button</i></h4>
+
+      <img src="img/topbar.png"><p></p>
+      1:Save<br>
       This button saves an image. Check the file path and name only at the beginning. After that, it automatically writes to the same file.<br>
       If you want to save as new file, please click this button for a long time.<br>
       Two files are saved: "*.png" file and "*.2020" file. "*.2020" file contains original image data with transparent background and replay-data. So usually it is recommended to work with * .2020 files.<br>
       This is a rare case the file is in use by another app, you cannot save it, so app trying save as new name with “FileName_new.png”.<p></p>
       Shortcut key is Ctrl+S, and Save As is Shift+Ctrl+S.<p></p>
 
-      <img src="img/captbutton.png" align="left"><h4><i>Capture image button</i></h4>
+      2:Capture image<br>
       Use this if you want to save only *.png file, or save the image being drawn in replay mode.
       Click this button and draw the area you want to capture with Click+Drag. It will be saved as 'FileName_|RandomString|.png'.<br>
       To cancel the capture mode, just click canvas without dragging.<br>
@@ -251,52 +252,48 @@
         <source src="img/capture.mp4" type="video/mp4"/>
       </video><p></p>
 
-      <img src="img/capoff.png" align="left"><h4><i>Close capture mode button</i></h4>
-      <p></p>
+      <img src="img/capturebar.png"><p></p>
 
-      <img src="img/capfull.png" align="left"><h4><i>Save full image button</i></h4>
-      This button save rotated or flipped full image.<p></p>
+      (1):Close capture mode<br>
+      (2):Save full image<br>
+      (3):Rotate capture image<br>
+      (4):Flip horizontal capture image<br>
+      (5):Remove canvas background color<p></p>
 
-      <img src="img/caprotate.png" align="left"><h4><i>Rotate capture image button</i></h4>
-      This button rotates the capture image 90 degrees clockwise.<p></p>
-
-      <img src="img/capmirror.png" align="left"><h4><i>Flip horizontal capture image button</i></h4>
-      This button flip horizontal the capture image.<p></p>
-
-      <img src="img/loadbutton.png" align="left"><h4><i>Load button</i></h4>
+      [3] Load<p></p>
       You can load *.png, *.gif, *.jpg and *.2020 files. You can also load file by dragging & dropping into the application window.<br>
       The maximum image size is 2000x2000 pixel. If the image to be exceeds this size, it will be forcibly resized.<br>
       Shortcut key is Ctrl+O.<p></p>
 
-      <img src="img/deletebutton.png" align="left"><h4><i>Delete all data button</i></h4>
+      [4] Delete all data<p></p>
       Press this button 3 times to delete the replay-data and drawn image.<br>
       You can also press shortcut key ESC 3 times.</p>
 
-      <img id="bgbutton" src="img/bgbutton.png" align="left"><h4><i>Background color button</i></h4>
-      Change the background color of the canvas itself. <br> This set the eraser tool color the same as the background color.<br>
-      You can also Click+Drag this button to make it the background color by the color inside the canvas or color-history bar.<br>
-      The video below shows how to use the background color button.<p></p>
-      <video controls="controls">
-        <source src="img/bgcoloruse.mp4" type="video/mp4"/>
-      </video><p></p>
+      [5] Canvas color<p></p>
+      Change the background color of the canvas itself. <br> This set the eraser tool color the same as the background color.<p></p>
 
-      <img src="img/toolonoffButton.png" align="left"><h4><i>Tool-box ON/OFF button</i></h4>
+      [6] Tool-box ON/OFF<p></p>
       <a href="#norightmouse">Click here to see details.</a><p></p>
 
-      <img src="img/aboutbutton.png" align="left"><h4><i>About button</i></h4>
+      [7] Change app wiondow color<p></p>
+      changes app window color and opacity.<p></p>
+
+      [8]]About<p></p>
       You can see running time of this app, and my Twitter and E-Mail, and language-specific instructions are linked.<br>
       Click clock icon to reset timer.<br>
       Bottom side of window, "Used memory" increases as you draw more complex images as the canvas size increases.<br>
       "Cached image" is the total size of images created to improve performance when frame search on replay mode. The more you draw, the larger the size.<br>
       If new version released, about window will appear.<p></p>
 
-      <img id="repButton" src="img/replaybutton.png" align="left"><h4><i>Replay mode button</i></h4>
-      Changes replay mode.<a href="#c4">Click here to see details.</a><p></p>
+      [9] Replay mode<p></p>
+      Toggle replay mode / draw mode <a href="#c4">Click here to see details.</a><p></p>
 
-      <img src="img/re-recbutton.png" align="left"><h4><i>Re-recording button</i></h4>
+      [10] Playback start/stop<p></p>
+
+      [11] Re-recording<p></p>
       Press this button twice to record from the beginning in the image of a specific frame.<p></p>
 
-      <img src="img/superundobutton.png" align="left"><h4><i>Super-undo button</i></h4>
+      [12] Super-undo<p></p>
       You can undo up to 7 times in Draw Mode.<br>
       However, if you want to restore previous image, select the frame and press this button twice.<br>
       This button does not usually appear in frames that can be normal undo.<br>
@@ -306,13 +303,6 @@
       <video controls="controls">
         <source src="img/superundo.mp4" type="video/mp4"/>
       </video><p></p>
-
-      <img src="img/captbutton.png" align="left"><h4><i>Image capture button</i></h4>
-      Click this button to save an image of a specific frame.<br>
-      Shortcut key is Shift+S.<p></p>
-
-      <img src="img/drawbutton.png" align="left"><h4><i>Draw mode button</i></h4>
-      Return to drawing mode.<p></p>
 
       <h2 id="c4">Replay mode</h2><hr>
       You can see see the whole process of image you drawn.<br>

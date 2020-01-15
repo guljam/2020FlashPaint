@@ -4,6 +4,12 @@ Copy paste install file url below  when auto-install failed
 
 https://github.com/guljam/2020FlashPaint/releases/download/setup/fofoPaint_Setup.zip
 
+-----
+4.6
+-----
+캡쳐 모드 투명 배경설정을 기억하도록 함
+キャプチャーモードで背景色消し設定を記憶
+Remember transparent background settings on capture mode
 
 -----
 4.5

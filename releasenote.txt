@@ -1,8 +1,8 @@
-구버전이나 오류등으로 설치가 되지 않는경우 아래 링크로 수동 설치
-旧バージョンやエラーで自動インストールができなかった場合下のインクでインストール
-Copy paste install file url below  when auto-install failed
+4.4 이하 버전이나 오류등으로 설치가 되지 않는경우 아래 홈페이지에서 직접 다운받으세요
+4.4以下旧バージョンやエラーで自動インストールができなかった場合下のページで直接ダウンロードしてください。
+Click URL below and download the file when auto-install failed or app version 4.4 or less
 
-https://github.com/guljam/2020FlashPaint/releases/download/setup/fofoPaint_Setup.zip
+https://guljam.github.io/2020FlashPaint/
 
 -----
 4.6

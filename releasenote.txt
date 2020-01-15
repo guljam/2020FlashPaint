@@ -1,4 +1,32 @@
 -----
+4.5
+-----
+앱 이름을 FOFO PAINT 로 변경
+UI 변경
+창 색깔과 투명도 변경 기능 추가
+성능문제로 캔버스 이미지를 부드럽게 보여주는 기능 제거
+캡쳐 모드에서 캔버스 배경색을 지우는 기능 추가
+기타 작은 버그 수정 및 안정성 강화
+그리기 모드에서 줌단계를 100%단위로 축소
+
+アプリ名前をFOFO PAINTに変更
+UI変更
+窓の色と透明度を変更できる
+性能問題でキャンバスのAnti Aliasing処理機能をOFF
+キャプチャーモードで背景色を消す機能追加
+その他バグ修正
+Drawrモードでぞーむ単位を１００％に変更
+
+changed app name with FOFO PAINT
+changed app UI
+added adjust window color and window transparent function
+removed canvas anti aliasing function for app performance
+added remove bg function on capture mode
+minor bug fixes
+changed zoom unit to 25%->100%
+
+
+-----
 4.4
 -----
 About 상자 에 타이머 초기화 버튼 추가

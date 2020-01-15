@@ -7,8 +7,8 @@ https://guljam.github.io/2020FlashPaint/
 -----
 4.8
 -----
-리플레이 완료시 follow 커서 기능이 켜져있을때 캔버스가 정중앙에 오지 않는 버그 수정
-リプレイ再生完了の後Followカーソル機能がONしてとかキャンバスが真ん中に整列しないバグ修正
+Follow 커서 기능이 켜져있을때리플레이 완료시 캔버스가 정중앙에 오지 않는 버그 수정
+Followカーソル機能がONでリプレイ再生完了の後キャンバスが真ん中に整列しないバグ修正
 fixed canvas position bug when playback end on replay mode
 
 -----

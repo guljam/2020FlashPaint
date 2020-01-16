@@ -4,6 +4,15 @@ Click URL below and download the file when auto-install failed or app version 4.
 
 https://guljam.github.io/2020FlashPaint/
 
+
+-----
+4.9
+-----
+리플레이 프레임 텍스트 색이 일부 윈도우 색상에서 보이지 않는 버그 수정
+リプレイフレーム情報テキストに色が一部のアプリ窓色によって見えないバグ修正
+Fixed bug where replay frame text color wasn't visible in some window colors
+
+
 -----
 4.8
 -----
@@ -11,12 +20,14 @@ Follow 커서 기능이 켜져있을때리플레이 완료시 캔버스가 정�
 Followカーソル機能がONでリプレイ再生完了の後キャンバスが真ん中に整列しないバグ修正
 fixed canvas position bug when playback end on replay mode
 
+
 -----
 4.7
 -----
 업데이트 기능 버그 수정
 アップデート機能のバグ修正
 fixed auto-update function
+
 
 -----
 4.6

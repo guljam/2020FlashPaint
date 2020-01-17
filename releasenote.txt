@@ -6,7 +6,7 @@ https://guljam.github.io/2020FlashPaint/
 
 
 -----
-5.0 - 5.2
+5.0 - 5.3
 -----
 자잘한 버그 수정
 細かいバグ修正

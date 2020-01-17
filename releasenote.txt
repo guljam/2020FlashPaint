@@ -4,6 +4,13 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 
 https://guljam.github.io/2020FlashPaint/
 
+-----
+5.5
+-----
+리플레이 모드에서 줌 단계 100%단위로 변경
+リプレイモードでズーム段階を１００％単位に変更
+changed zoom unit to 100% on replay mode
+
 
 -----
 5.0 - 5.4

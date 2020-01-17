@@ -4,6 +4,15 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 
 https://guljam.github.io/2020FlashPaint/
 
+
+-----
+5.7
+-----
+리플레이 모드에서 그리기 모드로 돌아갈때 줌 배율이 100%단위가 아닌 것을 수정
+絵描きモードに戻るときズームが１００％単位ではないバグ修正
+fixed zoom bug when chaning mode to draw-mode
+
+
 -----
 5.6
 -----

@@ -135,7 +135,7 @@ fix minor bugs
 -----
 업데이트 기능 개선
 アップデート機能改善
-improved auto-update function
+improve auto-update function
 
 
 -----
@@ -184,7 +184,7 @@ add shortcut key for save image, rotate image, flip image on capture mode
 -----
 Stroke smoothing 알고리즘 개선
 Stroke smoothing アルゴリズム改善
-improved stroke smoothing algorithm
+improve stroke smoothing algorithm
 
 
 -----
@@ -334,7 +334,7 @@ change pen size cursor function
 새 버전 다운 버튼을 누르면 1초후에 앱이 닫히도록 변경
 ショートカットキーを使ってキャンバス回転するとき角度案内円の位置を自然に変更
 新しいバージョンダウンロードリンクをクリックするとアプリが１秒後、閉じるように変更
-improved angle guide position when using canvas rotate tool with shortcut key
+improve angle guide position when using canvas rotate tool with shortcut key
 closing the app after 1 second when clicked new version download link
 
 

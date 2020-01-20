@@ -4,10 +4,21 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 
 https://guljam.github.io/2020FlashPaint/
 
+
+-----
+6.3
+-----
+앱 시작하고 풀스크린이 될때 툴박스들의 위치가 구석으로 가는 버그 수정
+アプリが起動した後フルスクリーンになる時ツールボックスの位置がずれるバグ修正
+fix tool-box position bug when window maximized after launching the app
+
+
 -----
 6.2
 -----
-자잘한 버그 수정
+작은 버그 수정
+細かいバグしゅうせい
+fix minor bugs
 
 
 -----

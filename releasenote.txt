@@ -6,11 +6,19 @@ https://guljam.github.io/2020FlashPaint/
 
 
 -----
+6.4
+-----
+펜사이즈, 투명도 단축키 변경
+ペンサイズ透明度のショートカットキー変更
+changed shortcut keys of pen size and opacity
+
+
+-----
 6.3
 -----
 앱 시작하고 풀스크린이 될때 툴박스들의 위치가 구석으로 가는 버그 수정
 アプリが起動した後フルスクリーンになる時ツールボックスの位置がずれるバグ修正
-fix tool-box position bug when window maximized after launching the app
+fixed tool-box position bug when window maximized after launching the app
 
 
 -----
@@ -18,7 +26,7 @@ fix tool-box position bug when window maximized after launching the app
 -----
 작은 버그 수정
 細かいバグしゅうせい
-fix minor bugs
+fixed minor bugs
 
 
 -----
@@ -34,7 +42,7 @@ Reduce the window color to 16 types
 -----
 작은 버그 수정
 細かいバグしゅうせい
-fix minor bugs
+fixed minor bugs
 
 
 -----
@@ -46,8 +54,8 @@ fix minor bugs
 ClipBoardでイメージを読み込む機能追加
 ズームツールでカーソル縦移動の時拡大縮小が反対のバグ修正
 アプリ窓のサイズによってメニューボタンが動く
-add function that load image from clipboard
-fix bug what zooming is reverse when cursor moves vertically
+added function that load image from clipboard
+fixed bug what zooming is reverse when cursor moves vertically
 Menu button moves depending on the size of the app window size
 
 
@@ -56,7 +64,7 @@ Menu button moves depending on the size of the app window size
 -----
 리플레이 모드에서 그리기 모드로 돌아갈때 줌 배율이 100%단위가 아닌 것을 수정
 絵描きモードに変更する時ズームが１００％単位ではないバグ修正
-fix bug what zoom unit is not 100% when changing mode to draw-mode
+fixed bug what zoom unit is not 100% when changing mode to draw-mode
 
 
 -----
@@ -64,7 +72,7 @@ fix bug what zoom unit is not 100% when changing mode to draw-mode
 -----
 펜 투명도 조절바 버그 수정
 ペン透明度の調節バーのバグ修正
-fix pen opacity bar bug
+fixed pen opacity bar bug
 
 
 -----
@@ -72,14 +80,14 @@ fix pen opacity bar bug
 -----
 리플레이 모드에서 줌 단계 100%단위로 변경
 リプレイモードでズーム段階を１００％単位に変更
-change zoom unit to 100% on replay mode
+changed zoom unit to 100% on replay mode
 
 -----
 5.0 - 5.4
 -----
 자잘한 버그 수정
 細かいバグ修正
-fix minor bugs
+fixed minor bugs
 
 
 -----
@@ -87,7 +95,7 @@ fix minor bugs
 -----
 리플레이 프레임 텍스트 색이 일부 윈도우 색상에서 보이지 않는 버그 수정
 リプレイフレーム情報テキストに色が一部のアプリ窓色によって見えないバグ修正
-fix bug where replay frame text color wasn't visible in some window colors
+fixed bug where replay frame text color wasn't visible in some window colors
 
 
 -----
@@ -95,7 +103,7 @@ fix bug where replay frame text color wasn't visible in some window colors
 -----
 Follow 커서 기능이 켜져있을때리플레이 완료시 캔버스가 정중앙에 오지 않는 버그 수정
 Followカーソル機能がONでリプレイ再生完了の後キャンバスが真ん中に整列しないバグ修正
-fix canvas position bug when playback end on replay mode
+fixed canvas position bug when playback end on replay mode
 
 
 -----
@@ -103,7 +111,7 @@ fix canvas position bug when playback end on replay mode
 -----
 업데이트 기능 버그 수정
 アップデート機能のバグ修正
-fix auto-update function
+fixed auto-update function
 
 
 -----
@@ -131,13 +139,13 @@ UI変更
 キャプチャーモードで背景色を消す機能追加
 その他バグ修正
 Drawrモードでぞーむ単位を１００％に変更
-change app name with FOFO PAINT
-change app UI
-add adjust window color and window transparent function
+changed app name with FOFO PAINT
+changed app UI
+added adjust window color and window transparent function
 removed canvas anti aliasing function for app performance
-add remove bg function on capture mode
+added remove bg function on capture mode
 minor bug fixes
-change zoom unit to 25%->100%
+changed zoom unit to 25%->100%
 
 
 -----
@@ -145,14 +153,14 @@ change zoom unit to 25%->100%
 -----
 About 상자 에 타이머 초기화 버튼 추가
 Aboutボックスにタイマー初期化ボタン追加
-add timer reset button on about box
+added timer reset button on about box
 
 -----
 4.31
 -----
 작은 버그 수정
 細かいバグ修正
-fix minor bugs
+fixed minor bugs
 
 
 -----
@@ -160,7 +168,7 @@ fix minor bugs
 -----
 업데이트 기능 개선
 アップデート機能改善
-improve auto-update function
+improved auto-update function
 
 
 -----
@@ -168,7 +176,7 @@ improve auto-update function
 -----
 저장/불러오기 단축키 버그 수정
 セーブや読み込みショートカットキーバグ修正
-fix save/load shortcutkey bug
+fixed save/load shortcutkey bug
 
 
 -----
@@ -178,7 +186,7 @@ fix save/load shortcutkey bug
 리플레이 최대 배속을 300배속으로 증가
 Save as　ショートカットキーが作動しないバグ修正
 リプレイ最大速度をｘ３００まで増加
-fix save as shortcut key bug
+fixed save as shortcut key bug
 increased max replay speed to x300
 
 
@@ -189,7 +197,7 @@ increased max replay speed to x300
 컬러 히스토리를 컬러 픽커로 이동
 ペン設定プリセット機能追加
 カラーヒストリーをカラー選択窓に移動
-add pen settings preset function
+added pen settings preset function
 moved color history to color picker box
 
 
@@ -200,8 +208,8 @@ moved color history to color picker box
 캡쳐 모드 저장, 회전, 반전 단축키 추가
 ショートカットキーバグ修正
 キャプチャーモードでセーブ、回転、反転ショートカットキー追加
-fix shortcut key bugs
-add shortcut key for save image, rotate image, flip image on capture mode
+fixed shortcut key bugs
+added shortcut key for save image, rotate image, flip image on capture mode
 
 
 -----
@@ -209,7 +217,7 @@ add shortcut key for save image, rotate image, flip image on capture mode
 -----
 Stroke smoothing 알고리즘 개선
 Stroke smoothing アルゴリズム改善
-improve stroke smoothing algorithm
+improved stroke smoothing algorithm
 
 
 -----
@@ -217,7 +225,7 @@ improve stroke smoothing algorithm
 -----
 Lasso툴에 이미지 복사 기능 추가
 Lassoツールにイメージコピー機能追加
-add image copy function on lasso tool
+added image copy function on lasso tool
 
 
 -----
@@ -225,7 +233,7 @@ add image copy function on lasso tool
 -----
 컬러픽커 창 버그 수정
 ColorPicker窓バグ修正
-fix color picker window bugs
+fixed color picker window bugs
 
 
 -----
@@ -233,7 +241,7 @@ fix color picker window bugs
 -----
 캔버스 회전툴 버그 수정
 キャンバス回転ツールバグ修正
-fix rotate canvas tool bug
+fixed rotate canvas tool bug
 
 
 -----
@@ -241,7 +249,7 @@ fix rotate canvas tool bug
 -----
 직선툴 버그 수정
 直線ツールバグ修正
-fix line tool bug
+fixed line tool bug
 
 
 -----
@@ -261,13 +269,13 @@ DrawrカラーPresetに色混ぜ機能追加
 ショートカットキーの機能を一部変更
 Lasso ツールで イメージ操作した後 弱いSharpenフィルター適用
 キャプチャーモードで閉じるボタンと全体イメージ保存ボタン追加
-change UI
-add color options box
-add color auto-gradation box on drawr color preset
-fix minor short key bugs
-change shortkey functions
+changed UI
+added color options box
+added color auto-gradation box on drawr color preset
+fixed minor short key bugs
+changed shortkey functions
 apply weak sharpening after image manipulation with lasso tool
-add close and save full image button on capture mode
+added close and save full image button on capture mode
 
 
 -----
@@ -275,7 +283,7 @@ add close and save full image button on capture mode
 -----
 펜 스무딩 버그 수정
 手ぶれ機能バグ修正
-fix stroke smoothing bug
+fixed stroke smoothing bug
 
 
 -----
@@ -283,7 +291,7 @@ fix stroke smoothing bug
 -----
 정보 박스 없앰, 버전 체크 버그 수정
 情報ボックス消し、バージョンチェックバグ修正
-removed information box, fix version check bug
+removed information box, fixed version check bug
 
 
 -----
@@ -291,7 +299,7 @@ removed information box, fix version check bug
 -----
 작은 버그들 수정
 小さいバグ修正
-fix minor bugs
+fixed minor bugs
 
 
 -----
@@ -299,7 +307,7 @@ fix minor bugs
 -----
 창 하단에 작은 정보창 추가
 アプリ窓の下に小さい情報ボックスを追加
-add small information box on bottom of app window
+added small information box on bottom of app window
 
 
 -----
@@ -307,7 +315,7 @@ add small information box on bottom of app window
 -----
 펜 미리보기 커서를 검은색으로 변경
 ペンサイズプレビューカーソルを黒に変更
-change color of pen size preview cursor to black
+changed color of pen size preview cursor to black
 
 
 -----
@@ -323,7 +331,7 @@ increase sensitivity of drag when changing pen/erase size
 -----
 펜 사이즈 커서 작은 버그 수정2
 ペンサイズカーソルの小さいバグ修正2
-fix minor bug with pen size cursor2
+fixed minor bug with pen size cursor2
 
 
 -----
@@ -331,7 +339,7 @@ fix minor bug with pen size cursor2
 -----
 캔버스 회전툴 버그 수정
 キャンバス回転ツールバグ修正
-fix rotate canvas tool
+fixed rotate canvas tool
 
 
 -----
@@ -339,7 +347,7 @@ fix rotate canvas tool
 -----
 펜 사이즈 커서 작은 버그 수정
 ペンサイズカーソルの小さいバグ修正
-fix minor bug with pen size cursor
+fixed minor bug with pen size cursor
 
 
 -----
@@ -349,7 +357,7 @@ fix minor bug with pen size cursor
 펜 사이즈 커서는 5픽셀 미만에서는 나타나지 않음
 ペンサイズカーソルスタイルを変更
 ペンサイズカーソルは5px未満のサイズには現れません
-change pen size cursor function
+changed pen size cursor function
 
 
 -----
@@ -359,7 +367,7 @@ change pen size cursor function
 새 버전 다운 버튼을 누르면 1초후에 앱이 닫히도록 변경
 ショートカットキーを使ってキャンバス回転するとき角度案内円の位置を自然に変更
 新しいバージョンダウンロードリンクをクリックするとアプリが１秒後、閉じるように変更
-improve angle guide position when using canvas rotate tool with shortcut key
+improved angle guide position when using canvas rotate tool with shortcut key
 closing the app after 1 second when clicked new version download link
 
 
@@ -368,7 +376,7 @@ closing the app after 1 second when clicked new version download link
 -----
 자잘한 버그 수정및 about 이미지 변경
 細かいバグ修正、アプリ情報イメージ変更
-fix mitor bugs and change about image
+fixed mitor bugs and changed about image
 
 
 -----
@@ -376,7 +384,7 @@ fix mitor bugs and change about image
 -----
 리플레이 자잘한 버그 수정
 リプレイモードで細かいバグ修正
-fix mitor bugs on replay mode
+fixed mitor bugs on replay mode
 
 
 -----
@@ -392,7 +400,7 @@ stroke smoothing value now adjustable with 10 steps
 -----
 줌 툴에서 줌 지점을 리플레이 커서로 했을때 줌이 안되는 버그 수정
 ズームツールでリプレイカーソルにポイントをクリックした場合ズームができないバグ修正
-fix zoom tool bug
+fixed zoom tool bug
 
 
 -----
@@ -402,7 +410,7 @@ fix zoom tool bug
 리플레이 모드에서 줌 단계를 더 세분화함
 キャンバス回転ツールの基準点をクリックした地点回りに変更
 リプレイモードでズーム段階をもっと細かくしました
-change center point on rotate tool
+changed center point on rotate tool
 more detailed zoom step on replay-mode
 
 
@@ -411,7 +419,7 @@ more detailed zoom step on replay-mode
 -----
 펜옵션 박스에도 툴팁 추가
 ペンオプションボックスにもヒント追加
-add tool tip on pen options box
+added tool tip on pen options box
 
 
 -----
@@ -419,7 +427,7 @@ add tool tip on pen options box
 -----
 Lasso툴에서 이미지 크기를 조절할때 1배 스냅이 부정확하게 걸리는 문제 해결
 Lassoツールでイメージサイズを変更するとき１倍スナップがちゃんと作動しないバグ修正
-fix bug image resize function on lasso tool
+fixed bug image resize function on lasso tool
 
 
 -----
@@ -427,7 +435,7 @@ fix bug image resize function on lasso tool
 -----
 가벼운 손떨림방지 기능 추가 펜옵션 박스 아랫쪽에 작은 동그라미 버튼을 누르세요.
 軽い手ぶれ補正機能を追加、ペンオプションボックスの下の小さい円ボタンをクリックしたください。
-add stroke smoothing function, check small circle button at the bottom of the pen options box.
+added stroke smoothing function, check small circle button at the bottom of the pen options box.
 
 
 -----
@@ -435,7 +443,7 @@ add stroke smoothing function, check small circle button at the bottom of the pe
 -----
 라소툴 영역을 1보다 작은 크기로 그었을때 에러나는 버그 수정
 Lasso ツールの領域を１ｐｘより小さく書いた場合起こるバグ修正
-fix Lasso tool bug
+fixed Lasso tool bug
 
 
 -----
@@ -447,8 +455,8 @@ fix Lasso tool bug
 キャプチャーモードで領域選択ができない問題修正
 キャプチャーモードでイメージ回転、左右反転機能追加
 
-fix bug on capture mode
-add function image rotation, flip horizontal on capture mode
+fixed bug on capture mode
+added function image rotation, flip horizontal on capture mode
 
 
 -----

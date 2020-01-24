@@ -6,6 +6,14 @@ https://guljam.github.io/2020FlashPaint/
 
 
 -----
+6.5
+-----
+UI변경, 프로그램 윈도우 색, 투명도 변경 기능 제거
+UI変更アプリウィンドウの色、透明度の変更の機能を消去
+Changed App UI, Deleted window color, transparent function
+
+
+-----
 6.4
 -----
 펜사이즈, 투명도 단축키 변경

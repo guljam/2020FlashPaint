@@ -4,6 +4,15 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 
 https://guljam.github.io/2020FlashPaint/
 
+
+-----
+6.7
+-----
+직선툴 버튼의 위치와 크기를 변경
+直線ツールボタンの位置とサイズを変更
+Changed size and position of line tool button
+
+
 -----
 6.6
 -----

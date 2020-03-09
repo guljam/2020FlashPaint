@@ -5,6 +5,14 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
+6.9
+-----
+캡쳐모드에서 파일을 저장할때 파일이름 형식뒤에 무작위 문자 대신 시간이 표시됨
+キャプチャーモードでイメージを保存する時、ファイル名前の後ろにランダム文字の変わりに現在時間で保存します。
+Changed save file name format on capture mode.
+
+
+-----
 6.8
 -----
 캡쳐모드에서 이미지를 드래그로 로드 했을때 버그 수정

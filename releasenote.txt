@@ -5,6 +5,14 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
+7.0
+-----
+직선툴 버튼 위치 변경
+直線ツールボタンの位置を変更
+moved line tool button
+
+
+-----
 6.9
 -----
 캡쳐모드에서 파일을 저장할때 파일이름 형식뒤에 무작위 문자 대신 시간이 표시됨

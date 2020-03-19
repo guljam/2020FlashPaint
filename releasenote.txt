@@ -5,7 +5,7 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
-7.0
+7.01
 -----
 직선툴 버튼 위치 변경
 直線ツールボタンの位置を変更

@@ -4,6 +4,19 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 
 https://guljam.github.io/2020FlashPaint/
 
+
+-----
+7.1
+-----
+펜 크기 선택 박스에 pixel snap 기능 버튼 추가
+pen smoothing 범위를 6단계에서 5단계로 축소
+
+ペンサイズ選択ボックスにpixel Snap機能をボタンを追加
+pen smoothingの範囲を６から５に縮小
+
+added pixel snap function on size selection box
+reduced pen smoothing range from 6 to 5
+
 -----
 7.01
 -----

@@ -6,6 +6,15 @@ https://guljam.github.io/2020FlashPaint/
 
 
 -----
+7.13
+-----
+직선툴 선택시 직선툴 위치에 지우개 아이콘이 표시됨
+
+直線ツールを選択したとき、その位置に消しゴムボタンが現れます。
+
+mini-erase icon appears, when select line tool (or erase-line tool)
+
+-----
 7.1
 -----
 펜 크기 선택 박스에 pixel snap 기능 버튼 추가

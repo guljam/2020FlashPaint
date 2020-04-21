@@ -24,7 +24,8 @@
       <a class="navLink" href="#c5">5.Reset app</a><br>
       <a class="navLink" href="#c6">6.How to use Lasso tool</a><br>
       <a class="navLink" href="#c7">7.How to change canvas size</a><br>
-      <a class="navLink" href="#c8">8.Usage example</a><p></p>
+      <a class="navLink" href="#c8">8.How to use reference layer</a><p></p>
+      <a class="navLink" href="#c9">8.Usage example</a><p></p>
       <a class="navLink" href="index.html""><- back</a><br>
     </div>
 
@@ -178,10 +179,16 @@
             <td class="tg-0pky"><kbd class="ns">Shift</kbd>+<kbd class="ns">&larr;</kbd>&nbsp; <kbd class="ns">&rarr;</kbd></td>
           </tr>
           <tr>
-            <td class="tg-0pky"><b class="tds">Load image from clip-bard</b></td>
-            <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">V</kbd></td>
-            <td class="tg-0pky"><b class="tds"></b></td>
+            <td class="tg-0pky"><b class="tds">load file to reference layer</b></td>
+            <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">Shift</kbd>+<kbd class="ns">O</kbd></td>
             <td class="tg-0pky"></td>
+            <td class="tg-0pky"></td>
+          </tr>
+          <tr>
+            <td class="tg-0pky"><b class="tds">Copy clipboard image to reference layer</b></td>
+            <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">Shift</kbd>+<kbd class="ns">V</kbd></td>
+            <td class="tg-0pky"><b class="tds">Load image from clipboard</b></td>
+            <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">V</kbd></td>
           </tr>
         </table>
 
@@ -265,9 +272,10 @@
       [3] Load<p></p>
       You can load *.png, *.gif, *.jpg and *.2020 files. You can also load file by dragging & dropping into the application window.<br>
       The maximum image size is 2000x2000 pixel. If the image to be exceeds this size, it will be forcibly resized.<br>
-      Shortcut key is Ctrl+O.<p></p>
+      Shortcut key is Ctrl+O.<br>
+      Load file to reference layer is Ctrl+Shift+O.<p></p>
 
-      [4] Load image from clip-board<p></p>
+      [4] Load image from clipboard<p></p>
       If there is copied image on clipboard, this button active. If you want load the image, click this button 2 times, or press Ctrl+V 2 times.<p></p>
 
       <img src="img/topbar.png"><p></p>
@@ -276,15 +284,16 @@
       Press this button 3 times to delete the replay-data and drawn image.<br>
       You can also press shortcut key ESC 3 times.</p>
 
-      [6] Canvas color<p></p>
+      [6] Reference layer menu ON/OFF <a href="#tracemenu">Click here to see details.</a><p></p>
+
+      [7] Tool-box ON/OFF <a href="#norightmouse">Click here to see details.</a><p></p>
+
+      [8] Canvas color<p></p>
       Change the background color of the canvas itself. <br> This set the eraser tool color the same as the background color.<p></p>
 
-      [7] Tool-box ON/OFF<p></p>
-      <a href="#norightmouse">Click here to see details.</a><p></p>
+      [9] Change menu bar color<p></p>
 
-      [8] Change menu bar color<p></p>
-
-      [9] About<p></p>
+      [10] About<p></p>
       You can see running time of this app, and my Twitter and E-Mail, and language-specific instructions are linked.<br>
       Click clock icon to reset timer.<br>
       Click "latest version" text for check update manually.<br>
@@ -294,15 +303,15 @@
 
       <img src="img/topbar.png"><p></p>
 
-      [10] Replay mode<p></p>
+      [11] Replay mode<p></p>
       Toggle replay mode / draw mode <a href="#c4">Click here to see replay-mode details.</a><p></p>
 
-      [11] Playback start/stop<p></p>
+      [12] Playback start/stop<p></p>
 
-      [12] Re-recording<p></p>
+      [13] Re-recording<p></p>
       Press this button twice to record from the beginning in the image of a specific frame.<p></p>
 
-      [13] Super-undo<p></p>
+      [14] Super-undo<p></p>
       You can undo up to 7 times in Draw Mode.<br>
       However, if you want to restore previous image, select the frame and press this button twice.<br>
       This button does not usually appear in frames that can be normal undo.<br>
@@ -368,8 +377,33 @@
         <source src="img/canvassize.mp4" type="video/mp4"/>
       </video><p></p>
 
+      <h2 id="c8">How to use reference layer</h2><hr>
+      <img src="img/reflayerimg.png"></img><br>
+      Since this application does not consider multi-layers from the design stage, it was difficult to add multi-layers functions. So I devised a reference layer　function <br>
+      The reference layer is a layer below the main-layer.it can be used for image tracing or sketch. <p></p>
+      <img src="img/tracemenu.png"></img><br>
+      Reference layer menu box appears when press the reference layer button.<p></p>
 
-      <h2 id="c8">Application usage example</h2><hr>
+      [1] Move the menu box.<p></p>
+      [2] Adjust opacity of reference layer.<p></p>
+      [3] Transfer canvas image to reference layer.<br>
+      Be careful as the contents of the reference layer will be overwritten each time you click.<br>
+      You can clean the reference layer by pressing this button twice in succession.<br>
+      After clicking, the erased main layer image can be restored using the UNDO function.<p></p>
+      
+      [4] Transfer image file to reference layer. When using the File Drag function, select the "reference layer" in two separate parts.<p></p>
+      [5] Rotate the reference layer with Click + Drag.<p></p>
+      [6] Move the reference layer with Click + Drag.<p></p>
+      [7] Transfer the image copied to ClipBoard into the reference layer.<p></p>
+      [8] Resize the reference layer with Click + Drag.<p></p>
+      [9] Horizontal Flip the reference layer.<p></p>
+
+      See the video below how to use reference layer.<p></p>
+    
+      <video controls="controls">
+        <source src="img/reflayer.mp4" type="video/mp4"/>
+      </video><p></p>
+      <h2 id="c9">Application usage example</h2><hr>
 
       <iframe width="900" height="651" src="https://www.youtube.com/embed/MpQ1U68FFuk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p></p>
 

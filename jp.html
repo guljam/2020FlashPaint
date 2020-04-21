@@ -24,7 +24,8 @@
       <a class="navLink" href="#c5">5.アプリ初期化</a><br>
       <a class="navLink" href="#c6">6.Lassoツール使い方</a><br>
       <a class="navLink" href="#c7">7.キャンバスサイズの変更</a><br>
-      <a class="navLink" href="#c8">8.アプリ使い例</a><p></p>
+      <a class="navLink" href="#c8">7.参考レイヤー使い方</a><br>
+      <a class="navLink" href="#c9">8.アプリ使い例</a><p></p>
       <a class="navLink" href="index.html"><- 戻る</a><br>
     </div>
 
@@ -176,11 +177,19 @@
           <td class="tg-0pky"><kbd class="ns">Shift</kbd>+<kbd class="ns">&larr;</kbd>&nbsp; <kbd class="ns">&rarr;</kbd></td>
         </tr>
         <tr>
-          <td class="tg-0pky"><b class="tds">Clip-boardからイメージ読み込み</b></td>
-          <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">V</kbd></td>
-          <td class="tg-0pky"><b class="tds"></b></td>
+          <td class="tg-0pky"><b class="tds">参考レイヤーにファイル読み込み</b></td>
+          <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">Shift</kbd>+<kbd class="ns">O</kbd></td>
+          <td class="tg-0pky"></td>
           <td class="tg-0pky"></td>
         </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">参考レイヤーにClip-Boardイメージをコピー</b></td>
+          <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">Shift</kbd>+<kbd class="ns">V</kbd></td>
+          <td class="tg-0pky"><b class="tds">Clip-boardからイメージ読み込み</b></td>
+          <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">V</kbd></td>
+        </tr>
+      </table>
+      
       </table>
       <p></p>
 
@@ -277,7 +286,8 @@
       [3] 読み込みボタン<p></p>
       ファイル読み込みは *.2020 ファイルとともに, *.png, *.gif, *.jpgを読み込むことができます。ファイルアイコンをアプリ窓に Drag＆Drop して読み込むこともできます。<br>
       アプリで支援する最大イメージサイズは 2000x2000で,もし読み込むイメージがこのサイズを超えた場合強制リサイズさせます。<br>
-      ショートカットキーは Ctrl+Oです。<p></p>
+      ショートカットキーは Ctrl+Oです。<br>
+      参考レイヤーに読み込みはCtrl+Shift+Oです。<p></p>
 
       [4] Clip-boardからイメージ読み込み<p></p>
       Ctrl+Cとかでコピーしたイメージがあればこのボタンが活性化します。あとこのボタンを2回押す、またはショートカットキー Ctrl+Vを２回押せばイメージを読み込むことができます。<p></p>
@@ -288,16 +298,19 @@
       このボタンを３回押すと, 筆跡データと描いたイメージを消します。<br>
       ショートカットキー ESCを 3回押しても同じです。</p>
 
-      [6] キャンバス色の変更<p></p>
-      キャンバス自体の背景色を変更します。<br> 消しゴムツールの色が背景色と同じく設定されます。<p></p>
+      [6] 参考レイヤーメニューON/OFF<p></p>
+      参考レイヤーメニューをON/OFFします。詳しい説明は<a href="#tracemenu">ここです。</a><p></p>
 
       [7] ツールメボックスON/OFF<p></p>
-      ツールメボックスON/OFFします。詳しい説明は<a href="#norightmouse">ここです。</a><p></p>
+      ツールメボックスをON/OFFします。詳しい説明は<a href="#norightmouse">ここです。</a><p></p>
 
-      [8] メニューバー色の変更<p></p>
+      [8] キャンバス色の変更<p></p>
+      キャンバス自体の背景色を変更します。<br> 消しゴムツールの色が背景色と同じく設定されます。<p></p>
+
+      [9] メニューバー色の変更<p></p>
       クリックするたび色を変更。<p></p>
 
-      [9] アプリの情報<p></p>
+      [10] アプリの情報<p></p>
       アプリの実行時間、私のTwitterとE-Mail, 言語別の説明書がリンクされています。<br>
       下の時計アイコンをクリックするとアプリの実行時間を初期化できます。<br>
       アプリが始まるときアップデートをチェックしています。latest versionの部分をクリックするとアップデートを手動でチェックできます。<br>
@@ -307,16 +320,16 @@
 
       <img src="img/topbar.png"><p></p>
 
-      [10]　リプレイモード<p></p>
+      [11]　リプレイモード<p></p>
       筆跡再生モード/普通お絵描きモードに変更します。リプレイモードの説明は <a href="#c4">ここです。</a><p></p>
 
-      [11] リプレイ 再生/停止<p></p>
+      [12] リプレイ 再生/停止<p></p>
 
-      [12] 再録画<p></p>
+      [13] 再録画<p></p>
       筆跡再生モードで特定のイメージで最初から録画したい場合はこのボタンを２回押したください。<br>
       今までの筆跡データを消します。<p></p>
 
-      [13] スーパーUndo<p></p>
+      [14] スーパーUndo<p></p>
       普通Draw Modeでは７回までundoできます。<br>
       しかし、リプレイモードはすべての過程が含まれているので、特定地点にUndoして書くことができます。<br><br>
       フレーム探索で描きなおしたいイメージを選択して、このボタンを2回押してください。<br>
@@ -378,7 +391,35 @@
         <source src="img/canvassize.mp4" type="video/mp4"/>
       </video><p></p>
 
-      <h2 id="c8">アプリ使い例</h2><hr>
+      <h2 id="c8">参考レイヤー使い方</h2><hr>
+      <img src="img/reflayerimg.png"></img><br>
+      このアプリは設計段階からマルチレイヤーを顧慮してないので、レイヤー機能追加が難しかったのです。なので考案したのが参考レイヤーです<br>
+      参考レイヤーは主レイヤーの下にあるレイヤーで絵のトレースや下書き用などに使えます。<p></p>
+
+      <img src="img/tracemenu.png"></img><br>
+      参考レイヤーボタンを押すとこのようなボックスが現れます。<p></p>
+
+      [1] ボックスを移動させるボタンです。<p></p>
+      [2] 参考レイヤーの透明度を調整します。<p></p>
+      [3] 現在キャンバスのイメージを参考レイヤーに移動させます。<br>
+      クリックするたび参考レイヤーの内容が上書きされるので、気をつけてください。<br>
+      このボタンを２回連続押せば、参考レイヤーを掃除することができます。<br>
+      クリックの後、消された主レイヤーのイメージは取り消し(undo)機能を使って復元できます。<p></p>
+      
+      [4] イメージファイルを読み込んで、参考レイヤーにします。ファイルＤｒａｇ機能を使うときは、二つに別れた部分のreference layerを選択してください。<p></p>
+      [5] 参考レイヤーをClick+Dragで回転させます。<p></p>
+      [6] 参考レイヤーをClick+Dragで移動させます。<p></p>
+      [7] ClipBoardにコピーされたイメージを参考レイヤーに読み込みます。<p></p>
+      [8] 参考レイヤーのサイズをClick+Dragで変更します。<p></p>
+      [9] 参考レイヤーを左右反転します。<p></p>
+
+      下の動画を参考したください。<p></p>
+    
+      <video controls="controls">
+        <source src="img/reflayer.mp4" type="video/mp4"/>
+      </video><p></p>
+
+      <h2 id="c9">アプリ使い例</h2><hr>
 
       <iframe width="900" height="651" src="https://www.youtube.com/embed/MpQ1U68FFuk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p></p>
       <iframe width="900" height="651" src="https://www.youtube.com/embed/U5FL6CX7Z3Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

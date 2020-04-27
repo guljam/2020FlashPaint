@@ -5,6 +5,15 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 
+-----
+7.3
+-----
+*.2020 파일에 참고레이어의 데이터가 누락되던 버그 수정
+
+＊.２０２０ファイルに参考レイヤーのデータがないバグ修正
+
+Fixed bug that there is no reference layer data in the *.2020 file.
+
 
 -----
 7.2

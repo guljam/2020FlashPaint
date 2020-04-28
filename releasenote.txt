@@ -6,13 +6,16 @@ https://guljam.github.io/2020FlashPaint/
 
 
 -----
-7.31
+7.32
 -----
 *.2020 파일에 참고레이어의 데이터가 누락되던 버그 수정
+앱 정보창에 앱 누적 실행시간 추가, 앱 초기화를 해도 리셋되지 않음
 
 ＊.２０２０ファイルに参考レイヤーのデータがないバグ修正
+アプリ情報窓にアプリ実行時間を追加、この時間はアプリをリセットしても初期化されません
 
-Fixed bug that there is no reference layer data in the *.2020 file.
+fixed bug that there is no reference layer data in the *.2020 file
+added app running time on about window
 
 
 -----
@@ -26,7 +29,7 @@ Fixed bug that there is no reference layer data in the *.2020 file.
 イメージをDrag&Dropで読み込む時、参考レイヤーに読み込むメニュー追加
 ツールボックスに閉じるボタン追加
 
-added reference-layer for tracing image, see the manual for usage.
+added reference-layer for tracing image, see the manual for usage
 added reference-layer menu when load file with Drag & Drop
 added close button on tool-boxes
 
@@ -64,7 +67,7 @@ moved line tool button
 -----
 캡쳐모드에서 파일을 저장할때 파일이름 형식뒤에 무작위 문자 대신 시간이 표시됨
 キャプチャーモードでイメージを保存する時、ファイル名前の後ろにランダム文字の変わりに現在時間で保存します。
-Changed save file name format on capture mode.
+Changed save file name format on capture mode
 
 
 -----
@@ -484,7 +487,7 @@ fixed mitor bugs on replay mode
 -----
 1.8
 -----
-펜 옵션 박스에 손떨림방지 수치 10단계로 조절할 수 있음.
+펜 옵션 박스에 손떨림방지 수치 10단계로 조절할 수 있음
 ペンオプションボックスの手ぶれ補正数値を１０段階で調節できるようにしました。
 stroke smoothing value now adjustable with 10 steps
 
@@ -527,9 +530,9 @@ fixed bug image resize function on lasso tool
 -----
 1.3
 -----
-가벼운 손떨림방지 기능 추가 펜옵션 박스 아랫쪽에 작은 동그라미 버튼을 누르세요.
+가벼운 손떨림방지 기능 추가 펜옵션 박스 아랫쪽에 작은 동그라미 버튼을 누르세요
 軽い手ぶれ補正機能を追加、ペンオプションボックスの下の小さい円ボタンをクリックしたください。
-added stroke smoothing function, check small circle button at the bottom of the pen options box.
+added stroke smoothing function, check small circle button at the bottom of the pen options box
 
 
 -----

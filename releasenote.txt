@@ -4,6 +4,14 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 
 https://guljam.github.io/2020FlashPaint/
 
+-----
+7.41
+-----
+직선툴 사용시 각도가 표시됨.
+
+直線ツールを使うとき角度が表示されるようにしました。
+
+added angle information when using line tool
 
 -----
 7.33

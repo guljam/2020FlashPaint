@@ -5,6 +5,24 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
+8.0
+-----
+UI변경
+UI색깔추가
+**툴박스 조작이 변경됨. 메뉴얼 참조.
+기타 버그 수정
+
+UI変更
+UIカラー追加
+**ツールボックスの操作方法がだいぶ変わっています。説明書を参考してください。
+細かいバス修正
+
+changed UI
+added UI colors
+**Tool box control method has been changed, see menual
+Fixed minor bugs
+
+-----
 7.5
 -----
 격자 표시 기능 추가

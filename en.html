@@ -1,15 +1,15 @@
-\<html lang="en">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>FOFO PAINT Manual</title>
+  <title>FOFO PAINT 설명서</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <div id="mother">
   <div id="title">
-    FOFO PAINT Manual
+    FOFO PAINT 설명서
   </div>
 
   <div id="content">
@@ -18,331 +18,319 @@
       <!-- <img src="img/iconimage.jpg"><p></p> -->
       <a class="navLink" href="#c0">0.Wacom driver settings</a><br>
       <a class="navLink" href="#c1">1.How to select tools</a><br>
-      <a class="navLink" href="#c2">2.Pen options</a><br>
-      <a class="navLink" href="#c3">3.Menu buttons</a><br>
-      <a class="navLink" href="#c4">4.Replay mode</a><br>
-      <a class="navLink" href="#c5">5.Reset app</a><br>
-      <a class="navLink" href="#c6">6.How to use Lasso tool</a><br>
-      <a class="navLink" href="#c7">7.How to change canvas size</a><br>
-      <a class="navLink" href="#c8">8.How to use reference layer</a><p></p>
-      <a class="navLink" href="#c9">8.Usage example</a><p></p>
-      <a class="navLink" href="index.html""><- back</a><br>
+      <a class="navLink" href="#shortcut">2.Shortcut keys</a><br>
+      <a class="navLink" href="#c2">3.Pen options</a><br>
+      <a class="navLink" href="#c3">4.Menu buttons</a><br>
+      <a class="navLink" href="#c4">5.Replay mode</a><br>
+      <a class="navLink" href="#c5">6.Reset app</a><br>
+      <a class="navLink" href="#c6">7.How to use Lasso tool</a><br>
+      <a class="navLink" href="#c7">8.How to change canvas size</a><br>
+      <a class="navLink" href="#c8">9.How to use reference layer</a><br>
+      <a class="navLink" href="#c9">10.DEMO</a><p></p>
+      <a class="navLink" href="index.html""><- Top page</a><br>
+      
     </div>
 
     <div id="rightdiv">
-      The description was listed in the most important order when using the program.<br>
-
       <h2 id="c0">Wacom driver settings</h2><hr>
       <b>Uncheck “Use Windows ink" function</b> on Wacom driver's mapping tap.<br>
       If you using non-wacom tablet. I'm not sure it is working correctly.<p></p>
+      Set the tablet pen button settings as shown below image.<br>
 
+      <img src="img/pensetting_en.png"><p></p>
 
       <h2 id="c1">How to select tools</h2><hr>
-      <h4><i>1.Select using the right mouse button</i></h4>
-      <img src="img/pensetting_en.png"><p></p>
-      Default settings for this app.
-      This is a method designed to operate quickly with one hand without using a shortcut key.<br>
-      If you don't want to use the right-click of the mouse, <a href="#norightmouse">Read the second case.</a><br>
-      First, set the tablet pen button settings as shown above image.<br>
-
-
-      <img src="img/toolmenu.png"><p></p>
       The tool box appears when you press the right mouse button and disappears when you release the right button.<br>
-      The tool box is divided into dark and bright buttons.<p></p>
-      Click the dark button and drag. It will zoom with the tool or rotate the canvas.<br>
-      If you use the zoom tool, the canvas zooms in and out around the clicked position. so move the mouse cursor at the position you want to zoom. Tool-box follows the mouse cursor.<br>
-      If you want to turn off the toolbox without selecting any tools, place the cursor on dark buttons and release the right mouse button.<p></p>
-      To select a bright button, move the cursor to the icon you want to select and release the right mouse button.<br>
-      Click and drag any bright button to move the canvas.<br>
+      Move mouse cursor to icon you want. and release right mouse button.<br>
+      To move canvas, press right mouse button + click any button and drag.<p></p>
+      The alphabet in parentheses is (right-handed shortcut, left-handed shortcut).<br>
 
-      You can adjust the size of the tool box by click+drag the dot icon.<br>
-      The pen icon and the eraser icon are activated alternately. The small line icon above the pen icon is line tool icon.<p></p>
-      When the eraser tool is selected, the straight line tool changes the "Eraser straight line tool".<p></p>
-      When using Lasso, a similar menu appears, but the usage is slightly different.<a href="#c6"> click here to see how to use lasso tool.</a><p></p>
-
-      The video below shows how to use the tool box. Watch the mouse button operation carefully.<p></p>
+      The video below shows how to use the tool box. Watch the mouse button operation.<p></p>
       <video controls="controls">
         <source src="img/toolmenu.mp4" type="video/mp4"/>
       </video><p></p>
 
-      <h4 id="norightmouse"><i>2.How to select tools without using the right mouse button</i></h4>
-      <img src="img/toolboxon.png"><p></p>
-      If you do not want to use the right mouse button, click the Tool-box ON / OFF button on the top, and the tool box will appear.<br>
-      If this is ON, you cannot use the right mouse button.<br>
-      Basically you can select a tool with a left mouse click.<br>
-      However, the operation of "Move tool" and "Rotate canvas" is Click+Drag.<br>
-      To use zoom tool, click on the icon and click desired point on the canvas and move the mouse.<br>
-      Click+Drag a small protrusion on the tool box to move the tool box.<br>
-      See video below how to use tool box without using right mouse button.<p></p>
-      <video controls="controls">
-        <source src="img/norightclick.mp4" type="video/mp4"/>
-      </video><p></p>
+      
+      <h2 id="shortcut">Shortcut keys</h2><hr>
 
-      <h4><i>3.Tool selection using shortcut keys</i></h4>
       <img src="img/shortcut.png"><p></p>
 
       Shortcut key layout. Green is for right-handed and blue is for left-handed.<br>
-      Basically it is ON when a key is pressed and OFF when it is released.<br>
-      <kbd>A</kbd>, <kbd>Z</kbd>, <kbd>X</kbd>, <kbd>F</kbd> (<kbd class="ls">K</kbd>, <kbd class="ls">M</kbd>, <kbd class="ls">,</kbd>, <kbd class="ls">G</kbd>)keys works even if you press it normally<p></p>
+      Basically it is ON when a key is pressed and OFF when it is released.<p></p>
 
       <table class="tg">
-          <tr>
-            <th class="tg-0pky"><b class="tds">Function</b></th>
-            <th class="tg-0pky"><b class="tds">Shortcut key</b></th>
-            <th class="tg-0pky"><b class="tds">Function</b></th>
-            <th class="tg-0pky"><b class="tds">Shortcut key</b></th>
-          </tr>
-          <tr>
-            <td class="tg-0pky"><b class="tds">Erase tool</b></td>
-            <td class="tg-0pky"><kbd>D</kbd> - <kbd class="ls">H</kbd></td>
-            <td class="tg-0pky"><b class="tds">Lasso tool</b></td>
-            <td class="tg-0pky"><kbd>R</kbd> - <kbd class="ls">T</kbd></td>
-          </tr>
-          <tr>
-            <td class="tg-0pky"><b class="tds">Erase-Line tool</b></td>
-            <td class="tg-0pky"><kbd class="ns">Shift</kbd>+<kbd>D</kbd> - <kbd class="ls">H</kbd></td>
-            <td class="tg-0pky"><b class="tds">Line tool</b></td>
-            <td class="tg-0pky"><kbd class="ns">Shift</kbd></td>
-          </tr>
-          <tr>
-            <td class="tg-0pky"><b class="tds">Adjust erase size</b></td>
-            <td class="tg-0pky"><kbd>D</kbd> - <kbd class="ls">H</kbd> + <kbd class="ns">F</kbd>&nbsp; <kbd class="ns">V</kbd></td>
-            <td class="tg-0pky"><b class="tds">Adjust pen size</b></td>
-            <td class="tg-0pky"><kbd class="ns">F</kbd>&nbsp; <kbd class="ns">V</kbd></td>
-          </tr>
-          <tr>
-            <td class="tg-0pky"><b class="tds">Adjust erase opacity</b></td>
-            <td class="tg-0pky"><kbd>D</kbd> - <kbd class="ls">H</kbd> + <kbd class="ns">G</kbd>&nbsp; <kbd class="ns">B</kbd></td>
-            <td class="tg-0pky"><b class="tds">Adjust pen opacity</b></td>
-            <td class="tg-0pky"><kbd class="ns">G</kbd>&nbsp; <kbd class="ns">B</kbd></td>
-          </tr>
-          <tr>
-            <td class="tg-0pky"><b class="tds">Zoom canvas</b></td>
-            <td class="tg-0pky"><kbd>W</kbd> - <kbd class="ls">U</kbd></td>
-            <td class="tg-0pky"><b class="tds">Move canvas</b></td>
-            <td class="tg-0pky"><kbd class="ns class="ns"">Space</kbd></td>
-          </tr>
-          <tr>
-            <td class="tg-0pky"><b class="tds">Flip canvas</b></td>
-            <td class="tg-0pky"><kbd>A</kbd> - <kbd class="ls">K</kbd></td>
-            <td class="tg-0pky"><b class="tds">Rotate canvas</b></td>
-            <td class="tg-0pky"><kbd>S</kbd> - <kbd class="ls">J</kbd></td>
-          </tr>
-          <tr>
-          </tr>
-          <tr>
-            <td class="tg-0pky"><b class="tds">Color picker</b></td>
-            <td class="tg-0pky"><kbd>F</kbd> - <kbd class="ls">G</kbd></td>
-            <td class="tg-0pky"><b class="tds">Move canvas image</b></td>
-            <td class="tg-0pky"><kbd>E</kbd> - <kbd class="ls">Y</kbd></td>
-          </tr>
-          <tr>
-            <td class="tg-0pky"><b class="tds">Eye-dropper tool</b></td>
-            <td class="tg-0pky"><kbd>C</kbd> - <kbd class="ls">N</kbd></td>
-            <td class="tg-0pky"></td>
-            <td class="tg-0pky"></td>
-          </tr>
-          <tr>
-            <td class="tg-0pky"><b class="tds">Undo</b></td>
-            <td class="tg-0pky"><kbd>Z</kbd> - <kbd class="ls">,</kbd></td>
-            <td class="tg-0pky"><b class="tds">Draw mode</b></td>
-              <td class="tg-0pky"><kbd>1</kbd> - <kbd class="ls">6</kbd></td>
-          </tr>
-          <tr>
-            <td class="tg-0pky"><b class="tds">Redo</b></td>
-            <td class="tg-0pky"><kbd>X</kbd> - <kbd class="ls">M</kbd></td>
-            <td class="tg-0pky"><b class="tds">Replay mode</b></td>
-            <td class="tg-0pky"><kbd>2</kbd> - <kbd class="ls">7</kbd></td>
-          </tr>
-          <tr>
-            <td class="tg-0pky"><b class="tds">Save file</b></td>
-            <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">S</kbd></td>
-            <td class="tg-0pky"><b class="tds">Playback start / stop</b></td>
-            <td class="tg-0pky"><kbd class="ns">Enter</kbd></td>
-          </tr>
-          <tr>
-            <td class="tg-0pky"><b class="tds">Save as</b></td>
-            <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">Shift</kbd>+<kbd class="ns">S</kbd></td>
-            <td class="tg-0pky"><b class="tds">Adjust playback speed</b></td>
-            <td class="tg-0pky"><kbd class="ns">&uarr;</kbd>&nbsp; <kbd class="ns">&darr;</kbd></td>
-          </tr>
-          <tr>
-            <td class="tg-0pky"><b class="tds">Capture image</b></td>
-            <td class="tg-0pky"><kbd class="ns">Alt</kbd>+<kbd class="ns">S</kbd></td>
-            <td class="tg-0pky"><b class="tds">Search frames by stroke</b></td>
-            <td class="tg-0pky"><kbd class="ns">&larr;</kbd>&nbsp; <kbd class="ns">&rarr;</kbd></td>
-          </tr>
-          <tr>
-              <td class="tg-0pky"><b class="tds">load file</b></td>
-              <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">O</kbd></td>
-            <td class="tg-0pky"><b class="tds">Search frames by 1 frame</b></td>
-            <td class="tg-0pky"><kbd class="ns">Shift</kbd>+<kbd class="ns">&larr;</kbd>&nbsp; <kbd class="ns">&rarr;</kbd></td>
-          </tr>
-          <tr>
-            <td class="tg-0pky"><b class="tds">load file to reference layer</b></td>
-            <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">Shift</kbd>+<kbd class="ns">O</kbd></td>
-            <td class="tg-0pky"></td>
-            <td class="tg-0pky"></td>
-          </tr>
-          <tr>
-            <td class="tg-0pky"><b class="tds">Copy clipboard image to reference layer</b></td>
-            <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">Shift</kbd>+<kbd class="ns">V</kbd></td>
-            <td class="tg-0pky"><b class="tds">Load image from clipboard</b></td>
-            <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">V</kbd></td>
-          </tr>
-        </table>
 
-        <p></p>
+        <tr>
+          <th class="tg-0pky"><b class="tds">Function</b></th>
+          <th class="tg-0pky"><b class="tds">Key</b></th>
+          <th class="tg-0pky"><b class="tds">Function</b></th>
+          <th class="tg-0pky"><b class="tds">key</b></th>
+        </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">Erase</b></td>
+          <td class="tg-0pky"><kbd>D</kbd> - <kbd class="ls">J</kbd></td>
+          <td class="tg-0pky"><b class="tds">Lasso tool</b></td>
+          <td class="tg-0pky"><kbd>R</kbd> - <kbd class="ls">Y</kbd></td>
+        </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">Erase-line tool</b></td>
+          <td class="tg-0pky"><kbd class="ns">Shift</kbd>+<kbd>D</kbd> - <kbd class="ls">J</kbd></td>
+          <td class="tg-0pky"><b class="tds">Line tool</b></td>
+          <td class="tg-0pky"><kbd class="ns">Shift</kbd></td>
+        </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">Adjust erase size</b></td>
+          <td class="tg-0pky"><kbd>D</kbd> + <kbd>F</kbd>, <kbd>V</kbd> - <kbd class="ls">J</kbd> + <kbd class="ls">H</kbd>, <kbd class="ls">N</kbd></td>
+          <td class="tg-0pky"><b class="tds">Adjust pen size</b></td>
+          <td class="tg-0pky"><kbd>F</kbd>, <kbd>V</kbd> - <kbd class="ls">H</kbd>, <kbd class="ls">N</kbd></td>
+        </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">Adjust erase opacity</b></td>
+          <td class="tg-0pky"><kbd>D</kbd> - <kbd class="ls">J</kbd> + <kbd class="ns">G</kbd>&nbsp; <kbd class="ns">B</kbd></td>
+          <td class="tg-0pky"><b class="tds">Adjust pen opacity</b></td>
+          <td class="tg-0pky"><kbd class="ns">G</kbd>&nbsp; <kbd class="ns">B</kbd></td>
+        </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">Zoom tool</b></td>
+          <td class="tg-0pky"><kbd>W</kbd> - <kbd class="ls">I</kbd></td>
+          <td class="tg-0pky"><b class="tds">Move canvas</b></td>
+          <td class="tg-0pky"><kbd class="ns class="ns"">Space</kbd></td>
+        </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">Flip canvas horizontal</b></td>
+          <td class="tg-0pky"><kbd>A</kbd> - <kbd class="ls">L</kbd></td>
+          <td class="tg-0pky"><b class="tds">Rotae canvas</b></td>
+          <td class="tg-0pky"><kbd>S</kbd> - <kbd class="ls">K</kbd></td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">Color picker ON/OFF</b></td>
+          <td class="tg-0pky"><kbd>Q</kbd> - <kbd class="ls">O</kbd></td>
+          <td class="tg-0pky"><b class="tds">Move image</b></td>
+          <td class="tg-0pky"><kbd>E</kbd> - <kbd class="ls">Y</kbd></td>
+        </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">Eye-dropper</b></td>
+          <td class="tg-0pky"><kbd>C</kbd> - <kbd class="ls">M</kbd></td>
+          <td class="tg-0pky"></td>
+          <td class="tg-0pky"></td>
+        </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">Undo</b></td>
+          <td class="tg-0pky"><kbd>Z</kbd> - <kbd class="ls">.</kbd></td>
+          <td class="tg-0pky"><b class="tds">Draw mode</b></td>
+            <td class="tg-0pky"><kbd>1</kbd> - <kbd class="ls">7</kbd></td>
+        </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">Redo</b></td>
+          <td class="tg-0pky"><kbd>X</kbd> - <kbd class="ls">,</kbd></td>
+          <td class="tg-0pky"><b class="tds">Replay mode</b></td>
+          <td class="tg-0pky"><kbd>2</kbd> - <kbd class="ls">8</kbd></td>
+        </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">Save</b></td>
+          <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">S</kbd></td>
+          <td class="tg-0pky"><b class="tds">Playback start/stop</b></td>
+          <td class="tg-0pky"><kbd class="ns">Enter</kbd></td>
+        </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">Save as..</b></td>
+          <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">Shift</kbd>+<kbd class="ns">S</kbd></td>
+          <td class="tg-0pky"><b class="tds">Adjust playback speed</b></td>
+          <td class="tg-0pky"><kbd class="ns">&uarr;</kbd>&nbsp; <kbd class="ns">&darr;</kbd></td>
+        </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">Capture mode</b></td>
+          <td class="tg-0pky"><kbd class="ns">Alt</kbd>+<kbd class="ns">S</kbd></td>
+          <td class="tg-0pky"><b class="tds">Search frames by stroke</b></td>
+          <td class="tg-0pky"><kbd class="ns">&larr;</kbd>&nbsp; <kbd class="ns">&rarr;</kbd></td>
+        </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">파일 불러오기</b></td>
+          <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">O</kbd></td>
+          <td class="tg-0pky"><b class="tds">Search frames by 1 frame</b></td>
+          <td class="tg-0pky"><kbd class="ns">Shift</kbd>+<kbd class="ns">&larr;</kbd>&nbsp; <kbd class="ns">&rarr;</kbd></td>
+        </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">load file to reference layer</b></td>
+          <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">Shift</kbd>+<kbd class="ns">O</kbd></td>
+          <td class="tg-0pky"></td>
+          <td class="tg-0pky"></td>
+        </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">Copy clipboard image to reference layer</b></td>
+          <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">Shift</kbd>+<kbd class="ns">V</kbd></td>
+          <td class="tg-0pky"><b class="tds">Load image from clipboard</b></td>
+          <td class="tg-0pky"><kbd class="ns">Ctrl</kbd>+<kbd class="ns">V</kbd></td>
+        </tr>
+      </table>
+      <p></p>
 
-        Shortcut kes on capture mode<p></p>
-        <table class="tg">
-          <tr>
-            <td class="tg-0pky"><b class="tds">Save full image</b></td>
-            <td class="tg-0pky"><kbd class="ns">Alt</kbd>+<kbd class="ns">S</kbd></td>
-          </tr>
-          <tr>
-            <td class="tg-0pky"><b class="tds">Rotate image</b></td>
-            <td class="tg-0pky"><kbd class="ns">S</kbd></td>
-          </tr>
-          <tr>
-            <td class="tg-0pky"><b class="tds">Flip image</b></td>
-            <td class="tg-0pky"><kbd class="ns">A</kbd></td>
-          </tr>
-          <tr>
-            <td class="tg-0pky"><b class="tds">Exit capture mode</b></td>
-            <td class="tg-0pky"><kbd class="ns">ESC</kbd></td>
-          </tr>
-        </table>
+      Shortcut kes on capture mode<p></p>
+      <table class="tg">
+        <tr>
+          <td class="tg-0pky"><b class="tds">Save full image</b></td>
+          <td class="tg-0pky"><kbd class="ns">Alt</kbd>+<kbd class="ns">S</kbd></td>
+        </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">Rotate image</b></td>
+          <td class="tg-0pky"><kbd class="ns">S</kbd></td>
+        </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">Flip image</b></td>
+          <td class="tg-0pky"><kbd class="ns">A</kbd></td>
+        </tr>
+        <tr>
+          <td class="tg-0pky"><b class="tds">Exit capture mode</b></td>
+          <td class="tg-0pky"><kbd class="ns">ESC</kbd></td>
+        </tr>
+      </table>
 
-        <p></p>
+      <p></p>
 
       <h2 id="c2">Pen options</h2><hr>
-      <img src="img/pbox.png"><p></p>
-      Bright box is adjust pen size, dark box is adjust pen color.<br>
-      The option window just appear when hovering the mouse cursor on the box. and the option window disappears when the mouse cursor leaves the window.<br>
-      To move the box, Click+drag the empty area. To close option, window press ESC or press right mouse button.<p></p>
+      <img src="img/penlist.png"><p></p>
+
+      1: Open pen options, Also mouse right-click can close pen options window.<p></p>
+
+      <img src="img/penoption.png"><p></p>
+      -1-: Pen preset box。Mouse Right-click(ctrl+click) to save the current pen size, transparency and shape.<br>
+      -2-: Pen smoothing<br>
+      -3-: Pixel line ON/OFF, If it is turned ON, lines becomes little sharper.<br>
+      ---------------<p></p>
+
+      2: Pen shape<br>
+      3: Pen size<br>
+      4: Pen opacity<br>
+      5: Color picker, mouse Right-click or click outside the window to close it. Right-click on the color history section at the bottom to add the current color.<br>
+      6: Canvas background color, Usage is same as 5.<br>
+      * Eraser and pen (line) size and transparency data are managed separately.<p></p>
+      ---------------<p></p>
 
       <img src="img/penlist.png"><p></p>
-      1: Change pen shape<br>
-      2: Pixel-snap ON/OFF. If set ON, line feeling becomes little sharp.<br>
-      3: Adjust Stroke Smoothing <br>
-      4: Pen seting preset box. Click right mouse button or Ctrl+Click to add new pen setting presets<br>
-      5: Pen size list<br>
-      6: Adjust opacity<p></p>
 
+      -1-: Selected color<br>
+      -2-: Current color, Click this button to reset selected color.<br>
+      -3-: Drawr color preset<br>
+      -4-: Color history,　Mouse right click(ctrl+click) to add selected color to color history. <p></p>
 
+      <h2 id="c3">Menu Buttons</h2><hr>
+      
       <img src="img/pickerbox.png"><p></p>
-      1: Select color sets<br>
-      2: Selected color<br>
-      3: Current color, Click to reset selected color box<br>
-      4: Color history, Ctrl+Click to add color manually<br>
-      5: Color picker<br>
-      6: Adjust opacity<p></p>
+      The menu buttons appears when you move your cursor over the app info bar located at the bottom or top of the app window.<br>
 
-      <img src="img/colormixer.png"><p></p>
-      This is the "Drawr" color set that appears when the "a" icon is selected.<br>
-      When you select a color, mix the color into the gradient in the box below.<p></p>
-      See the video below how to use pen options box.<p></p>
+      ---------------<p></p>
 
-      <video controls="controls">
-        <source src="img/pbox.mp4" type="video/mp4"/>
-      </video><p></p>
-      <h2 id="c3">Menu buttons</h2><hr>
 
       <img src="img/topbar.png"><p></p>
-      [1] Save<br>
-      This button saves an image. Check the file path and name only at the beginning. After that, it automatically writes to the same file.<br>
+
+      [1] Replay Mode<p></p>
+      Toggle Replay Mode - Draw mode <a href="#c4">Click here to see replay-mode details.</a><p></p>
+
+      [2] Capture Mode<p></p>
+      Use this button when you want to save only part of the image or to save the image being drawn in replay mode. <br>
+      If you drag the area you want to save, the {file name_date_time.png} is saved. <br>
+
+      <img src="img/capturebar.png"><p></p>
+
+      -1- Exit capture mode <br>
+      -2- Save full image <br>
+      -3- Rotate image <br>
+      -4- Flip image horizontal <br>
+      -5- Remove / restore captured image background color <p> </ p>
+
+      [3] Save <br>
+      This button saves an image. It checks the file path and name only at the first time. After that, it automatically writes to the same file.<br>
       If you want to save as new file, please click this button for a long time.<br>
       Two files are saved: "*.png" file and "*.2020" file. "*.2020" file contains original image data with transparent background and replay-data. So usually it is recommended to work with * .2020 files.<br>
       This is a rare case the file is in use by another app, you cannot save it, so app trying save as new name with “FileName_new.png”.<p></p>
       Shortcut key is Ctrl+S, and Save As is Shift+Ctrl+S.<p></p>
 
-      [1] Capture image<br>
-      Use this if you want to save only *.png file, or save the image being drawn in replay mode.
-      Click this button and draw the area you want to capture with Click+Drag. It will be saved as '[FileName]_[Date]_[Time].png'.<br>
-      The Shortcut Key is Alt+S, see the video how to use.<p></p>
-      <img src="img/capturebar.png"><p></p>
+      <img src="img/topbar.png"><p></p>
 
-      (1):Close capture mode<br>
-      (2):Save full image<br>
-      (3):Rotate capture image<br>
-      (4):Flip horizontal capture image<br>
-      (5):Remove canvas background color<p></p>
-
-      [3] Load<p></p>
+      [4] Load<p></p>
       You can load *.png, *.gif, *.jpg and *.2020 files. You can also load file by drag & drop into the application window.<br>
       The maximum image size is 2000x2000 pixel. If the image to be exceeds this size, it will be forcibly resized.<br>
       Shortcut key is Ctrl+O.<br>
       Load file to reference layer is Ctrl+Shift+O.<p></p>
 
-      [4] Load image from clipboard<p></p>
-      If there is copied image on clipboard, this button active. If you want load the image, click this button 2 times, or press Ctrl+V 2 times.<p></p>
+      [5] Load image from clipboard<p></p>
+      If there is copied image on clipboard, this button will active.  Click this button 2 times, or press Ctrl+V 2 times to load from clipbaord<p></p>
 
-      <img src="img/topbar.png"><p></p>
 
-      [5] Delete all data<p></p>
+      [6] Delete all data <br>
       Press this button 3 times to delete the replay-data and drawn image.<br>
       You can also press shortcut key ESC 3 times.</p>
 
-      [6] Reference layer menu ON/OFF <a href="#tracemenu">Click here to see details.</a><p></p>
-
-      [7] Tool-box ON/OFF <a href="#norightmouse">Click here to see details.</a><p></p>
-
-      [8] Canvas color<p></p>
-      Change the background color of the canvas itself. <br> This set the eraser tool color the same as the background color.<p></p>
-
-      [9] Change menu bar color<p></p>
-
-      [10] About<p></p>
-      You can see running time of this app, and my Twitter and E-Mail, and language-specific instructions are linked.<br>
-      Click clock icon to reset timer.<br>
-      Click "latest version" text for check update manually.<br>
-      If new version released, about window will automatically open.<br>
-      Bottom side of window, "Used memory" increases as you draw more complex images as the canvas size increases.<br>
-      "Cached image" is the total size of images created to improve performance when frame search on replay mode. The more you draw, the larger the size.<p></p>
-
+      [7] Tool-box ON/OFF <br>
+      Normal click to selct tools, Otherwise, it is the same as how to use the toolbox above.<br>
+      Shortcut is Q, O<p></p>
+      
       <img src="img/topbar.png"><p></p>
 
-      [11] Replay mode<p></p>
-      Toggle replay mode / draw mode <a href="#c4">Click here to see replay-mode details.</a><p></p>
+      [8] Grid ON/OFF <br>
+      The grid size changes or turns off with every click.<p></p>
 
-      [12] Playback start/stop<p></p>
+      [9] Swap menu bar position<br>
+      The menu position changes up and down.<p></p>
 
-      [13] Re-recording<p></p>
-      Press this button twice to record from the beginning in the image of a specific frame.<p></p>
+      [10] Change UI color<br>
+      The color changes each time you click.<p></p>
 
-      [14] Super-undo<p></p>
-      You can undo up to 7 times in Draw Mode.<br>
-      However, if you want to restore previous image, select the frame and press this button twice.<br>
-      This button does not usually appear in frames that can be normal undo.<br>
-      There is a gray dividing line in the frame search bar. This button appears only for frames smaller than that line.<br>
-      See How to use Super-Undo function.<p></p>
+      [11] About<br>
+      There is manual links and the total app running time.<p></p>
+      
+      <img src="img/topbar.png"><p></p>
+      
+
+      <h2 id="c4">Replay Mode</h2><hr>
+      You to see the work process again. Video conversion such as mp4 is not supported.<p></p>
+      
+      <img src="img/topbar2.png"><p></p>
+
+      [1] Capture Mode<br>
+      Same as the capture mode described above, but captures the currently playing image.<p></p>
+
+      [2] Playback start/stop<p></p>
+
+      [3, 4] View prev/Next scene<br>
+      When using Re-recording or Super-undo function, use it to move to the desired frame. <br>
+      Click to search frame by stroke unit. Right-click (or Shift+click) to search by 1 frames. <br>
+      The search speed may be slower when searching the previous frame. <p></p>
+
+      [5] Re-recording<br>
+      If you want to re-record from specific image in replay mode, press this button twice.<p></p>
+
+      [6] Super-undo<br>
+      In drawing mode, undo is up to 7 times, but in replay mode it contains all the process.<br>
+      so it is possible to redraw after reverting from a certain point. Note that the data is erased after execution.<br>
+      After moving to the desired frame, press this button twice.<br>
+      This button is disabled in the section where Undo is possible in the drawing mode.<br>
+      There is a gray dividing line in the frame navigation bar, and it must be a frame smaller than that line to activate this button.<br>
+      <img src="img/superundo.png"></img><p></p>
+
+
+      <img src="img/replaymenu.png"></img><p></p>
+      How to use the tool is the same as the tool selection method described above.<br>
+
+      [1] Canvas zoom<p></p>
+
+      [2] Canvas rotate<p></p>
+
+      [3] Canvas auto-scroll<br>
+      When it is ON, the word "AUTO" appears on the icon. <br>
+      This function automatically moves the canvas to show the drawing position.<p></p>
+
+      [4] Adjust replay speed<p></p>
+      When selected, an adjustment bar appears.<br>
+      Information such as "x3 (34 sec)" means that it takes 34 seconds to play everything when played at 3x speed.<p></p>
+  
+      See the video below how to use replay Mode <p></p>
 
       <video controls="controls">
-        <source src="img/superundo.mp4" type="video/mp4"/>
+        <source src="img/replay.mp4" type="video/mp4"/>
       </video><p></p>
-
-      <h2 id="c4">Replay mode</h2><hr>
-      You can see see the whole process of image you drawn.<br>
-      Replay mode menu button description is <a href="#repButton">here.</a><p></p>
-
-      <img src="img/replaybar.png"></img><br>
-      Using the frame search bar, You can play it wherever you want like a normal video.<p></p>
-      However, when using features such as Super-undo, it is difficult to select the frame or image you want with this search bar.<br>
-      At that time, use the two "Next" and "Prev" buttons on the left of the search bar. You can search the frame by stroke unit.<br>
-      Shortcut keys are the left and right arrow keys. If you hold down the Shift key and use the buttons, you can search by frame.<p></p>
-      When searching for the previous frame, the image will be redrawn from the beginning, which will slow down the search performance.<p></p>
-
-      <img src="img/replaymenu.png"></img><br> The replay mode also has a tool box. Using right mouse button or Tool-box ON/OFF button <br>
-      There are 4 buttons, Canvas zoom, Canvas rotate, Change playback speed, Follow replay-cursor. Click+Drag is the basic operation for buttons but only "follow replay-cursor button" does not need drag.<br>
-      To move canvas, Click+Drag on canvas.<br>
-      The numerical value in parentheses indicates the total playback time. For example, x43 [12.6 min] means that the total playback time is 12.6 minutes when playing at 43 times speed.<br>
-      The higher the playback speed, the higher the CPU load.<p></p>
-      When the "Follow replay-cursor" button is turned ON, when the cursor moves outside the app window, it automatically moves the canvas to show the current drawing position.<br>
-
-      Shortcut key, Enter to play / stop.<br>
-      up / down arrow keys to adjust the playback speed.<p></p>
-
 
       <h2 id="c5">Reset app</h2><hr>
       Basically, every time this app starts, it restores the state when it was last closed.<br>
@@ -354,15 +342,41 @@
 
       <h2 id="c6">How to use Lasso tool</h2><hr>
       <img src="img/lassomenu.png"><p></p>
-      Select the Lasso tool button and draw the area you want to adjust on the canvas.<br>
-      If drawing area finished, Lasso tool box will appear.<br>
-      Click+Drag is basic operation. but mirror buttons does not need drag.<br>
-      You can also open tool box with a right mouse click.<br>
-      shortcut keys Enter and ESC is OK and cancel, and arrow keys move image by 1px.<br>
-      See the video below how to use lasso tool.<p></p>
+      Select the Lasso tool and draw the area you want to edit on the canvas.<br>
+
+      [1] Rotate canvas<br>
+      Click+drag to rotate canvas<p></p>
+
+      [2] Move canvas<br>
+      Click+drag to move the canvas position.<p></p>
+      
+      [3] Zoom in/out canvas<br>
+      Click+Drag zoom in/out point you want.<p></p>
+      [4] Copy image<p></p>
+
+      [5] Move Image<br>
+      Click+drag to move the image. You can also move 1 pixel with the arrow keys.<p></p>
+
+      [6] Rotate image<br>
+      Click+drag to rotate the image.<p></p>
+
+      [7] Flip image horizontal<br>
+      Each click flips the image left and right.<p></p>
+
+      [8] Resize image<br>
+      Click+drag to resize the image.<p></p>
+
+      See the video below<p></p>
 
       <video controls="controls">
         <source src="img/lassoexam.mp4" type="video/mp4"/>
+      </video><p></p>
+
+      
+      The video below is a line art trick using the Laso tool copy function.<p></p>
+
+      <video controls="controls">
+        <source src="img/trickline.mp4" type="video/mp4"/>
       </video><p></p>
 
       <h2 id="c7">How to change canvas size</h2><hr>
@@ -378,33 +392,34 @@
       </video><p></p>
 
       <h2 id="c8">How to use reference layer</h2><hr>
-      <img src="img/reflayerimg.png"></img><br>
-      Since this application does not consider multi-layers from the design stage, it was difficult to add multi-layers functions. So I devised a reference layer　function <br>
-      The reference layer is a layer below the main-layer.it can be used for image tracing or sketch. <p></p>
-      <img src="img/tracemenu.png"></img><br>
-      Reference layer menu box appears when press the reference layer button.<p></p>
+      The reference layer is the layer on the bottom of the main canvas and can be used for tracing pictures or drafting.
+      Not recorded in replay data<p></p>
 
-      [1] Move the menu box.<p></p>
-      [2] Adjust opacity of reference layer.<p></p>
-      [3] Transfer canvas image to reference layer.<br>
+      <img src="img/tracemenu.png"></img><br>
+      When you click ref. layer icon, the box above appears.<p></p>
+      
+      [1] Transfer canvas image to reference layer.<br>
       Be careful as the contents of the reference layer will be overwritten each time you click.<br>
       You can clean the reference layer by pressing this button twice in succession.<br>
       After clicking, the erased main layer image can be restored using the UNDO function.<p></p>
-      
-      [4] Transfer image file to reference layer. When using the File drag & drop function, select the "reference layer" in the submenu<p></p>
-      [5] Rotate the reference layer with Click + Drag.<p></p>
-      [6] Move the reference layer with Click + Drag.<p></p>
-      [7] Transfer the image copied to ClipBoard into the reference layer.<p></p>
-      [8] Resize the reference layer with Click + Drag.<p></p>
-      [9] Horizontal Flip the reference layer.<p></p>
+
+      [2] Transfer image file to reference layer. When using the File drag & drop function, select the "reference layer" in the submenu<p></p>
+      [3] Transfer the image copied to clipBoard into the reference layer.<p></p>
+
+      [4] Adjust opacity of reference layer..<p></p>
+
+      [5] Move the image with Click+Drag.<p></p>
+      [6] Rotate the image with Click+Drag.<p></p>
+      [7] Horizontal Flip the reference layer.<p></p>
+      [8] Resize the image with Click+Drag.<p></p>
 
       See the video below how to use reference layer.<p></p>
     
       <video controls="controls">
         <source src="img/reflayer.mp4" type="video/mp4"/>
       </video><p></p>
-      <h2 id="c9">Application usage example</h2><hr>
 
+      <h2 id="c9">DEMO</h2><hr>
       <iframe width="900" height="651" src="https://www.youtube.com/embed/MpQ1U68FFuk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p></p>
 
       <iframe width="900" height="651" src="https://www.youtube.com/embed/U5FL6CX7Z3Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

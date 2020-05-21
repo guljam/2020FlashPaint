@@ -5,7 +5,7 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
-8.0
+8.01
 -----
 UI변경
 UI색깔추가

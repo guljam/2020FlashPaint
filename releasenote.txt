@@ -5,6 +5,16 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
+8.05
+-----
+컬러 히스토리 색깔을 선택하지 못하던 버그 수정
+
+カラーヒストリの色を選択できなかったバグ修正
+
+Fixed a bug that color history color could not be selected
+
+
+-----
 8.01
 -----
 UI변경

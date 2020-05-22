@@ -5,13 +5,16 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
-8.05
+8.07
 -----
 컬러 히스토리 색깔을 선택하지 못하던 버그 수정
+Lasso툴 참고 레이어 툴박스의 위치를 조정함
 
 カラーヒストリの色を選択できなかったバグ修正
+Lassoツールと参考レイヤーツールメニューの位置を調節
 
 Fixed a bug that color history color could not be selected
+changed lasso tool and refernce toolbox position
 
 
 -----

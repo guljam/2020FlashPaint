@@ -4,6 +4,18 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 
 https://guljam.github.io/2020FlashPaint/
 
+
+-----
+8.1
+-----
+오른쪽 클릭 툴박스의 모양을 바꿈, 이 툴박스만 이전 조작으로 돌아감
+
+マウス右クリックのツールボックスの形を変更、このツールボックスだけ操作方法が元に戻りました。
+
+The shape of the Right-click mouse tool box has been changed
+and the operation method for this tool box has been restored.
+
+
 -----
 8.08
 -----

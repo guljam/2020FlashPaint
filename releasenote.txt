@@ -5,18 +5,21 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
-8.2
+8.21
 -----
 펜 투명도 단계와 손떨림 방지 단계를 4단계로 축소
 펜 프리셋 기능 지움
+리플레이에서 최고 배속으로 플레이 해도 총 플레이 시간 1분이 넘을경우, 이미지 변화만 보여주면서 플레이 시간 단축함
 기타 버그 수정
 
 ペン透明度の段階と手ブレ補正の段階を４段階に縮小
 ペンプリセット機能を消去
+リプレイモードで最高倍速でも総プレイ時間が１分を超える場合、イメージ変化だけ見せて、プレイ時間を短縮
 細かいバグ修正
 
 pen opcity and pen smoothing are reduced to 4 levels
 removed pen preset function
+If the total play time exceeds 1 minute even in maximum speed in replay mode,　only the image change is shown and the play time is shortened.
 fixed minor bugs
 
 

@@ -5,11 +5,15 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
-8.41
+8.44
 -----
+
 단축키가 제대로 입력되지 않던 버그 수정
+프로그램을 켰을때 윗쪽 막대에 마지막에 저장된 파일이름이 표시되게 수정
 ショートカットキーがうまう作動できなかったバグ修正
+アプリを起動したとき最後に上のバーに保存したファイルの名前が出るように修正
 fixed shortcut key bugs
+display last saved file name on upper bar in the app when starting the application
 
 -----
 8.3

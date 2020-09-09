@@ -5,6 +5,13 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
+8.51
+-----
+펜 옵션 UI변경
+ペンオプション窓のUI変更
+Changed pen option window UI
+
+-----
 8.44
 -----
 

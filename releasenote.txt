@@ -5,6 +5,14 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
+8.6
+-----
+UI색깔 Dark Gray색을 약간 어둡게 변경
+UI色のDark Grayの色を少し黒く変更
+UI color Dark Gray slightly darkened
+
+
+-----
 8.59
 -----
 펜 옵션 UI변경

@@ -5,7 +5,7 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
-8.61
+8.62
 -----
 UI색깔 Dark Gray색을 약간 어둡게 변경
 컬러픽커에 drawr프리셋 추가

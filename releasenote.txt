@@ -5,16 +5,19 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
-8.62
+8.64
 -----
+Fill pen 기능 추가
 UI색깔 Dark Gray색을 약간 어둡게 변경
 컬러픽커에 drawr프리셋 추가
 리플레이모드에서 작은 버그 수정
 
+Fill pen機能を追加
 UI色のDark Grayの色を少し黒く変更
 色選択の窓にDrawrのカラープリセット追加
 リプレイモードで小さいバグ修正
 
+added Fill pen function
 UI color Dark Gray slightly darkened
 Added drawr color preset on color picker
 Fixed minor bug on replay mode

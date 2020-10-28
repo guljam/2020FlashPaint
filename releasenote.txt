@@ -5,23 +5,23 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
-8.69
+8.7
 -----
-펜옵션에 Flood Fill 기능 추가, 펜툴을 선택후 컨트롤키를 누른채로 클릭
+펜옵션에 Fill pen 기능 추가, 펜툴을 선택후 컨트롤키를 누른채로 클릭
 UI색깔 Dark Gray프리셋에서 배경색을 약간 어둡게 변경
 컬러픽커에 drawr프리셋 추가
 리플레이모드에서 작은 버그 수정
 레퍼런스 이미지 회전에서 90도 스냅 기능 추가
 줌단계를 32배까지 증가
 
-ペンオプションにFloodFillを追加、ペンツールでCtrlキーを押したままクリック
+ペンオプションにFill penを追加、ペンツールでCtrlキーを押したままクリック
 UI色のDark Grayのプリセットで背景色を少し黒く変更
 色選択の窓にDrawrのカラープリセット追加
 リプレイモードで小さいバグ修正
 Reference Layerの回転で９０度づつスナップを追加
 ズームも段階を３２倍まで
 
-added Flood-fill function to Pen Options box, to use Ctrl + Click with Pen Tool
+added Fill pen function to Pen Options box, to use Ctrl + Click with Pen Tool
 UI background color of Dark Gray preset slightly darkened
 Added drawr color preset on color picker
 Fixed minor bug on replay mode

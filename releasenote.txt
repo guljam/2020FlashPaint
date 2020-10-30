@@ -5,7 +5,19 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
-8.75
+8.76
+-----
+Fill pen으로인한 cpu와 메모리 사용율이 다소 높아짐에 따라 fill pen작동방식을 바꿈
+Ctrl+V로 클립보드 이미지를 붙여 넣을때, 참고레이어로 불어올 것인지 아닌지 창을 뜨게 바꿈
+
+Fill penのせいでCPUとメモリ使用率が少し高くなるためFill　penの作動方式を変更
+Ctrl+VでClipbaordイメージを読み込むとき参考レイヤにするかどうか選ぶ窓が出るようにしました
+
+Changed the operation method of Fill pen because CPU and memory usage will be a little higher due to using fill pen
+When loading a Clipboard image with Ctrl + V, a window for selecting whether to use it as a reference layer appears.
+
+-----
+8.74
 -----
 펜옵션에 Fill pen 기능 추가, 펜툴을 선택후 컨트롤키를 누른채로 클릭
 UI색깔 Dark Gray프리셋에서 배경색을 약간 어둡게 변경

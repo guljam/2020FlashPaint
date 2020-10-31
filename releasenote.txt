@@ -5,7 +5,7 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
-8.76
+8.77
 -----
 Fill pen으로인한 cpu와 메모리 사용율이 다소 높아짐에 따라 fill pen작동방식을 바꿈
 Ctrl+V로 클립보드 이미지를 붙여 넣을때, 참고레이어로 불어올 것인지 아닌지 창을 뜨게 바꿈

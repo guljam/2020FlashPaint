@@ -5,7 +5,7 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
-8.83
+8.84
 -----
 Fill pen단축키를 Ctrl에서 Alt키로 바꿈
 Fill pen으로인한 cpu와 메모리 사용율이 다소 높아짐에 따라 fill pen작동방식을 바꿈

@@ -5,6 +5,16 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
+8.9
+-----
+펜 모양이 사각형일때 선이 거칠게 나오는 현상 해결
+
+Penの形が四角であるとき線が粗く書く現象を修正
+
+fixed the phenomenon of rough lines when the pen shape is square
+
+
+-----
 8.89
 -----
 Fill pen단축키를 Ctrl에서 Alt키로 바꿈

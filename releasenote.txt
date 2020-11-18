@@ -5,16 +5,19 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
-8.95
+8.96
 -----
 펜 모양이 사각형일때 선이 거칠게 나오는 현상 해결
 참고레이어 이미지가 앱을 재시작할때 깨지는 버그 수정
+리플레이모드에서 fillpen을 재생할때 작은 버그 수정
 
 Penの形が四角であるとき線が粗く書く現象を修正
 参考レイヤのイメージがアプリを再起動する時変になるバグ修正
+リプレイモードでFillpenを再生するとき起こる細かいバグ修正
 
 Fixed the phenomenon of rough lines when the pen shape is square
 Fixed a bug that the image of the reference layer becomes strange when restarting the application
+Fixed minor bug that occur when playing Fillpen in replay mode
 
 -----
 8.89

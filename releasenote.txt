@@ -5,7 +5,7 @@ Visit FOFO Paint main page and download the file when auto-install failed or app
 https://guljam.github.io/2020FlashPaint/
 
 -----
-8.94
+8.95
 -----
 펜 모양이 사각형일때 선이 거칠게 나오는 현상 해결
 참고레이어 이미지가 앱을 재시작할때 깨지는 버그 수정

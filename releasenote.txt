@@ -8,12 +8,15 @@ https://guljam.github.io/2020FlashPaint/
 9.0
 -----
 
+참고레이어에서 이미지를 불러올때 이미지가 캔버스 크기보다 크면 자동으로 리사이즈 하도록 변경
 리플레이모드에서 fillpen을 재생할때 작은 버그 수정
 UI관련 작은 버그 수정
 
+参考レイヤでイメージを読み込む時イメージがキャンバスのサイズより大きいと自動でサイズを調節するように変更
 リプレイモードでFillpenを再生するとき起こる細かいバグ修正
 UI関連細かいバグ修正
 
+Changed to automatically adjust the size when the image is larger than the canvas size when loading the image in the reference layer
 Fixed minor bug that occur when playing Fillpen in replay mode
 Fixed minor bug that UI related
 

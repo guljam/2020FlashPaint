@@ -5,19 +5,22 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-9.01
+9.02
 -----
 
+2020파일의 재생 데이터 불러오는 방식 변경 (처음부터 불러옴 -> 리플레이 모드로 변경했을 때)
 펜/지우개 좌표 처리 관련 업데이트
 참고레이어에서 이미지를 불러올때 이미지가 캔버스 크기보다 크면 자동으로 리사이즈 하도록 변경
-리플레이모드에서 fillpen을 재생할때 작은 버그 수정
+리플레이 모드에서 fillpen을 재생할때 작은 버그 수정
 UI관련 작은 버그 수정
 
+＊．２０２０ファイルの筆跡データの読み込む方式を変更  (最初から読み込む -> リプレイモードに変更した時)
 ペン/消しゴム座標処理の関連アップデート
 参考レイヤでイメージを読み込む時イメージがキャンバスのサイズより大きいと自動でサイズを調節するように変更
 リプレイモードでFillpenを再生するとき起こる細かいバグ修正
 UI関連細かいバグ修正
 
+Changed the method of reading replay data of *.2020 file (Read from first-> When changing to replay mode)
 Related updates for pen / eraser coordinate processing
 Changed to automatically adjust the size when the image is larger than the canvas size when loading the image in the reference layer
 Fixed minor bug that occur when playing Fillpen in replay mode

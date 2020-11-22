@@ -5,7 +5,7 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-9.05
+9.06
 -----
 
 2020파일의 재생 데이터 불러오는 방식 변경 (처음부터 불러옴 -> 리플레이 모드로 변경했을 때)

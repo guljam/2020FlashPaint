@@ -5,7 +5,7 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-9.09
+9.10
 -----
 
 "transfer to reference layer"버튼을 2번 눌러야 작동되게 바꿈

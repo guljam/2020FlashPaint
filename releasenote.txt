@@ -5,9 +5,10 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-9.12
+9.13
 -----
 
+툴 박스들의 윤곽선을 동그랗게 함
 "transfer to reference layer"와 "paste image from clipboard" 버튼은 2번 눌러야 작동되게 바꿈
 2020파일의 재생 데이터 불러오는 방식 변경 (처음부터 불러옴 -> 리플레이 모드로 변경했을 때)
 펜/지우개 좌표 처리 관련 업데이트
@@ -15,6 +16,7 @@ https://guljam.github.io/2020FlashPaint/
 리플레이 모드에서 fillpen을 재생할때 작은 버그 수정
 UI관련 작은 버그 수정
 
+ツールボックスの輪郭を丸くしました
 "transfer to reference layer"と"paste image from clipboard"ボタンは２回押せば作動するように変更
 ＊．２０２０ファイルの筆跡データの読み込む方式を変更  (最初から読み込む -> リプレイモードに変更した時)
 ペン/消しゴム座標処理の関連アップデート
@@ -22,6 +24,7 @@ UI관련 작은 버그 수정
 リプレイモードでFillpenを再生するとき起こる細かいバグ修正
 UI関連細かいバグ修正
 
+Rounded the outline of the toolbox
 Changed to work "transfer to reference layer" & "paste image from clipboard" buttons what only when the button is pressed twice
 Changed the method of reading replay data of *.2020 file (Read from first-> When changing to replay mode)
 Related updates for pen / eraser coordinate processing

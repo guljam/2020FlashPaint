@@ -5,9 +5,10 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-9.16
+9.17
 -----
 
+색 선택창에서 색 미리보기 방식 변경
 펜사이즈 버그 수정
 툴 박스들의 윤곽선을 동그랗게 함
 "transfer to reference layer"와 "paste image from clipboard" 버튼은 2번 눌러야 작동되게 바꿈
@@ -17,6 +18,7 @@ https://guljam.github.io/2020FlashPaint/
 리플레이 모드에서 fillpen을 재생할때 작은 버그 수정
 UI관련 작은 버그 수정
 
+色選択の窓の色プレビュー方式を変更
 ペンサイズのバグ修正
 ツールボックスの輪郭を丸くしました
 "transfer to reference layer"と"paste image from clipboard"ボタンは２回押せば作動するように変更
@@ -26,6 +28,7 @@ UI관련 작은 버그 수정
 リプレイモードでFillpenを再生するとき起こる細かいバグ修正
 UI関連細かいバグ修正
 
+Changed the color preview method of the color picker window
 Fixed pen size bug
 Rounded the outline of the toolbox
 Changed to work "transfer to reference layer" & "paste image from clipboard" buttons what only when the button is pressed twice

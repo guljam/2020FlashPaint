@@ -10,18 +10,24 @@ https://guljam.github.io/2020FlashPaint/
 사각형펜의 처리를 방식을 변경
 Fill pen옵션을 툴 버튼으로 변경
 Fill pen단축키를 V, N로 변경
+참고레이어 단축키를 R로 변경
+펜 크기조절, 투명도 조절키를 없앰
 오른쪽 클릭 툴 박스에서 직선 지우개 버튼 삭제 (단축키, 툴 박스에서 사용가능)
 펜 옵션창은 기본적으로 보이지 않도록 변경(단축키를 이용하거나, 앱 메뉴에서 toolbox on버튼을 이용)
 
 四角ペンの処理方式を変更
 Fill　penオプションをツールボタンに変更
 Fill penのショートカットキーをQ, Oに変更
+参考レイヤーのショートカットキーをRに変更
+ペンサイズ、透明度の調節キーを消しました
 右クリックのツールボックスで直線消しゴム消去（ショートカットきー、ツールボックスで使用可能）
 ペンオプション窓は基本的に見えないように変更（ショートカットキーを利用、もしやメニューでTool-box ONボタンをクリック）
 
 Changed the processing method of the square pen
 Change the fill pen shortcut key to Q, O
 Fill pen option changed to tool button
+Change the shortcut key of the reference layer to R
+Deleted the pen size and opacity adjustment keys
 Delete line-eraser button from right-click toolbox (Still available in tool-box and shortcut key)
 Change the pen option window so that it is basically invisible (To open window, use shortcut keys, click the Tool-box ON button in the menu)
 

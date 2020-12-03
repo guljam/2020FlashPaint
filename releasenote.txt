@@ -5,8 +5,9 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-9.41
+9.42
 -----
+라소툴 버그 수정
 사각형펜의 처리를 방식을 변경
 Fill pen옵션을 툴 버튼으로 변경
 오른쪽 클릭 툴 박스에서 직선 지우개 버튼 삭제 (단축키, 툴 박스에서 사용가능)
@@ -17,6 +18,7 @@ Fill pen옵션을 툴 버튼으로 변경
 Fill pen단축키를 t로 변경
 색 선택기 창 단축키를 T로 변경
 
+Lassoツールバグ修正
 四角ペンの処理方式を変更
 Fill　penオプションをツールボタンに変更
 右クリックのツールボックスで直線消しゴム消去（ショートカットきー、ツールボックスで使用可能）
@@ -27,6 +29,7 @@ Fill　penオプションをツールボタンに変更
 Fill penのショートカットキーをQ, Oに変更
 色選択の窓のショートカットキーをTに変更
 
+Fixed lasso tool bug
 Changed the processing method of the square pen
 Fill pen option changed to tool button
 Deleted line-eraser button from right-click toolbox (Still available in tool-box and shortcut key)

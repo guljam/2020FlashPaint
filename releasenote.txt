@@ -6,6 +6,15 @@ https://guljam.github.io/2020FlashPaint/
 
 
 -----
+9.47
+-----
+펜 옵션 박스를 기본적으로 윤곽선만 보이도록 함
+
+ペンオプション窓を基本的に輪郭線だけ見えるようにしました
+
+Makes the pen options box visible only the outline by default
+
+-----
 9.46
 -----
 색 선택기 성능 개선

@@ -6,7 +6,7 @@ https://guljam.github.io/2020FlashPaint/
 
 
 -----
-9.49
+9.5
 -----
 펜 옵션의 pixel line옵션 명칭을 sharp line으로 바꿈
 펜 옵션 박스를 기본적으로 윤곽선만 보이도록 함

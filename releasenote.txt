@@ -6,7 +6,7 @@ https://guljam.github.io/2020FlashPaint/
 
 
 -----
-9.47
+9.48
 -----
 펜 옵션 박스를 기본적으로 윤곽선만 보이도록 함
 

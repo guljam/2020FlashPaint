@@ -6,20 +6,23 @@ https://guljam.github.io/2020FlashPaint/
 
 
 -----
-9.53
+9.54
 -----
+리플레이 모드에서 리플레이 파일의 앞부분을 자르는 기능 추가 (메뉴얼 참고)
 캔버스 조절 버그 수정
 참고레이어에 외부 이미지를 붙여 넣을시 최대 사이즈가 1000px를 넝지 않도록 함 (성능 저하 방지)
 캔버스 이동 회전 줌을 할때 참고 레이어 이미지가 보이지 않도록 수정 (성능 저하 방지)
 펜 옵션의 pixel line옵션 명칭을 sharp line으로 바꿈
 펜 옵션 박스를 기본적으로 윤곽선만 보이도록 함
 
+リプレイモードでリプレイデータの前の部分をカットできる機能追加（説明書を参考してください）
 キャンバスサイズ変更バグ修正
 参考レイヤーに外部画像を読み込む時、最大サイズが1000pxを超えないようにしました（パフォーマンスの低下を防ぐ）
 キャンバスの移動、回転、ズームをする時、参考レイヤーが見えないように変更（パフォーマンスの低下を防ぐ）
 ペンオプション窓を基本的に輪郭線だけ見えるようにしました
 ペンのオプションのpixel lineオプションの名称をsharp lineに変更
 
+Added a function to cut the previous part of the replay data in replay mode (check the manual)
 Fixed canvas resizing bug
 When loading an external image into the reference layer, the maximum size does not exceed 1000px (for performance)
 Reference layer to be invisible when moving, rotating, and zooming the canvas (for performance)

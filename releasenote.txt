@@ -22,7 +22,7 @@ https://guljam.github.io/2020FlashPaint/
 ペンオプション窓を基本的に輪郭線だけ見えるようにしました
 ペンのオプションのpixel lineオプションの名称をsharp lineに変更
 
-Added a function to cut the previous part of the replay data in replay mode (check the manual)
+Added a function 'delete the previous part of the replay data' in replay mode (check the manual)
 Fixed canvas resizing bug
 When loading an external image into the reference layer, the maximum size does not exceed 1000px (for performance)
 Reference layer to be invisible when moving, rotating, and zooming the canvas (for performance)

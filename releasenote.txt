@@ -6,7 +6,7 @@ https://guljam.github.io/2020FlashPaint/
 
 
 -----
-9.7
+9.71
 -----
 
 리플레이에서 캔버스 대칭 데이터 관련 버그 수정

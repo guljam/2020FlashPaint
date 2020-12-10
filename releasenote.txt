@@ -6,7 +6,7 @@ https://guljam.github.io/2020FlashPaint/
 
 
 -----
-9.64
+9.65
 -----
 
 리플레이 데이터 조작 관련 버그 수정 및 개선

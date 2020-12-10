@@ -6,15 +6,18 @@ https://guljam.github.io/2020FlashPaint/
 
 
 -----
-9.68
+9.7
 -----
 
+리플레이에서 캔버스 대칭 데이터 관련 버그 수정
 리플레이 기능 관련 버그 수정 및 개선
 펜 옵션박스에서 마우스 오른쪽 클릭을 하면 일시적으로 사라지게 함
 
+リプレイでキャンバス左右反転関連バグ修正
 リプレイ機能関連のバグ修正と改善
 ペンオプション窓にマウス右クリックすると一時的に消えるようにしました。
 
+Fixed bugs related to flip canvas function in replay
 Bug fixes and improvements related to replay-mode functions
 Right-click on the pen option window to make it disappear temporarily.
 

@@ -6,16 +6,16 @@ https://guljam.github.io/2020FlashPaint/
 
 
 -----
-9.65
+9.66
 -----
 
-리플레이 데이터 조작 관련 버그 수정 및 개선
+리플레이 기능 관련 버그 수정 및 개선
 펜 옵션박스에서 마우스 오른쪽 클릭을 하면 일시적으로 사라지게 함
 
-リプレイデータ操作関連のバグ修正と改善
+リプレイ機能関連のバグ修正と改善
 ペンオプション窓にマウス右クリックすると一時的に消えるようにしました。
 
-Bug fixes and improvements related to replay data manipulation
+Bug fixes and improvements related to replay-mode functions
 Right-click on the pen option window to make it disappear temporarily.
 
 -----

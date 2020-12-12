@@ -6,7 +6,7 @@ https://guljam.github.io/2020FlashPaint/
 
 
 -----
-9.76
+9.77
 -----
 
 파일 저장관련 버그 수정

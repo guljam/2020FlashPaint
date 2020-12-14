@@ -6,6 +6,17 @@ https://guljam.github.io/2020FlashPaint/
 
 
 -----
+9.8
+-----
+
+펜 옵션 박스 투명 기능 삭제
+
+ペンオプション窓が透明になる機能を消しました
+
+Removed transparent pen option box function
+
+
+-----
 9.78
 -----
 

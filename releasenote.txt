@@ -5,17 +5,17 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-9.81
+9.82
 -----
 
 투명한 펜 옵션 박스 기능 삭제
-참고레이어 메뉴에서 임시로 보이지 않기, 참고레이어 이미지 삭제 버튼 추가
+참고레이어 메뉴에서 이미지를 임시로 숨기기, 참고레이어 이미지 삭제 버튼 추가
 
 透明なペンオプション窓を消しました
 参考レイヤーメニューで一時的にイメージを隠す、イメージ消去ボタン追加
 
 Removed transparent pen option box
-Added temporary invisible button, delete reference image button on reference layer menu
+Added temporary hide image button, delete reference image button on reference layer menu
 
 
 -----

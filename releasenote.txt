@@ -5,18 +5,23 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-9.84
+9.85
 -----
 
 투명한 펜 옵션 박스 기능 삭제
 참고레이어 메뉴에서 기억력 훈련, 참고레이어 이미지 삭제 버튼 추가
+리플레이 모드에서 이전장면보기 기능 사용시 성능 개선 (메모리를 조금 더 사용함)
+앱 정보막대에서 메모리 정보를 없앰
 
 透明なペンオプション窓を消しました
 参考レイヤーメニューで一記憶トレニング、イメージ消去ボタン追加
+リプレイモードで前のシーンを見る機能使用時、パフォーマンスを改善（メモリをもう少し使用）
+アプリ情報バーでメモリ使用率を消しました。
 
 Removed transparent pen option box
 Added memory training button, delete reference image button on reference layer menu
-
+Improved performance (uses a little more memory) when using the previous scene function in replay mode
+Deleted memory usage in the app info bar.
 
 -----
 9.78

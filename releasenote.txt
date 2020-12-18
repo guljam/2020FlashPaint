@@ -5,7 +5,7 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-9.87
+9.88
 -----
 
 투명한 펜 옵션 박스 기능 삭제
@@ -14,6 +14,7 @@ https://guljam.github.io/2020FlashPaint/
 앱 정보막대에서 메모리 정보를 없앰
 앱 정보 창에서 앱 구동 시간 없앰
 앱 정보 창에서 제작자 트위터, 픽시브 링크 없앰
+리플레이 데이터 잘라주기 관련 버그 수정
 
 透明なペンオプション窓を消しました
 参考レイヤーメニューで一記憶トレニング、イメージ消去ボタン追加
@@ -21,6 +22,7 @@ https://guljam.github.io/2020FlashPaint/
 アプリ情報バーでメモリ使用率を消しました
 アプリ情報窓でアプリ総起動時間をけしました
 アプリ情報窓で作者のTwitterとPixivリンクをけしました
+リプレイデータを修正の関連バグ修正
 
 
 Removed transparent pen option box
@@ -29,6 +31,7 @@ Improved performance (uses a little more memory) when using the previous scene f
 Deleted memory usage in the app info bar
 Deleted app running time on about window
 Deleted my twitter and pixiv link button on about window
+Fixed bugs related to cutting replay data
 
 -----
 9.78

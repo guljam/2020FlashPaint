@@ -5,16 +5,19 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-10.01
+10.02
 -----
+자잘한 버그 수정
 색 선택창을 항상 보이게함
 UI폰트를 크기를 살짝 줄임
 단축키 T키를 참고 레이어 메뉴 보이기/숨기기로 바꿈
 
+細かいバグ修正
 色選択窓を常に見えるように変更
 UIフォントのサイズを少し小さくしました
 ショートカットキーTを参考レイヤーON/OFFに変えました
 
+Fixed minor bugs
 Changed the color picker window to always be visible
 Reduced the size of the UI font a little
 Changed shortcut key T to reference layer ON / OFF

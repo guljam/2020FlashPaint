@@ -5,7 +5,7 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-10.0
+10.01
 -----
 색 선택창을 항상 보이게함
 UI폰트를 크기를 살짝 줄임

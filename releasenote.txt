@@ -5,7 +5,7 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-10.02
+10.03
 -----
 자잘한 버그 수정
 색 선택창을 항상 보이게함

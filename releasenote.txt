@@ -5,7 +5,7 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-10.12
+10.13
 -----
 자잘한 버그 수정
 캔버스 대칭 툴 개선

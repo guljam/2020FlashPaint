@@ -5,16 +5,19 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-10.15
+10.16
 -----
 자잘한 버그 수정
 타이머는 프로그램 창이 활성화될 때에만 실행되게 변경
+앱 메뉴는 앱 정보 막대를 클릭해야 나타나게 변경
 
 細かいバグ修正
 タイマーはアプリ窓が活性化状態のみ作動するように変更
+アプリメニューはアプリ情報バーをクリックして現れるように変更
 
 Fixed minor bugs
 Changed the timer so that the app window works only when it is activated 
+Changed the app menu to appear by clicking the app information bar
 
 -----
 10.13

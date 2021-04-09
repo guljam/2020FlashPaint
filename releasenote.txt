@@ -5,11 +5,10 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-10.92
+10.93
 -----
 Adobe SDK 버전을 32에서 33.1로 변경
 (기존 이용자는 https://airsdk.harman.com/runtime에서 최신 Adobe runtime을 받아 설치)
-
 UI 변경
 미리보기 창 추가
 작은 버그 수정

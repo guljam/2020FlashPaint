@@ -13,7 +13,7 @@ UI 변경
 미리보기 창 추가
 작은 버그 수정
 
-Adobe AIR SDKを３２から３３．１で変更
+Adobe AIR SDKを３２から３３．１に変更
 (既存の利用者は、https://airsdk.harman.com/runtimeに最近バージョンのAdobe Air Runtimeをインストール)
 UI変更
 プレビュー窓を追加

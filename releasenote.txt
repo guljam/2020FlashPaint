@@ -7,19 +7,19 @@ https://guljam.github.io/2020FlashPaint/
 -----
 10.93
 -----
-Adobe SDK 버전을 32에서 33.1로 변경
+Adobe AIR SDK 버전을 32에서 33.1로 변경
 (기존 이용자는 https://airsdk.harman.com/runtime에서 최신 Adobe runtime을 받아 설치)
 UI 변경
 미리보기 창 추가
 작은 버그 수정
 
-Adobe SDKを３２から３３．１で変更
+Adobe AIR SDKを３２から３３．１で変更
 (既存の利用者は、https://airsdk.harman.com/runtimeに最近バージョンのAdobe runtimeをインストール)
 UI変更
 プレビュー窓を追加
 細かいバグ趨勢
 
-Adobe SDK version changed from 32 to 33.1
+Adobe AIR SDK version changed from 32 to 33.1
 (For old version users: download and install latest Adobe runtime at https://airsdk.harman.com/runtime) 
 Changed UI
 Added preview window

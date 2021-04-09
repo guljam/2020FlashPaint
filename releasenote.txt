@@ -5,23 +5,26 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-11.00
+11.01
 -----
 Adobe AIR SDK 버전을 32에서 33.1로 변경
 (기존 이용자는 https://airsdk.harman.com/runtime에서 최신 Adobe Air Runtime을 받아 설치)
 UI 변경
+펜 옵션에 Sub layer 기능 추가
 미리보기 창 추가
 작은 버그 수정
 
 Adobe AIR SDKを３２から３３．１に変更
 (既存の利用者は、https://airsdk.harman.com/runtimeに最近バージョンのAdobe Air Runtimeをインストール)
 UI変更
+ペンオプションにSubLayer機能追加
 プレビュー窓を追加
 細かいバグ趨勢
 
 Adobe AIR SDK version changed from 32 to 33.1
 (For old version users: download and install latest Adobe Air Runtime at https://airsdk.harman.com/runtime) 
 Changed UI
+Added Sub layer function on pen option
 Added preview window
 Fixed minor bugs
 

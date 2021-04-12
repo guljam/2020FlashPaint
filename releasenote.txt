@@ -15,7 +15,7 @@ UI 변경
 작은 버그 수정
 
 Adobe AIR SDKを３２から３３．１に変更
-(既存の利用者は、https://airsdk.harman.com/runtimeに最近バージョンのAdobe Air Runtimeをインストール)
+(既存の利用者は、https://airsdk.harman.com/runtimeで最近バージョンのAdobe Air Runtimeをインストール)
 UI変更
 ペンオプションにSubLayer機能追加
 プレビュー窓を追加

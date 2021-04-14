@@ -4,8 +4,28 @@ Visit FOFO Paint main page and download the file when auto-install failed
 
 https://guljam.github.io/2020FlashPaint/
 
+
 -----
 11.22
+-----
+그리드 표시 단축키는 ctrl+g에서 f1로 변경
+사이드바 위치 변경 단축키 f2로 설정
+UI 색깔 바꾸기 변경 단축키 f3로 설정
+기타 버그 수정
+
+Grid表示のショートカットキーは ctrl+gからF1に変更
+サイドバー位置変更のショートカットキーをF2にしました
+UI色の変更のショートカットキーをF3にしました
+細かいバグ修正
+
+Changed grid function shortcut from ctrl+g to F1
+Shortcut key of change sidebar position has been set to F2
+Shortcut key of change UI color has been set to F3
+Fixed minor bugs
+
+
+-----
+11.21
 -----
 Adobe AIR SDK 버전을 32에서 33.1로 변경
 (기존 이용자는 https://airsdk.harman.com/runtime에서 최신 Adobe Air Runtime을 받아 설치)

@@ -6,7 +6,7 @@ https://guljam.github.io/2020FlashPaint/
 
 
 -----
-11.27
+11.28
 -----
 그리드 표시 단축키를 ctrl+g에서 f1로 변경
 사이드바 위치 변경 단축키 f2로 설정

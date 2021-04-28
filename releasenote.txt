@@ -6,6 +6,31 @@ https://guljam.github.io/2020FlashPaint/
 
 
 -----
+11.50
+-----
+리플레이 모드에서
+- 다시 녹화 단축키를 f4로 설정
+- 슈퍼 되돌리기 단축키를 f5로 설정
+- 데이터 앞부분 자르기 단축키를 f6으로 설정
+
+기타 버그 수정
+
+リプレイモードで
+-再録画のショートカットキーをF4に設定
+-Super-undoのショートカットキーをF5に設定
+-前のデータ消去のショートカットキーをF6に設定
+
+細かいバグ修正
+
+
+On replay-mode
+- set shortkey of re-record button to f4
+- set shortkey of super-undo button to f5
+- set shortkey of delete front data button to f6
+
+Fixed minor bugs
+
+-----
 11.49
 -----
 그리드 표시 단축키를 ctrl+g에서 f1로 변경

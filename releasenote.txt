@@ -24,9 +24,9 @@ https://guljam.github.io/2020FlashPaint/
 
 
 On replay-mode
-- set shortkey of re-record button to f4
-- set shortkey of super-undo button to f5
-- set shortkey of delete front data button to f6
+- set shortcut key of re-record button to f4
+- set shortcut key of super-undo button to f5
+- set shortcut key of delete front data button to f6
 
 Fixed minor bugs
 

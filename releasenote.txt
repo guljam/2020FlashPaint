@@ -6,7 +6,7 @@ https://guljam.github.io/2020FlashPaint/
 
 
 -----
-11.54
+11.55
 -----
 리플레이 모드에서
 - 다시 녹화 단축키를 f4로 설정

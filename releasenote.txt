@@ -5,19 +5,22 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-12.06
+12.07
 -----
 펜 옵션박스에 에어브러시 옵션 추가
+채우기 펜 기능 개선
 
 기타 버그 수정
 
 
 Pen OptionボックスにAir brushオプション追加
+Fill-penの機能を改善
 
 細かいバグ修正
 
 
 Added Air brush option on pen options box
+Improved Fill-pen function
 
 Fixed minor bugs
 

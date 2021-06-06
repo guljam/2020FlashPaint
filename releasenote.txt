@@ -5,7 +5,7 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-12.38
+12.40
 -----
 펜 옵션박스에 에어브러시 옵션 추가
 리플레이 모드에서 캔버스 자동스크롤 기능 개선

@@ -5,6 +5,16 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
+13.10
+-----
+Adobe sdk 33.1.1.633버전으로 빌드함
+
+Adobe SDKバージョン33.1.1.633でBuild
+
+Build with Adobe SDK　Version 33.1.1.633
+
+
+-----
 13.09
 -----
 Adobe sdk 33.1.1.533버전으로 빌드함

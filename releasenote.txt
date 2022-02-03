@@ -5,15 +5,15 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-13.14
+13.15
 -----
-Adobe sdk 33.1.1.633버전으로 빌드함
+Adobe sdk 33.1.1.743버전으로 빌드함
 툴 히스토리 기능 삭제
 
-Adobe SDKバージョン33.1.1.633でBuild
+Adobe SDKバージョン33.1.1.743でBuild
 ツールヒストリー機能消去
 
-Build with Adobe SDK　Version 33.1.1.633
+Build with Adobe SDK Version 33.1.1.743
 Tool history function has been removed
 
 
@@ -32,7 +32,7 @@ Pen OptionボックスにAir brushオプション追加
 
 細かいバグ修正
 
-Build with Adobe SDK　Version 33.1.1.533
+Build with Adobe SDK Version 33.1.1.533
 Added Air brush option on pen options box
 Improved canvas auto-scroll function on replay mode
 

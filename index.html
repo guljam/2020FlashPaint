@@ -1,121 +1,105 @@
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>FOFO Paint</title>
-  <style>
-    html
-    {
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.7;
-	    -webkit-text-size-adjust: 100%;
-    }
-
-    header
-    {
-      font-weight: bold;
-      font-size: 3em;
-      margin-bottom:20px;
-    }
-
-    main
-    {
-      display: flex;
-      flex-wrap: wrap;
-      margin: 0 auto;
-    }
-
-    section
-    {
-      width:680px;
-      margin-right:20px;
-    }
-
-    aside
-    {
-      min-width:400px;
-      width:30%;
-      margin-bottom: 200px;
-    }
-
-    h1
-    {
-      padding:0.3em;
-      margin-top: 0px;
-      margin-bottom: -19px;
-      width:100%;
-    }
-
-    p
-    {
-      margin:20px;
-    }
-
-    a
-    {
-      color:rgb(84, 107, 240);
-    }
-
-    span
-    {
-      font-size:1.4em;
-      font-weight: bold;
-    }
-
-    #manuals
-    {
-      font-size: 1.5em;
-    }
-
-  </style>
-</head>
-<body>
-  <header id="title">FOFO PAINT</header>
-    <main id="main">
-      <aside id="aside">
-        <video controls="controls" loop autoplay muted>
-          <source src="main_img/titlemov.mp4" type="video/mp4" width=400>
-        </video><p></p>
-        <h1>What is FOFO Paint?</h1>
-        <p>
-          FOFO PAINT는, Adobe Air으로 만든 플래시 오에카키 툴입니다.<br>
-          그림 녹화기능이 있어서 자신이 그린 모든 과정을 볼 수 있는 기능이 들어가 있습니다.<br>
-          <br>
-
-          FOFO PAINTは, Adobe Airで作ったFlashお絵描きアプリです。<br>
-          筆跡記録機能を搭載し、自分が描いたすべての過程を見られます。<br>
-          <br>
-
-          FOFO PAINT is a drawing application created with Adobe Air. <br>
-          Feature is Replay-mode what you can see all the processes you have drawn.<br>
-        </p>
-        <p>
-          made by <a href="https://twitter.com/ninanoninini">c301</a> cube4none@gmail.com<br>
-        </p>
-        <h1>Download</h1>
-        <p>
-          *정식인증서를 사용하지 않았기 때문에 SmartScreen이나 보안위협 경고창이 표시 될 수 있습니다.<br>
-          *正式な証明書を使用していないので、SmartScreenやセキュリティの脅威警告が表示されることがあります。<br>
-          *it's not using a formal certificate, so you may get SmartScreen and security threat warnings.<p></p>
-        </p>
-        <p><a href="https://github.com/guljam/2020FlashPaint/releases/download/setup/fofoPaint_Setup.zip"><span>Windows (ver 13.43) </span></a> <span>/ Mac (need tester)</span></p>
-        <p><a href="releasenote.txt">release note</a></p>
-        <p>설치 오류가 날 경우 아래 링크에서 최신 버전의 Adobe Air Runtime을 설치 하시기 바랍니다.</p>
-        <p>インストールエラーが発生したら、下記のリンクから最新バージョンのAdobe Air Runtimeをインストールしてください。  </p>
-        <p>If an installation error occurs, please install the latest version of Adobe Air Runtime from the link below. </p>
-        <p><a href="https://airsdk.harman.com/runtime"><span>https://airsdk.harman.com/runtime</span></a>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FOFO Paint</title>
+    <style>
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.7;
+            -webkit-text-size-adjust: 100%;
+        }
         
-        <img src="img/appscreenshot.png" width=500>
-        <p></p>
-        <h1>Manual</h1>
-        <p>
-            <a href="kr.html"><span>한국어</span></a>
-            <a href="jp.html"><span>日本語</span></a>
-            <a href="en.html"><span>English</span></a>
-        </p>
-      </aside>
+        header {
+            font-weight: bold;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 auto;
+        }
+        
+        section {
+            width: 680px;
+            margin-right: 20px;
+        }
+        
+        aside {
+            min-width: 400px;
+            width: 30%;
+            margin-bottom: 200px;
+        }
+        
+        h1 {
+            padding: 0.3em;
+            margin-top: 0px;
+            margin-bottom: -19px;
+            width: 100%;
+        }
+        
+        p {
+            margin: 20px;
+        }
+        
+        a {
+            color: rgb(84, 107, 240);
+        }
+        
+        span {
+            font-size: 1.4em;
+            font-weight: bold;
+        }
+        
+        #manuals {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="title">FOFO PAINT</header>
+    <main id="main">
+        <aside id="aside">
+            <video controls="controls" loop autoplay muted width="500px">
+          <source src="main_img/titlemov.mp4" type="video/mp4">
+        </video>
+            <p></p>
+            <h1>What is FOFO Paint?</h1>
+            <p>
+                FOFO PAINT는, Adobe Air으로 만든 플래시 오에카키 툴입니다.<br> 그림 녹화기능이 있어서 자신이 그린 모든 과정을 볼 수 있는 기능이 들어가 있습니다.<br>
+                <br> FOFO PAINTは, Adobe Airで作ったFlashお絵描きアプリです。<br> 筆跡記録機能を搭載し、自分が描いたすべての過程を見られます。
+                <br>
+                <br> FOFO PAINT is a drawing application created with Adobe Air. <br> Feature is Replay-mode what you can see all the processes you have drawn.
+                <br>
+            </p>
+            <p>
+                made by <a href="https://twitter.com/ninanoninini">c301
+            (twitter.com/ninanoninini)</a><br> e-mail: cube4none@gmail.com
+                <br>
+            </p>
+            <h1>Download</h1>
+            <p>
+                <p> 1. install adobe sdk runtime <br> (If an installation error appears, you must install the latest version.)
+                    <br>
+                    <a href="https://airsdk.harman.com/runtime">https://airsdk.harman.com/runtime</a>
+                    <p>2. unzip and setup fofopaint.exe<br>
+                        <a href="https://github.com/guljam/2020FlashPaint/releases/download/setup/fofoPaint_Setup.zip">Windows
+                (ver 13.43)</a>
+                        <p><a href="releasenote.txt">release note</a></p>
+                        <h1>Manual</h1>
+                        <p>
+                            <a href="kr.html"><span>한국어</span></a>
+                            <a href="jp.html"><span>日本語</span></a>
+                            <a href="en.html"><span>English</span></a>
+                        </p>
+                        <img src="img/appscreenshot.png" width=500>
+        </aside>
     </main>
-  </body>
+</body>
+
 </html>

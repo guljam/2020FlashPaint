@@ -7,15 +7,15 @@ https://guljam.github.io/2020FlashPaint/
 -----
 13.44
 -----
-Adobe sdk 32.0버전으로 롤백
+Adobe sdk 버전 33.1.1.821로 빌드
 툴 히스토리 기능 삭제
 tegaki-tweet 컬러 프리셋 추가
 
-Adobe SDKバージョン32.0でBuild
+Adobe SDKバージョン33.1.1.821でBuild
 ツールヒストリー機能消去
 tegaki-tweetカラーセット追加
 
-Build with Adobe SDK Version 32.0
+Build with Adobe SDK Version 33.1.1.821
 Tool history function has been removed
 Added tegaki-tweet color preset
 

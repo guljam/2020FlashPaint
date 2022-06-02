@@ -5,7 +5,7 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-13.48
+14.0
 -----
 Adobe sdk 버전 33.1.1.856으로 빌드
 툴 히스토리 기능 삭제

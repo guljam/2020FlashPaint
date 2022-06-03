@@ -5,19 +5,25 @@ Visit FOFO Paint main page and download the file when auto-install failed
 https://guljam.github.io/2020FlashPaint/
 
 -----
-14.0
+14.01
 -----
 Adobe sdk 버전 33.1.1.856으로 빌드
 툴 히스토리 기능 삭제
 tegaki-tweet 컬러 프리셋 추가
+윗쪽 메뉴에 사이드바 보이기 / 감추기 버튼 추가
+기타 버그 수정 및 안정성 개선
 
 Adobe SDKバージョン33.1.1.856でBuild
 ツールヒストリー機能消去
 tegaki-tweetカラーセット追加
+トップメニューにサイドバーON/OFFボタン追加
+その他バグ修正と安定性を改善
 
 Build with Adobe SDK Version 33.1.1.856
 Tool history function has been removed
 Added tegaki-tweet color preset
+Added sidebar ON/OFF button in top menu
+Fixed minor bugs and stability improvements
 
 
 -----

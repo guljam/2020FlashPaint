@@ -9,7 +9,7 @@ FOFO PAINT는, 저에게 많은 추억을 남긴 pixiv drawr과 pixiv chat의 �
 FOFO PAINTは, 自分にいい思い出を残したpixiv ドロワーとPixivチャットのオマージュです。Adobe Airで開発されたお絵描きアプリです。
 筆跡記録機能を搭載し、自分が描いたすべての過程を見られます。
 
-FOFO PAINT is the homage of Drawr and pixiv chat that left me many memories. It was developed by Adobe Air.
+FOFO PAINT is the homage of pixiv drawr and pixiv chat that left me many memories. It was developed by Adobe Air.
 Feature is Replay-mode what you can see all the processes you have drawn.
 
 made by [c301](twitter.com/ninanoninini) e-mail: cube4none@gmail.com

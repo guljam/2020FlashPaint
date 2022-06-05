@@ -3,7 +3,7 @@
 
 ![fom](https://user-images.githubusercontent.com/15816034/172035065-64e1309f-e24e-4b46-a846-ae204c7d2349.png)
 
-FOFO PAINT는, 저에게 많은 추억을 남긴 drawr과 pixiv chat의 오마주이며. Adobe Air로 개발되었습니다.
+FOFO PAINT는, 저에게 많은 추억을 남긴 pixiv drawr과 pixiv chat의 오마주이며. Adobe Air로 개발되었습니다.
 그림 녹화기능이 있어서 자신이 그린 모든 과정을 볼 수 있는 기능이 들어가 있습니다.
 
 FOFO PAINTは, 自分にいい思い出を残したDrawrとPixivチャットのオマージュです。Adobe Airで開発されたお絵描きアプリです。

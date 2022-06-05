@@ -14,7 +14,7 @@ Feature is Replay-mode what you can see all the processes you have drawn.
 
 made by [c301](twitter.com/ninanoninini) e-mail: cube4none@gmail.com
 
-# 1.Install adobe air runtime
+# 1.Install Adobe Air Runtime
 최신 버전의 Adobe air런타임을 설치해야 합니다.
 
 最新バージョンのAdobe airランタイムをインストールする必要があります。

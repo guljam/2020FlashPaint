@@ -1,3 +1,4 @@
+
 What is FOFO Paint?
 
 FOFO PAINT는, Adobe Air으로 만든 플래시 오에카키 툴입니다.
@@ -24,3 +25,5 @@ release note
 Manual
 
 한국어 日本語 English 
+
+![fom](https://user-images.githubusercontent.com/15816034/172035065-64e1309f-e24e-4b46-a846-ae204c7d2349.png)

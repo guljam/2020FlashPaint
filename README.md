@@ -5,12 +5,17 @@
 
 FOFO PAINT는, 저에게 많은 추억을 남긴 pixiv drawr과 pixiv chat의 오마주이며. Adobe Air로 개발되었습니다.
 그림 녹화기능이 있어서 자신이 그린 모든 과정을 볼 수 있는 기능이 들어가 있습니다.
+모든 소스는 [여기](https://github.com/guljam/fofopaint-source)에 공개되어 있습니다.
 
 FOFO PAINTは, 自分にいい思い出を残したpixiv ドロワーとPixivチャットのオマージュです。Adobe Airで開発されたお絵描きアプリです。
 筆跡記録機能を搭載し、自分が描いたすべての過程を見られます。
+すべてのソースコードは[ここ](https://github.com/guljam/fofopaint-source)に公開されています。
+
 
 FOFO PAINT is the homage of pixiv drawr and pixiv chat that left me many memories. It was developed by Adobe Air.
 Feature is Replay-mode what you can see all the processes you have drawn.
+All source code is [here](https://github.com/guljam/fofopaint-source)
+
 
 made by [c301](twitter.com/ninanoninini) e-mail: cube4none@gmail.com
 

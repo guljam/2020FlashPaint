@@ -29,7 +29,7 @@ You must install the latest version.
 https://airsdk.harman.com/runtime
 
 # 2. Download
- [Windows ver.14.14](https://github.com/guljam/2020FlashPaint/releases/download/setup/fofoPaint.exe)
+ [Windows](https://github.com/guljam/2020FlashPaint/releases/download/setup/fofoPaint.exe)
 
 # 3. Manual
   [한국어](https://github.com/guljam/2020FlashPaint/wiki/FOFO-Paint-%EC%84%A4%EB%AA%85%EC%84%9C)

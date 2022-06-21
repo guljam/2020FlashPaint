@@ -20,7 +20,7 @@ made by [c301](twitter.com/ninanoninini) e-mail: cube4none@gmail.com
 
 最新バージョンのAdobe airランタイムをインストールする必要があります。
 
-You must install the latest version.
+You must install the latest version of Adobe air runtime.
 
 https://airsdk.harman.com/runtime
 

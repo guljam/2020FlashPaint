@@ -3,15 +3,17 @@
 
 ![fom](https://user-images.githubusercontent.com/15816034/172035065-64e1309f-e24e-4b46-a846-ae204c7d2349.png)
 
-FOFO PAINT is developed by Adobe Air.
-Feature is Replay-mode what you can see all the processes you have drawn.
+FOFO PAINT is developed with Adobe Air SDK.<br>
+This app is for those who do not need complex features. It has no layers and for simple doodles.
+
+It also includes a timelapse feature called Replay mode. You can watch the whole process like a movie, you can even go back to a specific point and redraw it.
 
 made by [c301](twitter.com/ninanoninini) e-mail: cube4none@gmail.com
 
 # 1.Install Adobe Air Runtime
 You must install the latest version of Adobe air runtime.
 
-https://airsdk.harman.com/runtime
+[https://airsdk.harman.com/runtime](https://airsdk.harman.com/runtime)
 
 # 2. Download setup file
  [Windows](https://github.com/guljam/2020FlashPaint/releases/download/setup/fofoPaint.exe)

@@ -10,7 +10,7 @@ This app is for those who do not need complex features. It has no layers and was
 
 It also includes a timelapse feature called Replay mode. You can watch the whole process like a movie, you can even go back to a specific point and redraw it.
 
-I miss the old pixiv chat and drawr. This is a homage to pixiv's memories.
+I miss the old pixiv chat and drawr. This app is a homage to my pixiv memories.
 
 made by [c301](twitter.com/ninanoninini) e-mail: cube4none@gmail.com
 

@@ -4,7 +4,7 @@
 ![fom](https://user-images.githubusercontent.com/15816034/172035065-64e1309f-e24e-4b46-a846-ae204c7d2349.png)
 
 FOFO PAINT is developed with Adobe Air SDK.<br>
-This app is for those who do not need complex features. It has no layers and was developed for simple doodles.
+This app is for those who do not need complex features. It has no layers and for simple doodles.
 
 It also includes a timelapse feature called Replay mode. You can watch the whole process like a movie, you can even go back to a specific point and redraw it.
 

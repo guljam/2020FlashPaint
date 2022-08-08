@@ -7,9 +7,10 @@ FOFO PAINT is freeware. developed with Adobe Air SDK.<br>
 This app is for those who do not need complex features. It has no layers and for simple doodles.
 
 Feature
-- it's the Flash! feel of the 2000's Oekaki tool.
-- infinity undo, redo.
+- It's the Flash! feel of the 2000's Oekaki tool.
 - Replay mode. You can watch the whole process like a movie, you can even go back to a specific point and redraw it.
+- Unlimited undo, redo.
+- Low cpu usage.
 
 made by [c301](twitter.com/ninanoninini) e-mail: cube4none@gmail.com
 

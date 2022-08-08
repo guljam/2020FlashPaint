@@ -10,7 +10,6 @@ Feature
 - It's the Flash! feel of the 2000's Oekaki tool.
 - Replay mode. You can watch the whole process like a movie, you can even go back to a specific point and redraw it.
 - Unlimited undo, redo.
-- Low cpu usage.
 
 made by [c301](twitter.com/ninanoninini) e-mail: cube4none@gmail.com
 

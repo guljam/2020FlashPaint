@@ -12,7 +12,7 @@ Features
 - Replay mode. You can watch the whole process like a movie, you can even go back to a specific point and redraw it.
 - Unlimited undo, redo.
 
-made by [c301](twitter.com/ninanoninini) e-mail: cube4none@gmail.com
+made by [c301](https://twitter.com/ninanoninini) e-mail: cube4none@gmail.com
 
 # 1.Install Adobe Air Runtime
 You must install the latest version of Adobe air runtime.

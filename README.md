@@ -1,7 +1,7 @@
 
 # What is FOFO Paint?
 
-![fom](https://user-images.githubusercontent.com/15816034/172035065-64e1309f-e24e-4b46-a846-ae204c7d2349.png)
+![fofomaindis](https://user-images.githubusercontent.com/15816034/193264871-49042423-b030-4306-8f33-90316c1060ce.png)
 
 FOFO PAINT is freeware. developed with Adobe Air SDK.<br>
 This app is for those who do not need complex features.

@@ -8,7 +8,7 @@ This app is for those who do not need complex features.
 
 Features
 - It's the Flash! feels of the 2000's Oekaki tool.
-- 2 layers
+- 2 layers.
 - Replay mode. You can watch the whole process like a movie, you can even go back to a specific point and redraw it.
 - Unlimited undo, redo.
 

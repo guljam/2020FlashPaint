@@ -3,7 +3,7 @@
 
 <img src="https://user-images.githubusercontent.com/15816034/193264871-49042423-b030-4306-8f33-90316c1060ce.png" width="700">
 
-FOFO PAINT is painting application. freeware no advertisement. developed with Adobe Air SDK.<br>
+FOFO PAINT is painting application and freeware. developed with Adobe Air SDK.<br>
 This app is for those who do not need complex features.
 
 Features

@@ -1,3 +1,5 @@
-18.05 업데이트
-- 자잘한 버그 및 코드 수정
+18.05
+- 라소툴 및 채우기펜 관련 버그 수정
 - 업데이트 내역 보여주기 기능 추가
+- Fixed minor bugs related to lasso tool and fill pen
+- Added release note display function

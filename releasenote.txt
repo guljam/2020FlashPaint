@@ -1,5 +1,7 @@
-18.05
+18.06
 - 라소툴 및 채우기펜 관련 버그 수정
 - 업데이트 내역 보여주기 기능 추가
+- 단축키 g가 동작하지 않는 문제 수정
 - Fixed minor bugs related to lasso tool and fill pen
 - Added release note display function
+- Fixed an issue where the "g" key did not work

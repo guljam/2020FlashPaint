@@ -1,4 +1,20 @@
+============================================
+* 업데이트 설치가 오류가 날 경우, https://airsdk.harman.com/runtime 에서 새 런타임을 설치하세요.
+* If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
+============================================
+
+---------------
+18.08
+---------------
+- 업데이트 버튼을 누르면 업데이트 내용 창이 뜨게 설정
+  (내용 적기 귀찮아서 지웠다가 있어야 할 것 같아서 추가함)
+- 내부 코드 정리
+- When the update button is pressed, the update information window appears
+- source code cleanup
+
+---------------
 18.07
+---------------
 - 라소툴 및 채우기펜 관련 버그 수정
 - 업데이트 내역 보여주기 기능 추가
 - 단축키 g가 동작하지 않는 문제 수정

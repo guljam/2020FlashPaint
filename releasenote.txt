@@ -10,10 +10,12 @@
 - 업데이트 버튼을 누르면 업데이트 내용 창이 뜨게 설정
   (내용 적기 귀찮아서 지웠다가 있어야 할 것 같아서 추가함)
 - 설명서에 고해상도 모니터에서 크기 배율을 조정하였을때, 앱이 배율을 사용할지 안할지에 대한 설명 추가
+- sharp-line과 air-brush옵션에서 지웠던 단축키를 다시 복원 (단축키 3,4와 7,8)
 - 내부 코드 정리
 
 - When the update button is pressed, the update information window appears
 - Added an explanation to the manual about whether or not the app uses the scaling factor when scaling the size on a high-resolution monitor.
+- Restore deleted shortcuts in sharp-line and air-brush options (shortcut keys 3,4 and 7,8)
 - source code cleanup
 
 ---------------

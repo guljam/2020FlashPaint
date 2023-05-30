@@ -7,10 +7,10 @@
 ---------------
 18.16
 ---------------
-- 파일을 저장할때 메모리가 누수되는 버그 수정
+- 파일을 저장할때 메모리를 더 적게 사용함
 - 리플레이 모드에서 fit canvas to window 버튼을 누를때 마다 ON/OFF 되게 바꿈
 - 기타 등등 내부 코드 최적화
-- Fixed a bug that leaked memory when saving files
+- Uses less memory when saving files
 - Changed ON/OFF whenever the fit canvas to window button is pressed in replay mode
 - Internal code optimization and so on
 

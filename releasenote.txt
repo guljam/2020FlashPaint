@@ -5,6 +5,16 @@
 ============================================
 
 ---------------
+18.20
+---------------
+- 파일 저장할때 메모리 누수 버그 수정
+- 캡쳐를 저장하기 시작할때 사각형 그리면 오류나는 거 수정
+- 기타 등등 내부 코드 최적화
+- Fixed memory leak bug when saving files
+- Changed ON/OFF whenever the fit canvas to window button is pressed in replay mode
+- Internal code optimization and so on
+
+---------------
 18.17
 ---------------
 - 파일을 저장할때 메모리를 더 적게 사용함

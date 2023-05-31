@@ -1,5 +1,5 @@
 ============================================
-* 웹사이트 https://guljam.github.io/2020FlashPaint/
+***https://guljam.github.io/2020FlashPaint/***
 * 업데이트 설치가 오류가 날 경우, https://airsdk.harman.com/runtime 에서 새 런타임을 설치하세요.
 * If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 ============================================
@@ -8,7 +8,7 @@
 18.21
 ---------------
 - Adobe Air SDK를 AIR runtime - version 50.2.2.6으로 업데이트 함
-   구버전 쓰시는 분들은 업데이트할때 에러가 날수있음
+  구버전에서 업데이트할때 에러가 날수있음
   https://airsdk.harman.com/runtime 주소로 이동하여 Adobe AIR runtime - version 50.2.1.1를 설치하고 업데이트 다시시도
 - 파일 저장할때 메모리 누수 버그 수정
 - 캡쳐를 저장하기 시작할때 사각형 그리면 오류나는 거 수정
@@ -27,6 +27,7 @@
 - 파일을 저장할때 메모리를 더 적게 사용함
 - 리플레이 모드에서 fit canvas to window 버튼을 누를때 마다 ON/OFF 되게 바꿈
 - 기타 등등 내부 코드 최적화
+
 - Uses less memory when saving files
 - Changed ON/OFF whenever the fit canvas to window button is pressed in replay mode
 - Internal code optimization and so on
@@ -38,6 +39,7 @@
 - 캡쳐 모드에서 이미지 회전이 되지 않는 버그 수정
 - (실험) GPU가속 적용
 - 테스트 하다가 undo기능 이상하게 된거 고침
+
 - Resolved the problem of memory usage increasing more than twice as much when saving files
 - Fixed a bug where images could not be rotated in capture mode
 - (Experimental) Apply GPU acceleration

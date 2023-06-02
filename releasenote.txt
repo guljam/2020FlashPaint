@@ -8,15 +8,15 @@
 18.22
 ---------------
 - 이 버전은 Adobe Air SDK버전을 50.2.2.6으로 업데이트 해서 배포함
-   그래서 구버전에서 업데이트할때 에러가 날수있음
-  https://airsdk.harman.com/runtime 주소로 이동하여 Adobe AIR runtime - version 50.2.1.1를 설치하고 업데이트 다시시도
+  그래서 구버전에서 업데이트할때 에러가 날수있음
+  https://airsdk.harman.com/runtime 주소로 이동하여 Adobe AIR runtime - version 50.2.1.1(혹은 더 높은 버전)을 설치하고 업데이트 다시시도
 - 파일 저장할때 메모리 누수 버그 수정
 - 캡쳐를 저장하기 시작할때 사각형 그리면 오류나는 거 수정
 - 내부 코드 안정화
 
 - This version is distributed by updating the Adobe Air SDK version to 50.2.2.6
   So, there may be errors when updating from an older version.
-  Go to https://airsdk.harman.com/runtime to install Adobe AIR runtime - version 50.2.1.1 and retry the update
+  Go to https://airsdk.harman.com/runtime to install Adobe AIR runtime - version 50.2.1.1(or higher) and retry the update
 - Fixed memory leak bug when saving files
 - Changed ON/OFF whenever the fit canvas to window button is pressed in replay mode
 - Internal code optimization and so on

@@ -21,6 +21,13 @@
 
 Release Note
 ---------------
+18.24
+---------------
+- "Ctrl+방향키"로 캔버스 크기를 1픽셀 단위로 조정하는 기능 추가
+
+- Added a function to adjust the canvas size by 1 pixel with "Ctrl + arrow keys"
+
+---------------
 18.23
 ---------------
 - 18.22 버전 잘못된 실행파일 교체 (실수로 테스트 버전을 업로드함)

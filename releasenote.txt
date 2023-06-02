@@ -23,6 +23,13 @@ Release Note
 ---------------
 18.23
 ---------------
+- 18.22 버전 잘못된 실행파일 교체 (실수로 테스트 버전을 업로드함)
+
+- 18.22 version wrong executable file replacement (I uploaded the test version by mistake)
+
+---------------
+18.22
+---------------
 - 이 버전은 Adobe Air SDK버전을 50.2.2.6으로 업데이트 해서 배포함
   그래서 구버전에서 업데이트할때 에러가 날수있음
   https://airsdk.harman.com/runtime 주소로 이동하여 Adobe AIR runtime - version 50.2.1.1(혹은 더 높은 버전)을 설치하고 업데이트 다시시도

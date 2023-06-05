@@ -27,11 +27,13 @@ Release Note
 - 리플레이 모드에서 재생이 종료 되었을때 캔버스가 가끔씩 중앙에 정렬되지 않는 버그 수정
 - 레이어 체크되어있을때 그냥 레이어 선택하면 체크가 해제되지 않는 버그 수정
 - undo, redo 했을때 나타나는 빨간 커서 관련 작은 버그 수정
+- 메뉴들이 비트맵 캐싱되지 않아서 성능저하가 일어나던 버그 수정
 
 - Added a function to adjust the canvas size by 1 pixel with "Ctrl + arrow keys"
 - Fixed a bug where the canvas was sometimes not centered when playback ended in replay mode
 - Fixed a bug where selecting a layer did not uncheck it when the layer was checked
 - Fixed a small bug related to the red cursor that appears when doing undo or redo
+- Fixed a bug where menus were not bitmap-cached, causing performance degradation
 
 ---------------
 18.23

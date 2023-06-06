@@ -21,13 +21,15 @@
 
 Release Note
 ---------------
-18.37
+18.38
 ---------------
 - 앱 처음 시작시 캔버스 흰색 바탕이 안보이는 문제 수정
-- 리플레이 뒷부분 지우기 관련 버그 수정
+- 리플레이모드에서 뒷 부분 데이터 지우기 관련 버그 수정
+- 리플레이모드에서 타임라인 막대 관련 버그 수정
 
 - Fixed a problem where the white background of the canvas was not visible when the app was first started
-- Fixed a bug related to clearing the back of the replay
+- Fixed a bug related to erasing data in the back part in replay mode
+- Fixed bug related to timeline bar in replay mode
 
 ---------------
 18.34

@@ -21,6 +21,19 @@
 
 Release Note
 ---------------
+18.47
+---------------
+- 레이어 체크 기능 개선
+- 레이어 선택할때 해당 버튼에 마우스 오른쪽 클릭을 하면 그 레이어만 보이는 기능 추가
+    (키보드 단축키 사용시 예를들어 1번 레이어만 보이게 1누른채로 캔버스에 오른쪽 클릭)
+- 기타 내부 코드 최적화
+
+- Improved layer check function
+- Added a function to show only that layer when you right-click on the corresponding button when selecting a layer
+  (When using a keyboard shortcut, for example, right-click on the canvas while pressing 1 to show only layer 1)
+- Other internal code optimizations
+
+---------------
 18.46
 ---------------
 - 앱 처음 시작시 캔버스 흰색 바탕이 안보이는 문제 수정

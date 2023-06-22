@@ -21,6 +21,13 @@
 
 Release Note
 ---------------
+18.53
+---------------
+- 캔버스 크기 1픽셀 기능 삭제 (코드가 복잡해지고 필요한 기능이 아니라고 판단)
+
+- Deletion of canvas size 1 pixel function (code becomes complicated and judged not necessary function)
+
+---------------
 18.52
 ---------------
 - 레이어 체크 기능 개선

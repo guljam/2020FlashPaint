@@ -21,12 +21,16 @@
 
 Release Note
 ---------------
-18.55
+18.56
 ---------------
 - 캔버스 크기 1픽셀 기능 삭제 (코드가 복잡해지고 필요한 기능이 아니라고 판단)
+- 단축키 관련 버그 수정
+- 채우기펜 + 에어브러시 조합 버그 수정
 - 내부 코드 최적화
 
 - Deletion of canvas size 1 pixel function (code becomes complicated and judged not necessary function)
+- Fixed shortcut related bugs
+- Fixed fill-pen tool + air-brush combination bug
 - internal code optimizations
 
 ---------------

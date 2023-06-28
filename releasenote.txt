@@ -21,13 +21,15 @@
 
 Release Note
 ---------------
-18.62
+18.63
 ---------------
 - 사각펜 처리 개선
 - UI 디자인 약간 변경
+- 작은 버그 수정
 
 - Improved square pen handling
 - Slight UI design changes
+- Fixed minor bugs
 
 ---------------
 18.57

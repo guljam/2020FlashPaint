@@ -21,15 +21,19 @@
 
 Release Note
 ---------------
-18.65
+18.71
 ---------------
 - 사각펜 처리 개선
 - UI 디자인 약간 변경
-- 작은 버그 수정
+- 리플레이 파일을 탐색할 때 성능 저하 개선 및 버그 수정
+- 마우스 툴팁 위치를 마우스 윗쪽으로 변경
+- 내부 코드 최적화
 
 - Improved square pen handling
 - Slight UI design changes
-- Fixed minor bugs
+- Performance degradation improvements and bug fixes when browsing replay files
+- Change the mouse tooltip position to the top of the mouse
+- internal code optimization
 
 ---------------
 18.57

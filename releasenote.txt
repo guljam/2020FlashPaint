@@ -21,7 +21,7 @@
 
 Release Note
 ---------------
-18.74
+18.75
 ---------------
 - 사각펜 처리 개선
 - UI 디자인 약간 변경
@@ -30,6 +30,7 @@ Release Note
 - 마우스 툴팁 위치를 마우스 윗쪽으로 변경
 - 내부 코드 최적화
 - 창 내부에 테두리 추가
+- 리플레이 재생 중에 그리기 커서 따라가기 동작 변경 및 버그 수정
 
 - Improved square pen handling
 - Slight UI design changes
@@ -38,6 +39,7 @@ Release Note
 - Change the mouse tooltip position to the top of the mouse
 - internal code optimization
 - Add a border inside the window
+- Change and fix the behavior of the drawing cursor during replay playback.
 
 ---------------
 18.57

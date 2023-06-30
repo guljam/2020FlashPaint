@@ -31,6 +31,7 @@ Release Note
 - 내부 코드 최적화
 - 창 내부에 테두리 추가
 - 리플레이 재생 중에 그리기 커서 따라가기 동작 변경 및 버그 수정
+- 캡쳐 모드를 종료할때 미리보기 박스의 커서가 잘못된 위치로 이동하는 버그 수정
 
 - Improved square pen handling
 - Slight UI design changes
@@ -40,6 +41,7 @@ Release Note
 - internal code optimization
 - Add a border inside the window
 - Change and fix the behavior of the drawing cursor during replay playback.
+- Fix the bug where the cursor in the preview box moves to the wrong position when exiting capture mode.
 
 ---------------
 18.57

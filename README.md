@@ -12,11 +12,11 @@ Features
 - Replay mode. You can watch the whole process like a movie, you can even go back to a specific point and redraw it.
 - Unlimited undo, redo.
 
-developer
-twitter : https://twitter.com/ninanoninini
-tumblr : https://www.tumblr.com/mrdriller
-drawin 98 : https://guljam.github.io/drawin98LiteWeb/
-e-mail: cube4none@gmail.com
+developer : c301(딱꿍이)
+- twitter : https://twitter.com/ninanoninini
+- tumblr : https://www.tumblr.com/mrdriller
+- drawin 98 : https://guljam.github.io/drawin98LiteWeb/
+- e-mail: cube4none@gmail.com
 
 # 1.Install Adobe Air Runtime
 You must install the latest version of Adobe air runtime.

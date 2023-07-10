@@ -21,16 +21,17 @@
 
 Release Note
 ---------------
-18.87
+20.10
 ---------------
 - 사각펜에서 펜 스무딩 기능 사용시 선이 클릭한 지점부터 그려지지 않는 버그 수정
 - 지우개에서 펜 스무딩 기능 사용이 켜져 있으면 제대로 작동하지 않던 문제 수정
 - 퀵 사이드 바를 단축키로 누르고 있을때 레이어 병합과 교환 버튼이 작동하지 않는 버그 수정
+- Undo를 길게 했을 때 새 창 이미지 갱신이 안되던 버그 수정
 
 - Fixed a bug where the line was not drawn from the clicked point when using the pen smoothing function in the square pen
 - Fixed an issue where Eraser did not work properly when Use Pen Smoothing function was turned on
 - Fixed a bug where the merge and swap layers buttons did not work when using the quick sidebar with a shortcut
-
+- Fixed a bug where the new window image could not be updated when the Undo was held for a long time
 ---------------
 18.80
 ---------------

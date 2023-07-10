@@ -32,6 +32,7 @@ Release Note
 - Fixed an issue where Eraser did not work properly when Use Pen Smoothing function was turned on
 - Fixed a bug where the merge and swap layers buttons did not work when using the quick sidebar with a shortcut
 - Fixed a bug where the new window image could not be updated when the Undo was held for a long time
+
 ---------------
 18.80
 ---------------

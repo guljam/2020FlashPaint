@@ -12,7 +12,7 @@ Features
 - Replay mode. You can watch the whole process like a movie, you can even go back to a specific point and redraw it.
 - Unlimited undo, redo.
 
-developer : c301(딱꿍이)
+developer : c301
 - mastodon : https://mastodon.social/@chickenmayo
 - twitter : https://twitter.com/ninanoninini
 - tumblr : https://www.tumblr.com/mrdriller

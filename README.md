@@ -32,3 +32,5 @@ You must install the latest version of Adobe air runtime.
   [日本語](https://github.com/guljam/2020FlashPaint/wiki/FOFO-Paint-%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB)
   [English](https://github.com/guljam/2020FlashPaint/wiki/FOFO-Paint-manual)
   
+# 4. Donate
+  [paypal](https://paypal.me/chickenmayo301)

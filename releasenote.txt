@@ -19,13 +19,15 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-20.17
+20.18
 ---------------
 - 클립보드에서 이미지를 불러올때 파일 이름을 "Clipboard_image_<번호>"에서 "[날짜]+<무작위 알파벳>"으로 바꿈
 - 이미지를 불러올때 미리보기 창의 사각형 위치가 올바르지 않던 문제 수정
+- 리플레이 재생 중에 마우스 커서가 숨겨졌을때 프레임 탐색바를 클릭하면 마우스 커서가 보이지 않던 문제 수정
 
 - Changed the file name from "Clipboard_image_<Number>" to "[Date]+<Random Alphabet>" when loading an image from the clipboard
 - Fixed a problem where the position of the rectangle in the preview window was not correct when loading an image
+- Fixed an issue where the mouse cursor was not visible when clicking on the frame navigation bar when the mouse cursor was hidden during replay playback.
 
 ---------------
 20.16

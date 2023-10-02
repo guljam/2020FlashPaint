@@ -19,7 +19,7 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-20.24
+20.25
 ---------------
 - 라소툴 메뉴에 레이어 교환기능 추가
 - 라소툴 사용시 선택된 이미지가 항상 원본 이미지위에 위치하도록 변경

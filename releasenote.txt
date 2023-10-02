@@ -19,6 +19,17 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
+20.23
+---------------
+- 라소툴 메뉴에 레이어 교환기능 추가
+- 라소툴 사용시 선택된 이미지가 항상 원본 이미지위에 위치하도록 변경
+- fill pen툴 사용시 스크롤바가 사라지는 버그 수정
+
+- Added layer swap function to the lasso tool menu
+- Changed the selected image so that it is always located on top of the original image when using the lasso tool.
+- Fixed bug where scrollbar disappears when using fill pen tool
+
+---------------
 20.22
 ---------------
 - 클립보드에서 이미지를 불러올때 파일 이름을 "Clipboard_image_<번호>"에서 "[날짜]+<무작위 알파벳>"으로 바꿈

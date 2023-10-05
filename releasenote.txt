@@ -19,19 +19,25 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-21.02
+21.03
 ---------------
 - 펜 색깔에 투명색 추가. 직선 툴, fill-pen에서 투명색을 사용할 수 있음
 - 라소툴 메뉴에 레이어 교환기능 추가
 - 라소툴 메뉴에 레이어 병합기능 추가
 - 라소툴 사용시 선택된 영역의 Z-Index 순서가 올바르지 않은 버그 수정
 - fill pen툴 사용시 스크롤바가 사라지는 버그 수정
+- 색상 선택기의 color history를 user palette로 변경
+- user palette의 색을 드래그하여 위치를 이동시킬 수 있고, 바깥으로 드래그하면 색을 지울 수 있음
+- 앱 초기화 버튼이 작동하지 않던 문제 수정
 
 - Added transparent color to pen color. Straight line tool, fill-pen can use transparent colors
 - Added layer swap function to the lasso tool menu
 - Add layer merge function to Lasso tool menu
 - Fixed a bug where the Z-Index order of the selected area was incorrect when using the lasso tool
 - Fixed bug where scrollbar disappears when using fill pen tool
+- Change the color history of the color selector to "user palette"
+- You can move the position by dragging the color in the user palette, and delete the color by dragging it outside.
+- Fixed an issue where the app reset button did not work
 
 ---------------
 20.22

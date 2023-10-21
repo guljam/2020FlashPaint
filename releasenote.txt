@@ -19,7 +19,7 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-21.04
+21.05
 ---------------
 - 펜 색깔에 투명색 추가. 직선 툴, fill-pen에서 투명색을 사용할 수 있음
 - 라소툴 메뉴에 레이어 교환기능 추가
@@ -28,6 +28,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - fill pen툴 사용시 스크롤바가 사라지는 버그 수정
 - 색상 선택기의 color history를 user palette로 변경
 - user palette의 색을 드래그하여 위치를 이동시킬 수 있고, 바깥으로 드래그하면 색을 지울 수 있음
+- 색상 선택기에서 커스를 두고 마우스 오른쪽 클릭을 하면 user palette에 색깔을 등록할 수 있음
 - 앱 초기화 버튼이 작동하지 않던 문제 수정
 
 - Added transparent color to pen color. Straight line tool, fill-pen can use transparent colors
@@ -37,6 +38,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - Fixed bug where scrollbar disappears when using fill pen tool
 - Change the color history of the color selector to "user palette"
 - You can move the position by dragging the color in the user palette, and delete the color by dragging it outside.
+- You can register a color in the user palette by right-clicking on the cursor in the color picker.
 - Fixed an issue where the app reset button did not work
 
 ---------------

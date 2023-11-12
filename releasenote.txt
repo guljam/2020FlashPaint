@@ -19,13 +19,17 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-22.01
+22.03
 ---------------
 - 색상 선택기에 RGB색 정보를 클릭하여 수동으로 색을 지정 할 수 있음
 - Sharp line관련 작은 버그 수정
+- 오른쪽 클릭 하였을때 툴 메뉴 위치가 맞지 않던 버그 수정
+- 자잘한 버그 수정
 
 - You can manually specify a color by clicking RGB color information in the color picker
 - Fixed small bug related to Sharp line
+- Fixed a bug where the tool menu location was not correct when right-clicking
+- minor bug fixes
 
 ---------------
 21.06

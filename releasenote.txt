@@ -19,7 +19,7 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-21.08
+22.01
 ---------------
 - 색상 선택기에 RGB색 정보를 클릭하여 수동으로 색을 지정 할 수 있음
 - Sharp line관련 작은 버그 수정

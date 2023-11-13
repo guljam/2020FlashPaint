@@ -13,7 +13,6 @@ Features
 - Unlimited undo, redo.
 
 developer : c301
-- mastodon : https://mastodon.social/@chickenmayo
 - twitter : https://twitter.com/ninanoninini
 - tumblr : https://www.tumblr.com/mrdriller
 - drawin 98 : https://guljam.github.io/drawin98LiteWeb/

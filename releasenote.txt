@@ -19,6 +19,18 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
+22.10
+---------------
+- Adobe Air SDK를 50.2.3.8버전으로 업데이트 (새 런타임 설치 필요)
+- 색상 선택기 RGB 정보를 오른쪽 클릭하면 HSV형식으로 볼 수 있음
+- 힌트 정보를 왼쪽 아래로 통합 및 자세한 힌트 추가
+- UI디자인 및 아이콘 미세조정
+- fill-pen 사용시 사이드바의 툴 메뉴에 나타나던 버튼을, 마우스 오른쪽 클릭시 나타나는 메뉴로 옮김
+- 격자 보이기 기능을 10px단위로 세분화
+- 격자 보이기 버튼, UI크기 조정 버튼에 리셋 기능 추가
+- 기타 버그 수정 및 내부 최적화
+
+---------------
 22.07
 ---------------
 - 색상 선택기에 RGB색 정보를 클릭하여 수동으로 색을 지정 할 수 있음

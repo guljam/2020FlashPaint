@@ -21,7 +21,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 ---------------
 22.10
 ---------------
-- Adobe Air SDK를 50.2.3.8버전으로 업데이트 (새 런타임 설치 필요)
+- Adobe Air SDK를 50.2.3.8버전으로 업데이트 (새 버전 런타임 설치 필요할 수 있음)
 - 색상 선택기 RGB 정보를 오른쪽 클릭하면 HSV형식으로 볼 수 있음
 - 힌트 정보를 왼쪽 아래로 통합 및 자세한 힌트 추가
 - UI디자인 및 아이콘 미세조정
@@ -29,6 +29,15 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - 격자 보이기 기능을 10px단위로 세분화
 - 격자 보이기 버튼, UI크기 조정 버튼에 리셋 기능 추가
 - 기타 버그 수정 및 내부 최적화
+
+- Update Adobe Air SDK to version 50.2.3.8 (installation of new version runtime may be required)
+- Right-click the color picker RGB information to view it in HSV format.
+- Consolidate hint information to the bottom left and add detailed hints
+- Fine tuning UI design and icons
+- When using fill-pen, the button that appears in the tool menu of the sidebar has been moved to the menu that appears when right-clicking the mouse.
+- The grid display function is subdivided into 10px units.
+- Added reset function to grid display button and UI scale adjustment button
+- Other bug fixes and internal optimizations
 
 ---------------
 22.07

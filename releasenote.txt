@@ -19,7 +19,7 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-22.17
+22.18
 ---------------
 - Adobe Air SDK를 50.2.3.8버전으로 업데이트 (새 버전 런타임 설치 필요할 수 있음)
 - 색상 선택기 RGB 정보를 오른쪽 클릭하면 HSV형식으로 볼 수 있음

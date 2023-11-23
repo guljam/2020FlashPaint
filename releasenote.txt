@@ -18,8 +18,18 @@ https://guljam.github.io/2020FlashPaint/
 업데이트 설치가 오류가 날 경우, https://airsdk.harman.com/runtime 에서 새 런타임을 설치하세요.
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
+
 ---------------
 22.30
+---------------
+- 리플레이 탐색과 undo기능 사용할때 2배더 빨라짐, 대신 더 많은 메모리를 사용함 (2000x2000이미지 사이즈에서 사용시 최대 700~800MB까지 사용할 수 있음)
+- 오래된 버전 리플레이를 재생할때 lasso툴이 제대로 작동하지 않던 버그 수정
+
+- 2x faster when using replay search and undo functions, but uses more memory (up to 700~800MB can be used when using 2000x2000 image size)
+- Fixed a bug where the lasso tool did not work properly when playing old vers
+
+---------------
+22.28
 ---------------
 - Adobe Air SDK를 50.2.3.8버전으로 업데이트 (새 버전 런타임 설치 필요할 수 있음)
 - 색상 선택기 RGB 정보를 오른쪽 클릭하면 HSV형식으로 볼 수 있음
@@ -28,8 +38,6 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - fill-pen 사용시 사이드바의 툴 메뉴에 나타나던 버튼을, 마우스 오른쪽 클릭시 나타나는 메뉴로 옮김
 - 격자 보이기 기능을 10px단위로 세분화
 - 격자 보이기 버튼, UI크기 조정 버튼에 리셋 기능 추가
-- 리플레이 탐색과 undo기능 사용할때 2배더 빨라짐, 대신 더 많은 메모리를 사용함 (2000x2000이미지 사이즈에서 사용시 최대 700~800MB까지 사용할 수 있음)
-- 오래된 버전 리플레이를 재생할때 lasso툴이 제대로 작동하지 않던 버그 수정
 - 기타 버그 수정 및 내부 최적화
 
 - Update Adobe Air SDK to version 50.2.3.8 (installation of new version runtime may be required)
@@ -39,8 +47,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - When using fill-pen, the button that appears in the tool menu of the sidebar has been moved to the menu that appears when right-clicking the mouse.
 - The grid display function is subdivided into 10px units.
 - Added reset function to grid display button and UI scale adjustment button
-- 2x faster when using replay search and undo functions, but uses more memory (up to 700~800MB can be used when using 2000x2000 image size)
-- Fixed a bug where the lasso tool did not work properly when playing old version replays
+ion replays
 - Other bug fixes and internal optimizations
 
 ---------------

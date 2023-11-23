@@ -20,7 +20,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 
 
 ---------------
-22.30
+22.31
 ---------------
 - 리플레이 탐색과 undo기능 사용할때 2배더 빨라짐, 대신 더 많은 메모리를 사용함 (2000x2000이미지 사이즈에서 사용시 최대 700~800MB까지 사용할 수 있음)
 - 오래된 버전 리플레이를 재생할때 lasso툴이 제대로 작동하지 않던 버그 수정

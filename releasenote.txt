@@ -20,16 +20,18 @@ If the update installation fails, get a new runtime version from https://airsdk.
 
 
 ---------------
-22.35
+22.36
 ---------------
 - 리플레이 탐색과 undo기능 사용할 때 성능이 2배 더 빨라짐, 대신 더 많은 메모리를 사용함 (2000x2000이미지 사이즈에서 사용시 최대 700~800MB까지 사용할 수 있음)
 - 오래된 버전 리플레이를 재생할때 lasso툴이 제대로 작동하지 않던 버그 수정
 - 라소툴 이미지 또는 참조레이어 이미지 크기를 조정할때 배율을 0.1~100 까지만 조정되도록 함
+- 리플레이 데이터를 읽어올때 나타나는 진행율이 더 자주 갱신되도록 함
 - 내부 코드 최적화
 
 - 2x faster when using replay search and undo functions, but uses more memory (up to 700~800MB can be used when using 2000x2000 image size)
 - Fixed a bug where the lasso tool did not work properly when playing old vers
 - When adjusting the size of the lasso tool image or reference layer image, the magnification is adjusted only from 0.1 to 100.
+- The progress rate displayed when reading replay data is updated more frequently.
 - Internal code optimization
 
 ---------------

@@ -20,7 +20,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 
 
 ---------------
-22.42
+22.43
 ---------------
 - Adobe Air SDK 50.2.4.1버전으로 배포됨(새 버전 런타임 설치 필요할 수 있음)
 - 리플레이 탐색과 undo기능 사용할 때 성능이 2배 더 빨라짐, 대신 더 많은 메모리를 사용함 (2000x2000이미지 사이즈에서 사용시 최대 700~800MB까지 사용할 수 있음)

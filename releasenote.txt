@@ -19,7 +19,7 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-22.55
+22.56
 ---------------
 - 화면 업데이트 주기 변경 버튼추가. 버튼을 누르게 되면 화면이 실시간으로 업데이트 되어서 화면이 부드러워짐 대신 CPU 를 많이 사용함
 - 라소툴 메뉴에서 캔버스 이동 회전 확대 버튼을 지우고 대신 사이드바에서 아이콘과 네이게이터로 조정하게 함

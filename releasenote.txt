@@ -28,6 +28,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - 리플레이 모드에서 줌 인과 줌 아웃 버튼 위치를 바꿈
 - 리플레이 모드에서 자동 스크롤이 2번 호출 되는 버그 수정
 - 캡쳐 모드와 리플레이 모드에서 캔버스가 중앙정렬이 제대로 되지 않던 문제 수정
+- 앱 상태를 임시로 저장할때는 성능을 위해 이미지를 압축하지 않음
 - 사이드바 UI 디자인 미조정
 - 내부 코드 최적화
 
@@ -38,6 +39,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - Changed the positions of the zoom in and zoom out buttons in replay mode.
 - Fixed bug where auto-scroll was called twice in replay mode
 - Fixed an issue where the canvas was not properly centered in capture mode and replay mode.
+- When temporarily saving the app state, images are not compressed for performance reasons.
 - Fine-tuned sidebar UI design
 - Internal code optimization
 

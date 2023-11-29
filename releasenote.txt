@@ -19,7 +19,7 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-22.70
+22.71
 ---------------
 - 앱 성능 문제로 화면 갱신 비율을 초당 30프레임에서 24프레임으로 하향
 - 라소툴 메뉴에서 캔버스 이동 회전 확대 버튼을 지우고 대신 사이드바에서 아이콘과 네이게이터로 조정하게 함

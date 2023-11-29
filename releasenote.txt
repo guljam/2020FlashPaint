@@ -19,7 +19,7 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-22.74
+22.75
 ---------------
 - 앱 성능 문제로 화면 갱신 비율을 초당 30프레임에서 24프레임으로 하향
 - 라소툴 메뉴에서 캔버스 이동 회전 확대 버튼을 지우고 대신 사이드바에서 아이콘과 네이게이터로 조정하게 함
@@ -31,6 +31,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - 앱 상태를 임시로 저장할때는 성능을 위해 이미지를 압축하지 않음
 - 단축키를 사용하여 파일을 저장, 불러오기 할 때 간헐적으로 키가 안먹는 버그 수정
 - 사이드바 UI 디자인 미조정
+- fill-pen툴 미리보기 동작 변경
 - 내부 코드 최적화
 
 - Due to app performance issues, the screen refresh rate was lowered from 30 frames per second to 24 frames per second.
@@ -43,6 +44,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - When temporarily saving the app state, images are not compressed for performance reasons.
 - Fixed a bug where keys would not work intermittently when saving or loading files using shortcut keys
 - Fine-tuned sidebar UI design
+- Changed fill-pen tool preview behavior
 - Internal code optimization
 
 ---------------

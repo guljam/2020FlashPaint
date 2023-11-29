@@ -19,7 +19,7 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-22.71
+22.72
 ---------------
 - 앱 성능 문제로 화면 갱신 비율을 초당 30프레임에서 24프레임으로 하향
 - 라소툴 메뉴에서 캔버스 이동 회전 확대 버튼을 지우고 대신 사이드바에서 아이콘과 네이게이터로 조정하게 함
@@ -28,6 +28,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - 리플레이 모드에서 줌 인과 줌 아웃 버튼 위치를 바꿈
 - 리플레이 모드에서 자동 스크롤이 2번 호출 되는 버그 수정
 - 캡쳐 모드와 리플레이 모드에서 캔버스가 중앙정렬이 제대로 되지 않던 문제 수정
+- 사이드바 UI 디자인 미조정
 - 내부 코드 최적화
 
 - Due to app performance issues, the screen refresh rate was lowered from 30 frames per second to 24 frames per second.
@@ -37,6 +38,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - Changed the positions of the zoom in and zoom out buttons in replay mode.
 - Fixed bug where auto-scroll was called twice in replay mode
 - Fixed an issue where the canvas was not properly centered in capture mode and replay mode.
+- Fine-tuned sidebar UI design
 - Internal code optimization
 
 ---------------

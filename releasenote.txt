@@ -19,7 +19,7 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-22.85
+22.86
 ---------------
 - 많은 메모리 사용으로 인한 앱 충돌 문제로 undo기능 성능 향상 업데이트를 롤백함
 - 줌 툴에서 150% 확대 추가

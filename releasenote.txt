@@ -19,8 +19,9 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-22.84
+22.85
 ---------------
+- 메모리 관련 앱 충돌 문제로 undo기능 성능 향상 업데이트를 롤백함
 - 줌 툴에서 150% 확대 추가
 - 리플레이 탐색 관련 버그 수정
 - 사이드바 관련 버그 수정
@@ -30,6 +31,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - sharp-line기능이 간헐적으로 동작하지 않던 버그 수정
 - 내부 코드 최적화
 
+- Rolled back the undo function performance improvement update due to memory-related app crash issues.
 - Added 150% magnification in zoom tool
 - Fixed bug related to replay navigation
 - Fixed small bugs related to sidebar

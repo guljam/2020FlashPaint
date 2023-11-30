@@ -19,7 +19,7 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-22.78
+22.80
 ---------------
 - 사이드바 관련 작은 버그 수정
 - 툴 선택 관련 작은 버그 수정

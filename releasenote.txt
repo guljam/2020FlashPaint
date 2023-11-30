@@ -19,9 +19,10 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-22.87
+22.88
 ---------------
 - 줌 툴에서 150% 확대 추가
+- 캔버스 조절 관련 버그 수정
 - 리플레이 탐색 관련 버그 수정
 - 사이드바 관련 버그 수정
 - 툴 선택 관련 버그 수정
@@ -31,9 +32,10 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - 내부 코드 최적화
 
 - Added 150% magnification in zoom tool
-- Fixed bug related to replay navigation
-- Fixed small bugs related to sidebar
-- Fixed small bugs related to tool selection
+- Fixed bugs related to canvas adjustment
+- Fixed bugs related to replay navigation
+- Fixed bugs related to sidebar
+- Fixed bugs related to tool selection
 - Make the reference layer invisible when using the eye-dropper tool
 - When changing the UI magnification, the eye-dropper magnification cursor also becomes larger
 - Fixed bug where sharp-line function did not work intermittently

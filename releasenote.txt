@@ -24,12 +24,14 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - 사이드바 관련 작은 버그 수정
 - 툴 선택 관련 작은 버그 수정
 - eye-dropper툴을 사용할 때 참고 레이어가 보이지 않도록 함
+- UI배율을 변경할때 eye-dropper확대 커서도 같이 커지게 함
 - sharp-line기능이 간헐적으로 동작하지 않던 버그 수정
 - 내부 코드 최적화
 
 - Fixed small bugs related to sidebar
 - Fixed small bugs related to tool selection
 - Make the reference layer invisible when using the eye-dropper tool
+- When changing the UI magnification, the eye-dropper magnification cursor also becomes larger
 - Fixed bug where sharp-line function did not work intermittently
 - Internal code optimization
 

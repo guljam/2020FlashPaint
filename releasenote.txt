@@ -19,10 +19,11 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-22.90
+22.91
 ---------------
 - Adobe Air SDK 버전을 50.2.4.1에서 50.2.3.8 으로 하향하여 배포됨
 - 줌 툴에서 150% 확대 추가
+- 리플레이 읽어올때 진행률 표시 관련 버그 수정
 - 캔버스 조절 관련 버그 수정
 - 리플레이 탐색 관련 버그 수정
 - 사이드바 관련 버그 수정
@@ -32,7 +33,9 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - sharp-line기능이 간헐적으로 동작하지 않던 버그 수정
 - 내부 코드 최적화
 
+- The Adobe Air SDK version has been downgraded from 50.2.4.1 to 50.2.3.8.
 - Added 150% magnification in zoom tool
+- Fixed bug related to progress display when reading replays
 - Fixed bugs related to canvas adjustment
 - Fixed bugs related to replay navigation
 - Fixed bugs related to sidebar

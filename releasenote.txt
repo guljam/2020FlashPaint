@@ -19,7 +19,7 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-22.88
+22.90
 ---------------
 - Adobe Air SDK 버전을 50.2.4.1에서 50.2.3.8 으로 하향하여 배포됨
 - 줌 툴에서 150% 확대 추가

@@ -19,6 +19,12 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
+23.01
+---------------
+- 그림을 그릴때 변경된 부분만 캔버스를 갱신 하는 방식 적용, 2~ 5배 성능향상 (실험중)
+
+- Apply a method of updating the canvas only on changed parts when drawing, improving performance by 2 to 5 times (experimental)
+---------------
 22.91
 ---------------
 - Adobe Air SDK 버전을 50.2.4.1에서 50.2.3.8 으로 하향하여 배포됨

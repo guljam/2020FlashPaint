@@ -19,16 +19,18 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-23.05
+23.06
 ---------------
 - 원인 불명의 간헐적인 앱 충돌로 Adobe Air SDK 버전을 50.2.2버전으로 하향하여 배포
+- 이미지 불러오는 중일 때 다른 버튼이 눌리던 버그 수정
 - 캔버스를 변경된 부분만 갱신 하는 방식 적용, 그리기와 undo, 리플레이 프레임 탐색 성능이 2~5배 향상 (실험중)
 - 지우개 툴이나 투명색을 사용할때 배경색 대신 체크무늬로 그림
 - 내부 코드 최적화
 
 - Due to intermittent app crashes for unknown reasons - Adobe Air SDK version downgraded to version 50.2.2
+- Fixed a bug where other buttons were pressed when images were being loaded
 - By applying a method of updating only the changed part of the canvas, drawing, undo, and replay frame search performance are improved by 2 to 5 times (experimental)
-- When using the eraser tool or transparent color, draw in a checkered pattern instead of the background color.
+- When using the eraser tool or transparent color, draw in a checkered pattern instead of the background color
 - Internal code optimization
 
 ---------------
@@ -46,7 +48,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - sharp-line기능이 간헐적으로 동작하지 않던 버그 수정
 - 내부 코드 최적화
 
-- The Adobe Air SDK version has been downgraded from 50.2.4.1 to 50.2.3.8.
+- The Adobe Air SDK version has been downgraded from 50.2.4.1 to 50.2.3.8
 - Added 150% magnification in zoom tool
 - Fixed bug related to progress display when reading replays
 - Fixed bugs related to canvas adjustment
@@ -75,18 +77,18 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - 캔버스 크기 조절시 비율 크기를 반올림으로 계산하여 좀더 정확하게 함
 - 내부 코드 최적화
 
-- Due to app performance issues, the screen refresh rate was lowered from 30 frames per second to 24 frames per second.
-- Remove the Canvas Move, Rotate, Zoom button from the Lasso Tool menu and use the icons and navigator in the sidebar instead.
+- Due to app performance issues, the screen refresh rate was lowered from 30 frames per second to 24 frames per second
+- Remove the Canvas Move, Rotate, Zoom button from the Lasso Tool menu and use the icons and navigator in the sidebar instead
 - Flatten the cursor when using a square pen
-- Separate the zoom icon into zoom in and zoom out icons in the sidebar tool menu.
-- Changed the positions of the zoom in and zoom out buttons in replay mode.
+- Separate the zoom icon into zoom in and zoom out icons in the sidebar tool menu
+- Changed the positions of the zoom in and zoom out buttons in replay mode
 - Fixed bug where auto-scroll was called twice in replay mode
-- Fixed an issue where the canvas was not properly centered in capture mode and replay mode.
-- When temporarily saving the app state, images are not compressed for performance reasons.
+- Fixed an issue where the canvas was not properly centered in capture mode and replay mode
+- When temporarily saving the app state, images are not compressed for performance reasons
 - Fixed a bug where keys would not work intermittently when saving or loading files using shortcut keys
 - Fine-tuned sidebar UI design
 - Changed fill-pen tool preview behavior
-- When adjusting the canvas size, the percentage size is calculated by rounding to be more accurate.
+- When adjusting the canvas size, the percentage size is calculated by rounding to be more accurate
 - Internal code optimization
 
 ---------------
@@ -103,9 +105,9 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - Distributed as Adobe Air SDK version 50.2.4.1 (installation of new version runtime may be required)
 - 2x faster when using replay search and undo functions, but uses more memory (up to 700~800MB can be used when using 2000x2000 image size)
 - Fixed a bug where the lasso tool did not work properly when playing old vers
-- When adjusting the size of the lasso tool image or reference layer image, the magnification is adjusted only from 0.1 to 100.
-- The progress rate displayed when reading replay data is updated more frequently.
-- Fixed an issue where the canvas navigator cursor was positioned incorrectly when the UI size was changed.
+- When adjusting the size of the lasso tool image or reference layer image, the magnification is adjusted only from 0.1 to 100
+- The progress rate displayed when reading replay data is updated more frequently
+- Fixed an issue where the canvas navigator cursor was positioned incorrectly when the UI size was changed
 - Internal code optimization
 
 ---------------
@@ -121,7 +123,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - 기타 버그 수정 및 내부 최적화
 
 - Distributed as Adobe Air SDK version 50.2.3.8 (installation of new version runtime may be required)
-- Right-click the color picker RGB information to view it in HSV format.
+- Right-click the color picker RGB information to view it in HSV format
 - Consolidate hint information to the bottom left and add detailed hints
 - Fine tuning UI design and icons
 - When using fill-pen, the button that appears in the tool menu of the sidebar has been moved to the menu that appears when right-clicking the mouse.
@@ -163,8 +165,8 @@ ion replays
 - Fixed a bug where the Z-Index order of the selected area was incorrect when using the lasso tool
 - Fixed bug where scrollbar disappears when using fill pen tool
 - Change the color history of the color selector to "user palette"
-- You can move the position by dragging the color in the user palette, and delete the color by dragging it outside.
-- You can register a color in the user palette by right-clicking on the cursor in the color picker.
+- You can move the position by dragging the color in the user palette, and delete the color by dragging it outside
+- You can register a color in the user palette by right-clicking on the cursor in the color picker
 - Fixed an issue where the app reset button did not work
 
 ---------------
@@ -180,7 +182,7 @@ ion replays
 - Changed the file name from "Clipboard_image_<Number>" to "[Date]+<Random Alphabet>" when loading an image from the clipboard
 - Fixed a problem where the position of the rectangle in the preview window was not correct when loading an image
 - Fixed an issue where the mouse cursor was not visible when clicking on the frame navigation bar when the mouse cursor was hidden during replay playback.
-- Fixed a bug in the pen tool where the line turns into a dot if the start point and end point are close to each other.
+- Fixed a bug in the pen tool where the line turns into a dot if the start point and end point are close to each other
 - Minor modifications to the replay playback cursor and about window.
 - Fixed a small bug related to scroll bar position
 
@@ -219,8 +221,8 @@ ion replays
 - Change the mouse tooltip position to the top of the mouse
 - internal code optimization
 - Add a border inside the window
-- Change and fix the behavior of the drawing cursor during replay playback.
-- Fix the bug where the cursor in the preview box moves to the wrong position when exiting capture mode.
+- Change and fix the behavior of the drawing cursor during replay playback
+- Fix the bug where the cursor in the preview box moves to the wrong position when exiting capture mode
 
 ---------------
 18.57
@@ -341,7 +343,7 @@ ion replays
 - 내부 코드 정리
 
 - When the update button is pressed, the update information window appears, Added a button to check release notes in about window
-- Added an explanation to the manual about whether or not the app uses the scaling factor when scaling the size on a high-resolution monitor.
+- Added an explanation to the manual about whether or not the app uses the scaling factor when scaling the size on a high-resolution monitor
 - Restore deleted shortcuts in sharp-line and air-brush options (shortcut keys 3,4 and 7,8)
 - source code cleanup
 
@@ -355,3 +357,4 @@ ion replays
 - Fixed minor bugs related to lasso tool and fill pen
 - Added release note display function
 - Fixed an issue where the "g" key did not work
+

@@ -21,7 +21,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 ---------------
 23.11
 ---------------
-- 원인 불명 앱 충돌 원인이 SDK원인이 아닌 것을 알고 Adobe Air SDK 버전을 50.2.2.6에서 50.2.4.1로 올려서 배포함 (문제 조사중)
+- 앱 충돌 원인이 SDK가 아님. Adobe Air SDK 버전을 50.2.2.6에서 50.2.4.1로 올려서 배포함 (문제 조사중)
 - 윈도우 창 최대화 최소화 기능을 복원 (실수임)
 - 라소툴 1픽셀 이동 단축키가 제대로 작동하지 않던 버그 수정
 - 이미지 불러오는 중일 때 다른 버튼이 눌리던 버그 수정
@@ -30,7 +30,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - 내부 코드 최적화
 
 
-- Restore the Windows window maximize/minimize function (this was a mistake)
+- The cause of the app crash is not the SDK. Adobe Air SDK version increased from 50.2.2.6 to 50.2.4.1 and distributed (problem being investigated)
 - Fixed a bug where the lasso tool 1 pixel movement shortcut did not work properly
 - Fixed a bug where other buttons were pressed when images were being loaded
 - By applying a method of updating only the changed part of the canvas, drawing, undo, and replay frame search performance are improved by 2 to 5 times (experimental)

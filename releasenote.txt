@@ -19,15 +19,17 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-23.06
+23.07
 ---------------
 - 원인 불명의 간헐적인 앱 충돌로 Adobe Air SDK 버전을 50.2.2.6 버전으로 하향하여 배포
+- 라소툴 1픽셀 이동 단축키가 제대로 작동하지 않던 버그 수정
 - 이미지 불러오는 중일 때 다른 버튼이 눌리던 버그 수정
 - 캔버스를 변경된 부분만 갱신 하는 방식 적용, 그리기와 undo, 리플레이 프레임 탐색 성능이 2~5배 향상 (실험중)
 - 지우개 툴이나 투명색을 사용할때 배경색 대신 체크무늬로 그림
 - 내부 코드 최적화
 
 - Due to intermittent app crashes for unknown reasons Adobe Air SDK version downgraded to version 50.2.2.6
+- Fixed a bug where the lasso tool 1 pixel movement shortcut did not work properly
 - Fixed a bug where other buttons were pressed when images were being loaded
 - By applying a method of updating only the changed part of the canvas, drawing, undo, and replay frame search performance are improved by 2 to 5 times (experimental)
 - When using the eraser tool or transparent color, draw in a checkered pattern instead of the background color

@@ -27,7 +27,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - 지우개 툴이나 투명색을 사용할때 배경색 대신 체크무늬로 그림
 - 내부 코드 최적화
 
-- Due to intermittent app crashes for unknown reasons - Adobe Air SDK version downgraded to version 50.2.2
+- Due to intermittent app crashes for unknown reasons Adobe Air SDK version downgraded to version 50.2.2
 - Fixed a bug where other buttons were pressed when images were being loaded
 - By applying a method of updating only the changed part of the canvas, drawing, undo, and replay frame search performance are improved by 2 to 5 times (experimental)
 - When using the eraser tool or transparent color, draw in a checkered pattern instead of the background color

@@ -19,7 +19,7 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-23.08
+23.10
 ---------------
 - 원인 불명의 간헐적인 앱 충돌로 Adobe Air SDK 버전을 50.2.2.6 버전으로 하향하여 배포
 - 윈도우 창 최대화 최소화 기능을 복원 (실수임)

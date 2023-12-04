@@ -19,7 +19,7 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-23.26
+23.27
 ---------------
 - 라소툴 사용시 샤픈필터을 적용하지 않음(성능 저하 문제)
 - 이제 1번 레이어에 지우개 툴, 투명색을 사용할때 투명하게 그려짐

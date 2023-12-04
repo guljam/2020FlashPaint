@@ -19,7 +19,7 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-23.21
+23.22
 ---------------
 - 지우개 툴 또는 투명색을 그릴때 체크무늬를 사용하지 않음
 - 1번레이어에 지우개 툴, 투명색을 그릴때 색이 2번레이어를 가리지 않음

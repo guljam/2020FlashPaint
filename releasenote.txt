@@ -19,8 +19,9 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-23.15
+23.16
 ---------------
+- 레이어 버튼 글자를 대문자로 변경
 - 투명색 선택을 켜고 끄는 단축키 추가 (c+space 또는 m+space)
 - 사각형 펜에서 점을 찍을때 회전된 캔버스 각도에 맞춰서 그려짐
 - 윈도우 창 최대화 최소화 기능을 복원
@@ -30,6 +31,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - 지우개 툴이나 투명색을 사용할때 배경색 대신 체크무늬로 그림
 - 내부 코드 최적화
 
+- Change layer button letters to uppercase
 - Added shortcut key to turn transparent color selection on and off (c+space or m+space)
 - When drawing a point with a square pen, it is drawn according to the angle of the rotated canvas
 - Restore the Windows window maximize/minimize function

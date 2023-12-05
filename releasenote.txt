@@ -19,7 +19,7 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-23.34
+23.35
 ---------------
 - 캔버스에 포포쨩이 나옴
 - 자잘한 버그 문제로 투명색 체크 무늬 그리기 없앰

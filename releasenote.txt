@@ -23,7 +23,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 ---------------
 - 캔버스에 포포쨩이 나옴
 - 힌트 관련 버그 수정
-- 자잘한 버그 문제로 투명색 체크 무늬 그리기 없앰
+- 에어 브러시에서 투명색 체크 무늬 구현 불가로 투명색은 배경색으로 그리게 함(기능 롤백)
 - 앱 정보 창(About)에 메모리와 디스크 사용 용량 표시
 - 라소툴 사용시 샤픈필터을 적용하지 않음(성능 저하 문제)
 - 레이어 버튼 글자를 대문자로 변경
@@ -32,8 +32,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 
 - FOFO-chan appears on the canvas
 - Fixed bug related to hints
-- Transparent checkered pattern was removed due to a minor bug
-- Display memory and disk usage in the app information window (About window)
+- It is impossible to implement transparent checkered patterns in airbrush, so transparent colors are drawn as background color (function rollback)- Display memory and disk usage in the app information window (About window)
 - Sharpen filter is not applied when using lasso tool (performance degradation issue)
 - Change layer button letters to uppercase
 - Added shortcut key to turn transparent color selection on and off (c+space or m+space)

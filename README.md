@@ -13,10 +13,9 @@ Features
 - Unlimited undo, redo.
 
 developer : c301
-- twitter : https://twitter.com/ninanoninini
-- tumblr : https://www.tumblr.com/mrdriller
-- drawin 98 : https://guljam.github.io/drawin98LiteWeb/
-- e-mail: cube4none@gmail.com
+- twitter : [https://twitter.com/ninanoninini](https://twitter.com/ninanoninini)
+- tumblr : [https://www.tumblr.com/mrdriller](https://www.tumblr.com/mrdriller)
+- drawin 98 : [https://guljam.github.io/drawin98LiteWeb/](https://guljam.github.io/drawin98LiteWeb/)
 
 # 1.Install Adobe Air Runtime
 You must install the latest version of Adobe air runtime.

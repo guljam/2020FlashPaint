@@ -19,7 +19,7 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-23.33
+23.34
 ---------------
 - 리플레이 커서를 포포쨩으로 변경
 - 지우개 또는 투명색을 투명하게 그릴때 성능 문제가 있서 체크무늬로 그리게 함(기능 롤백)

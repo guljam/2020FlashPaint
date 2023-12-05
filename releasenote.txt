@@ -22,7 +22,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 23.34
 ---------------
 - 캔버스에 포포쨩이 나옴
-- 지우개 또는 투명색을 투명하게 그릴때 성능 문제가 있서 체크무늬로 그리게 함(기능 롤백)
+- 자잘한 버그 문제로 투명색 체크 무늬 그리기 없앰
 - 앱 정보 창(About)에 메모리와 디스크 사용 용량 표시
 - 라소툴 사용시 샤픈필터을 적용하지 않음(성능 저하 문제)
 - 레이어 버튼 글자를 대문자로 변경
@@ -30,7 +30,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - 사각형 펜에서 점을 찍을때 회전된 캔버스 각도에 맞춰서 그려짐
 
 - FOFO-chan appears on the canvas
-- There is a performance issue when drawing erasers or transparent colors transparently, so they are drawn in a checkered pattern (function rollback)
+- Transparent checkered pattern was removed due to a minor bug
 - Display memory and disk usage in the app information window (About window)
 - Sharpen filter is not applied when using lasso tool (performance degradation issue)
 - Change layer button letters to uppercase

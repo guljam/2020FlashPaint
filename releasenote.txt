@@ -19,13 +19,15 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-23.43
+23.45
 ---------------
 - 단축키 관련 버그 수정
 - color picker 글자 요소에 커서를 대면 커서가 손가락으로 바뀌는 버그 수정
+- 내부코드 정리
 
 - Fixed bug related to shortcut keys
 - Fixed a bug where the cursor would change to a finger when you placed the cursor on the color picker text element.
+- Internal code optimization
 
 ---------------
 23.38

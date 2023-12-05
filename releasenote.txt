@@ -19,8 +19,9 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-23.32
+23.33
 ---------------
+- 리플레이 커서를 포포쨩으로 변경
 - 지우개 또는 투명색을 투명하게 그릴때 성능 문제가 있서 체크무늬로 그리게 함(기능 롤백)
 - 앱 정보 창(About)에 메모리와 디스크 사용 용량 표시
 - 라소툴 사용시 샤픈필터을 적용하지 않음(성능 저하 문제)
@@ -28,6 +29,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - 투명색 선택을 켜고 끄는 단축키 추가 (c+space 또는 m+space)
 - 사각형 펜에서 점을 찍을때 회전된 캔버스 각도에 맞춰서 그려짐
 
+- Change the replay cursor to FOFO-chan
 - There is a performance issue when drawing erasers or transparent colors transparently, so they are drawn in a checkered pattern (function rollback)
 - Display memory and disk usage in the app information window (About window)
 - Sharpen filter is not applied when using lasso tool (performance degradation issue)

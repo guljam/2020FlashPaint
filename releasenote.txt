@@ -15,8 +15,11 @@
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠀⠃⠃⠚⠘⠘⠀⠃
 https://guljam.github.io/2020FlashPaint/
 
-업데이트 설치가 오류가 날 경우, https://airsdk.harman.com/runtime 에서 새 런타임을 설치하세요.
-If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
+
+*업데이트 설치가 오류가 날 경우, https://airsdk.harman.com/runtime 에서 새 런타임을 설치하고 fofopaint.air를 직접 다운받아 설치하시기 바랍니다
+
+*If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
+
 
 ---------------
 23.53

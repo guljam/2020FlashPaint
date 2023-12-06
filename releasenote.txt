@@ -19,8 +19,9 @@ https://guljam.github.io/2020FlashPaint/
 If the update installation fails, get a new runtime version from https://airsdk.harman.com/runtime
 
 ---------------
-23.52
+23.53
 ---------------
+- 윈도우 크기를 조절할때 사이드바 배경 사이즈가 제대로 조절되지 않던 버그 수정
 - 앱에서 사용하지 않는 아이콘 삭제
 - IME입력 관련 버그 수정
 - 단축키 관련 버그 수정
@@ -28,6 +29,7 @@ If the update installation fails, get a new runtime version from https://airsdk.
 - color picker 글자 요소에 커서를 대면 커서가 손가락으로 바뀌는 버그 수정
 - 내부코드 정리
 
+- Fixed a bug where the sidebar background size was not adjusted properly when resizing the window
 - Delete unused icons from the app
 - Fixed bug related to IME input
 - Fixed bug related to shortcut keys

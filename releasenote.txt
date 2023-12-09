@@ -21,7 +21,7 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-24.00
+24.01
 ---------------
 - 캡쳐 모드 기능 개선 영역을 그린뒤에 영역이동과 리사이즈가 가능함
 - 유저 팔레트이름을 마이 팔래트로 바꿈

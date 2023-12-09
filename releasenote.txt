@@ -21,7 +21,7 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-24.02
+24.03
 ---------------
 - 캡쳐 모드 기능 개선 (영역을 그린뒤에 영역이동과 크기 조절이 가능함)
 - 유저 팔레트이름을 마이 팔레트로 바꿈
@@ -34,7 +34,7 @@ https://guljam.github.io/2020FlashPaint/
 - 드레그 & 드롭 했을때 나타나는 메뉴에 저장 후 불러오기 버튼 추가
 - 가끔씩 읽기 전용으로 되어있거나, 다른 앱이 사용하고 있는파일을 저장 또는 불러오기 할 때 오류처리를 개선
 - 리플레이 재생중에 필요 없는 캐쉬 이미지 생성하는 버그 수정
-- 리플레이에서 재녹화, 데이터 앞뒤 자르기 단축키를 삭제함 (f1눌러야 하는데 f2눌러서 데이터 날린적 몇 번 있음)
+- 새 파일 만든기, 리플레이 재 녹화, 리플레이 데이터 앞, 뒤 자르기버튼을 3초이상 눌러야 작동되게함 (키 잘못눌러서 데이터 날린적 몇 번 있음)
 - 24.00 버전 이후부터는 업데이트 내용에 따라 앱이 초기화 될 때가 있는데, 그때 팔레트 정보와 그림 관련 데이터는 지우지 않음(실험중)
 - 23.xx 혹은 그 이전 버전에서 업데이트 할 때는 앱 데이터와 호환되지 않는 부분이 일부 남아있으므로 새 파일을 만들고 앱을 재시작, 혹은 앱 리셋을 권장함
 - 마이 팔레트, 캡쳐 모드, 기본 앱 연결 설명 관련으로 메뉴얼 업데이트
@@ -51,7 +51,7 @@ https://guljam.github.io/2020FlashPaint/
 - Add Save and Load button to the menu that appears when dragging and dropping
 - Improved error handling when saving or loading files that are sometimes read-only or are being used by other apps
 - Fixed a bug that created unnecessary cache images during replay playback
-- In replay, the shortcut keys for re-recording and cutting data before and after have been deleted (there have been several instances where I lost data by pressing F2 when I should have pressed F1)
+- Creating a new file, re-recording a replay, or cutting the front and back of the replay data requires pressing the button for more than 3 seconds for it to work (I have lost data a few times by pressing the wrong key).
 - From version 24.00 onwards, the app may be initialized depending on the update contents, but in that case, palette information and picture-related data are not deleted (experimental)
 - When updating from 23.xx or earlier, some parts that are incompatible with the app data remain, so it is recommended to create a new file and restart the app, or reset the app
 - Manual updated with descriptions of My Palette, capture mode, and basic app connection

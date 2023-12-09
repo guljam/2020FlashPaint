@@ -36,7 +36,7 @@ https://guljam.github.io/2020FlashPaint/
 - 리플레이 재생중에 필요 없는 캐쉬 이미지 생성하는 버그 수정
 - 리플레이에서 재녹화, 데이터 앞뒤 자르기 단축키를 삭제함 (f1눌러야 하는데 f2눌러서 데이터 날린적 몇 번 있음)
 - 24.00 버전 이후부터는 내용에 따라 앱이 초기화 될때가 있는데, 그때 팔레트 정보와 그림 관련 데이터는 지우지 않음(실험중)
-- *23.xx 혹은 그 이전 버전에서 업데이트 할 때는 앱 데이터와 호환되지 않는 부분이 일부 남아있으므로 새 파일을 만들고 앱을 재시작, 혹은 앱 리셋을 권장함
+- 23.xx 혹은 그 이전 버전에서 업데이트 할 때는 앱 데이터와 호환되지 않는 부분이 일부 남아있으므로 새 파일을 만들고 앱을 재시작, 혹은 앱 리셋을 권장함
 - 마이 팔레트, 캡쳐 모드 설명 관련으로 메뉴얼 업데이트
 - 기타 내부코드 많이 변경 및 최적화
 
@@ -53,7 +53,7 @@ https://guljam.github.io/2020FlashPaint/
 - Fixed a bug that created unnecessary cache images during replay playback
 - In replay, the shortcut keys for re-recording and cutting data before and after have been deleted (there have been several instances where I lost data by pressing F2 when I should have pressed F1)
 - From version 24.00 onwards, the app may be initialized depending on the content, but palette information and picture-related data are not deleted (experimental)
-- When updating from *23.xx or earlier, some parts that are incompatible with the app data remain, so it is recommended to create a new file and restart the app, or reset the app
+- When updating from 23.xx or earlier, some parts that are incompatible with the app data remain, so it is recommended to create a new file and restart the app, or reset the app
 - Manual updated with My Palette, capture mode description, and basic app connection
 - Many other internal code changes and optimizations
 

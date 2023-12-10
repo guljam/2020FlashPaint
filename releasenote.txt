@@ -21,7 +21,7 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-24.05
+24.06
 ---------------
 - 마이팔레트 색 저장한도를 100개로 늘림
 - 마이팔레트에 해당 위치에 오른쪽 클릭을 계속 누르면 추가된 색이 지워지거나 추가됨

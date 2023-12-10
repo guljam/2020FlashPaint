@@ -21,20 +21,39 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
+24.05
+---------------
+- 마이팔레트 색 저장한도를 100개로 늘림
+- 마이팔레트에 해당 위치에 오른쪽 클릭을 계속 누르면 추가된 색이 지워지거나 추가됨
+- 마이팔레트 버튼을 2번이상 누르면 확장된 공간이 열리거나 닫힘
+- 마이팔레트 버튼을 오른쪽 클릭으로 3초눌러야 초기화 되게 바꿈
+- 새 파일 만들기 버튼이 비활성화 되었는데 눌리던 버그 수정
+- 작업타이머 리셋도 3초 길게 눌러야 리셋되는 걸로 바꿈
+- 등등 내부 코드 최적화
+
+- My Palette color storage limit increased to 100
+- When registering a color by right-clicking in My Palette, the added color is erased or restored by right-clicking on the corresponding location.
+- If you press the My Palette button more than twice, the expanded space opens or closes.
+- You must right-click the My Palette button and press it for 3 seconds to reset it.
+- Fixed a bug where the create new file button was pressed when it was disabled
+- The task timer reset has also been changed to require a long press for 3 seconds to reset.
+- Internal code optimization, etc.
+
+---------------
 24.03
 ---------------
 - 캡쳐 모드 기능 개선 (영역을 그린뒤에 영역이동과 크기 조절이 가능함)
-- 유저 팔레트이름을 마이 팔레트로 바꿈
-- 마이 팔레트 갯수를 20개로 늘림
-- 마이 팔레트를 색 등록을 완전히 수동으로 변경 (사용한 색을 자동으로 추가하지 않음)
-- 마이 팔레트 색을 바깥으로 드래그하여 색 없애기 기능을 삭제
-- 마이 팔레트 버튼을 오른쪽 클릭하면 팔레트를 초기화 할 수 있음
+- 유저팔레트이름을 마이 팔레트로 바꿈
+- 마이팔레트 갯수를 20개로 늘림
+- 마이팔레트를 색 등록을 완전히 수동으로 변경 (사용한 색을 자동으로 추가하지 않음)
+- 마이팔레트 색을 바깥으로 드래그하여 색 없애기 기능을 삭제
+- 마이팔레트 버튼을 오른쪽 클릭하면 팔레트를 초기화 할 수 있음
 - drawr와 tegaki 프리셋을 마이 팔레트와 합침
 - 이제 운영체제에서 *.2020파일의 앱 연결을 fofopaint.exe로 연결했을 실행되면서 파일을 불러올 수 있음 (드래그 & 드롭 메뉴가 나타남)
 - 드레그 & 드롭 했을때 나타나는 메뉴에 저장 후 불러오기 버튼 추가
 - 가끔씩 읽기 전용으로 되어있거나, 다른 앱이 사용하고 있는파일을 저장 또는 불러오기 할 때 오류처리를 개선
 - 리플레이 재생중에 필요 없는 캐쉬 이미지 생성하는 버그 수정
-- 새 파일 만든기, 리플레이 재 녹화, 리플레이 데이터 앞, 뒤 자르기버튼을 3초이상 눌러야 작동되게함 (키 잘못눌러서 데이터 날린적 몇 번 있음)
+- 새 파일 만들기, 리플레이 재 녹화, 리플레이 데이터 앞, 뒤 자르기버튼을 3초이상 눌러야 작동되게함 (키 잘못눌러서 데이터 날린적 몇 번 있음)
 - 24.00 버전 이후부터는 업데이트 내용에 따라 앱이 초기화 될 때가 있는데, 그때 팔레트 정보와 그림 관련 데이터는 지우지 않음(실험중)
 - 23.xx 혹은 그 이전 버전에서 업데이트 할 때는 앱 데이터와 호환되지 않는 부분이 일부 남아있으므로 새 파일을 만들고 앱을 재시작, 혹은 앱 리셋을 권장함
 - 마이 팔레트, 캡쳐 모드, 기본 앱 연결 설명 관련으로 메뉴얼 업데이트

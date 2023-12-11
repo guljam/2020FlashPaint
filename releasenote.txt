@@ -21,12 +21,14 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-24.10
+24.12
 ---------------
+- 마이팔레트 위치를 사이드바 가장 아랫쪽으로 변경함
 - 길게 누르기 버튼 시간을 3초에서 2초로 줄임
 - 참고 레이어 메뉴의 클립보드 붙여넣기, 이미지 지우기버튼을 길게 눌러야 작동 하는 것으로 바꿈
 - 드래그 드롭 메뉴에 파일 미리보기 추가
 
+- Changed My Palette location to the bottom of the sidebar.
 - Reduced long press button time from 3 seconds to 2 seconds
 - The clipboard paste and erase image buttons in the reference layer menu have been changed to work only when pressed for a long time.
 - Add file preview to drag drop menu

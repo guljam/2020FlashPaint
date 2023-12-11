@@ -21,7 +21,7 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-24.14
+24.15
 ---------------
 - 마이팔레트 위치를 사이드바 가장 아랫쪽으로 변경함
 - 길게 누르기 버튼 시간을 3초에서 2초로 줄임

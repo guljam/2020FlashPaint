@@ -21,8 +21,9 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-24.20
+24.21
 ---------------
+- 이제 이미지 파일과 2020 파일이 복사 되어 있어도 불러 올 수 있음
 - 성능 저하 문제로 에어 브러시 사용시 그릴때 미리보기를 사용하지 않음
 - 그리드 조정을 슬라이더로 조정하게 함
 - 그리드 버튼의 단축키를 없앰
@@ -32,6 +33,7 @@ https://guljam.github.io/2020FlashPaint/
 - 드래그 & 드롭 메뉴에 파일 미리보기 추가
 - 드래그 & 드롭 메뉴 글씨 크기를 약간 작게함
 
+- Now you can load image files and 2020 files even if they are copied.
 - Preview is not used when drawing when using airbrush due to performance degradation issues
 - Grid adjustment can be adjusted with a slider
 - Removed shortcut key for grid button

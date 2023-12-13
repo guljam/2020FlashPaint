@@ -21,7 +21,7 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-24.22
+24.23
 ---------------
 - 이제 이미지 파일과 2020 파일이 복사 되어 있어도 불러 올 수 있음
 - 성능 저하 문제로 에어 브러시 사용시 그릴때 미리보기를 사용하지 않음

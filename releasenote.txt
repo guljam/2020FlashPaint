@@ -21,7 +21,7 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-24.31
+24.32
 ---------------
 - 그리드(격자보기) 서브 메뉴에 그리드 이동 버튼 추가
 - 그리드 버튼 오른쪽 클릭하여 리셋하는 기능 삭제
@@ -31,6 +31,7 @@ https://guljam.github.io/2020FlashPaint/
 - 리플레이 탐색 관련 버그 수정
 - 줌 100%로 할 때  캔버스가 잘못된 위치로 가는 관련 버그 수정
 - 클립보드에 복사된 *.2020 파일 체크할때 발생하는 오류 수정
+- 리플레이모드에서 새 파일 만들기 관련 버그 수정
 
 - Add grid move button to grid submenu
 - Removed the function to reset by right-clicking on the grid button
@@ -40,11 +41,12 @@ https://guljam.github.io/2020FlashPaint/
 - Fixed bug related to replay navigation
 - Fixed a bug where the canvas went to the wrong position when zoomed to 100%
 - Fixed an error that occurred when checking *.2020 files copied to the clipboard
+- Fixed bug related to creating new files in replay mode
 
 ---------------
 24.24
 ---------------
-- 이제 이미지 파일과 2020 파일이 복사 되어 있어도 불러 올 수 있음
+- 이제 이미지 파일과 *.2020 파일이 복사 되어 있어도 불러 올 수 있음
 - 성능 저하 문제로 에어 브러시 사용시 그릴때 미리보기를 사용하지 않음
 - 그리드 조정을 슬라이더로 조정하게 함
 - 그리드 버튼의 단축키를 없앰

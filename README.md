@@ -1,7 +1,7 @@
 
 # What is FOFO Paint?
 
-<img src="https://github.com/guljam/2020FlashPaint/assets/15816034/a71f7fd5-2b4b-4120-a541-7286fc0a5e34" width="600">
+<img src="https://github.com/guljam/2020FlashPaint/assets/15816034/1cd00303-a9ba-495a-8fc4-0beec505752b" width="600">
 
 FOFO PAINT is painting application and freeware. developed with Adobe Air SDK.<br>
 This app is for those who do not need complex features.

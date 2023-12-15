@@ -21,7 +21,7 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-24.36
+24.37
 ---------------
 - 불러오기 버튼으로 파일을 선택했을때, 메뉴가 나타나면서 한번 더 확인하도록 변경
 - 불러오기 버튼을 오른쪽 클릭하여 참조레이어로 불러오는 기능 삭제 (확인 메뉴가 뜨기 때문)

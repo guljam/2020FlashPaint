@@ -21,13 +21,15 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-24.48
+24.50
 ---------------
+- 마이 팔레트에서 색을 추가 할때 오른쪽 클릭을 여러번 하면 현재색-투멍색-바뀌기 전 색을 순환하게 함
 - 캔버스 줌, 회전, 이동 툴이 2초간 활성화 될시 배경색을 체크 무늬로 바꿈 (채색할때 배경색 칠했는지 안했는지 쉽게 확인하려고)
 - 그리드 관련 버그 수정 및 최적화
 - 스포이드 툴 관련 버그 수정
 - 슬라이더 위치 미조정
 
+- When adding a color in My Palette, right-clicking multiple times will cycle through the current color, transparent color, and previous color.
 - When canvas zoom, rotation, and movement tools are activated for 2 seconds, the background color changes to a checkered pattern (to easily check whether the background color was painted or not when coloring)
 - Grid-related bug fixes and optimizations
 - Fixed bug related to eyedropper tool

@@ -21,7 +21,7 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-24.55
+24.56
 ---------------
 - 리플레이 모드에서 캔버스 가운데 정렬 기능 관련 버그 수정
 - 채우기 펜(fill-pen)사용시 오른쪽 클릭을 눌렀다 뗄때 커서 위치가 메뉴 바깥 영역에 있어도 채우기 펜이 적용되도록 함

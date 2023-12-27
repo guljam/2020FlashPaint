@@ -21,8 +21,9 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-24.56
+24.57
 ---------------
+- 마이 팔레트 맨 아랫줄에 컬러 히스토리 기능을 추가
 - 리플레이 모드에서 캔버스 가운데 정렬 기능 관련 버그 수정
 - 채우기 펜(fill-pen)사용시 오른쪽 클릭을 눌렀다 뗄때 커서 위치가 메뉴 바깥 영역에 있어도 채우기 펜이 적용되도록 함
 - 마이 팔레트에서 색을 추가 할 때 해당 칸에 오른쪽 클릭을 여러번 하면 현재색-투멍색-이전색을 순환하게 함 (실수로 잘못된 칸에 색 등록했을 때 색 복원하는 기능)
@@ -32,6 +33,7 @@ https://guljam.github.io/2020FlashPaint/
 - 레이어 체크 버튼 동작 관련 버그 수정
 - 슬라이더 위치 미조정
 
+- Add color history function to the bottom row of My Palette
 - Fixed bug related to canvas center alignment function in replay mode
 - When using the fill-pen, when right-clicking is pressed and released, the fill-pen is applied even if the cursor position is outside the menu
 - When adding a color in My Palette, right-clicking on the relevant cell several times will cycle through the current color, transparent color, and previous color (function to restore color when a color is accidentally registered in the wrong cell)

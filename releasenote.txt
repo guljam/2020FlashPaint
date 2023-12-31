@@ -21,15 +21,21 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-24.64
+24.65
 ---------------
 - 색상 선택기에서 RGB값을 수동으로 입력할 때 숫자 패드가 나타나게함 (마우스로도 숫자 입력 가능)
 - 최근 적용된 에어브러시 동작은 캔버스 가장가리에서 제대로 그려지지 않은 버그가 있어 예전 동작으로 되돌림 단, 성능문제로 에어브러시 미리보기는 기능을 사용하지 않음
 - 미리보기 창 관련 버그 수정
+- 컬러 히스토리 높이를 미조정
+- 컬러 히스토리를 다른 프리셋에서도 볼 수 있음
+- 캡쳐모드 관련 버그 수정
 
 - A number pad appears when manually entering RGB values in the color picker (numbers can also be entered with the mouse)
 - The recently applied airbrush action has a bug in which it does not draw properly at the edge of the canvas, so it has been reverted to the previous action. However, due to performance issues, the airbrush preview function is not used
 - Fixed bug related to preview window
+- Adjust color history position
+- Color history can be viewed in other presets
+- Fixed bug related to capture mode
 
 ---------------
 24.60

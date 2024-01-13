@@ -21,9 +21,10 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-24.71
+24.72
 ---------------
-- lasso툴 사용 후 undo했을때 제대로 이전 이미지가 제대로 그러지지 않던 버그 수정
+- 줌을 초기화 할 때 캔버스가 화면을 벗어나는 버그 수정
+- lasso툴 사용 후 undo했을때 제대로 이전 이미지가 제대로 그려지지 않던 버그 수정
 - 색 선택 관련 버그 수정
 - 색상 선택기에서 RGB값을 수동으로 입력할 때 숫자 패드가 나타나게함 (마우스로도 숫자 입력 가능)
 - 최근 적용된 에어브러시 동작은 캔버스 가장가리에서 제대로 그려지지 않은 버그가 있어 예전 동작으로 되돌림 단, 성능문제로 에어브러시 미리보기는 기능을 사용하지 않음
@@ -32,7 +33,8 @@ https://guljam.github.io/2020FlashPaint/
 - 컬러 히스토리를 다른 프리셋에서도 볼 수 있음
 - 캡쳐모드 관련 버그 수정
 
-- Fixed a bug where the previous image was not displayed properly when undoing after using the lasso tool.
+- Fixed bug where canvas goes off screen when initializing zoom
+- Fixed a bug where the previous image was not drawn properly when undoing after using the lasso tool
 - Fixed bug related to color selection
 - A number pad appears when manually entering RGB values in the color picker (numbers can also be entered with the mouse)
 - The recently applied airbrush action has a bug in which it does not draw properly at the edge of the canvas, so it has been reverted to the previous action. However, due to performance issues, the airbrush preview function is not used

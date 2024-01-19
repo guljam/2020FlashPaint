@@ -21,6 +21,13 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
+24.73
+---------------
+- 캡쳐모드에서 영역을 그릴때 어두운 영역사각형이 제대로 그려지지 않는 버그 수정
+
+- Fixed a bug where the dark area rectangle was not drawn properly when drawing an area in capture mode.
+
+---------------
 24.72
 ---------------
 - 줌을 초기화 할 때 캔버스가 화면을 벗어나는 버그 수정

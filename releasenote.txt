@@ -21,13 +21,17 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-24.76
+24.77
 ---------------
+- 해당 레이어만 보기 동작을 보통 레이어 선택 버튼을 클릭할 때마다 ON/OFF되도록 바꿈
+- 색 선택기에서 컬러 모델 바꾸기 동작을, RGB 또는 HSV 글자를 클릭할 때마다로 바꿈
 - 캡쳐모드에서 영역을 그릴때 어두운 영역사각형이 제대로 그려지지 않는 버그 수정
 - 그리기 모드에서 캔배스 배경색을 투명으로 바꾸는 조건을 캔버스 이동(hand tool) + 2초간 마우스 움직이지 않음으로 변경
 
-- Fixed a bug where the dark area rectangle was not drawn properly when drawing an area in capture mode.
-- Changed the condition for changing the canvas background color to transparent in drawing mode to moving the canvas(hand tool) + not moving the mouse for 2 seconds.
+- Show only the relevant layer is changed to ON/OFF every time you click the normal layer selection button
+- Changed color model change action in color picker to whenever RGB or HSV text is clicked
+- Fixed a bug where the dark area rectangle was not drawn properly when drawing an area in capture mode
+- Changed the condition for changing the canvas background color to transparent in drawing mode to moving the canvas(hand tool) + not moving the mouse for 2 seconds
 
 ---------------
 24.72

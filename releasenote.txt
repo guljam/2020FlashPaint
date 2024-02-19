@@ -21,6 +21,13 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
+24.81
+---------------
+- (24.81) 라소툴 메뉴 일부 버튼을 마우스 클릭을 뗄 때 작동하게 변경
+
+- (24.81) Changed some buttons in the Lasso Tool menu to work when the mouse is released
+
+---------------
 24.80
 ---------------
 - (24.80) 캡쳐 모드에서 레이어 표시관련 버그 수정

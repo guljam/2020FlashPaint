@@ -21,10 +21,14 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-24.81
+24.82
 ---------------
+- (24.82) 라소툴을 사용하고 있을때 파일을 드래그 드롭하면 오류가 나던 버그 수정
+- (24.82) 드래그 드롭 메뉴를 esc와 백스페이스 키로 꺼지게 함
 - (24.81) 라소툴 메뉴 일부 버튼을 마우스 클릭을 뗄 때 작동하게 변경
 
+- (24.82) Fixed a bug where an error occurred when dragging and dropping a file while using the Lasso tool
+- (24.82) Drag drop menu can be turned off with esc and backspace keys
 - (24.81) Changed some buttons in the Lasso Tool menu to work when the mouse is released
 
 ---------------

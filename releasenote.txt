@@ -23,12 +23,14 @@ https://guljam.github.io/2020FlashPaint/
 ---------------
 24.83
 ---------------
+- (24.83) Adobe air SDK버전을 50.2.4.4로 올림, 업데이트 실패시 https://airsdk.harman.com/runtime에서 새 런타임 설치가 필요함
 - (24.83) 사이드 바 메뉴 순서 조정 (펜 크기 조정, 투명도, 색깔 조정이 같이 붙어있어야 동선이 짧아지고 편하다는걸 깨달음)
 - (24.83) 사이드바 아랫쪽에 팔레트 위치를 바꿀 수 있는 작은 버튼 추가
 - (24.82) 라소툴을 사용하고 있을때 파일을 드래그 드롭하면 오류가 나던 버그 수정
 - (24.82) 드래그 드롭 메뉴를 esc와 백스페이스 키로 꺼지게 함
 - (24.81) 라소툴 메뉴 일부 버튼을 마우스 클릭을 뗄 때 작동하게 변경
 
+- (24.83) Upgraded the Adobe air SDK version to 50.2.4.4. If the update fails, a new runtime must be installed from https://airsdk.harman.com/runtime
 - (24.83) Adjusting the order of the sidebar menu (realized that pen size adjustment, transparency, and color adjustment should be done together to shorten the movement line and make it more convenient)
 - (24.83) Add a small button to change the palette location at the bottom of the sidebar
 - (24.82) Fixed a bug where an error occurred when dragging and dropping a file while using the Lasso tool

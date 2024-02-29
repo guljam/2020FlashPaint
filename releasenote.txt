@@ -21,13 +21,13 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-24.96
+24.97
 ---------------
-- (24.96) 오른쪽 클릭 툴 메뉴에서 사이드바 버튼 세로 크기를 늘림, 기타 내부 코드 변경
+- (24.97) 오른쪽 클릭 툴 메뉴에서 사이드바 버튼 세로 크기를 늘림, 기타 내부 코드 변경
 - (24.95) 내부 코드 최적화
 - (24.92) 캡쳐모드에서 스탬프 글자색을 결정하는 방식을 약간 변경
 
-- (24.96) Increase the vertical size of the sidebar button in the right-click tool menu, and other internal code changes
+- (24.97) Increase the vertical size of the sidebar button in the right-click tool menu, and other internal code changes
 - (24.95) Internal code optimization
 - (24.92) Slight change to the way stamp font color is determined in capture mode
 

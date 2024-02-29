@@ -22,9 +22,9 @@ https://guljam.github.io/2020FlashPaint/
 
 
 ---------------
-24.90
+24.91
 ---------------
-- (24.90) 슬라이드바 디자인 변경
+- (24.91) 슬라이드바 디자인 변경, 기타 아이콘 위치 미조정
 - (24.88) 캡쳐모드에서 스탬프 글자 입력칸에 모든 글자를 적을 수 있도록 함
 - (24.87) 그리드 위치 이동 기능이 작동하지 않던 버그 수정
 - (24.87) 사이드 바 UI 미조정, 슬라이드 바 모양 바꿈
@@ -37,7 +37,7 @@ https://guljam.github.io/2020FlashPaint/
 - (24.82) 드래그 드롭 메뉴를 esc와 백스페이스 키로 꺼지게 함
 - (24.81) 라소툴 메뉴 일부 버튼을 마우스 클릭을 뗄 때 작동하게 변경
 
-- (24.90) Slide bar design change
+- (24.91) Slide bar design changed, other icon positions fine-tuned
 - (24.88) Allows you to write all letters in the stamp text input box in capture mode
 - (24.86) Fine-adjusted sidebar button positions
 - (24.85) Upgraded the Adobe air SDK version to 50.2.4.4. If the update fails, a new runtime must be installed from https://airsdk.harman.com/runtime

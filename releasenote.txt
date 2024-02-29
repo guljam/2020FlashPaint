@@ -21,8 +21,9 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-24.87
+24.88
 ---------------
+- (24.88) 캡쳐모드에서, 스탬프 글자 입력칸에 모든 글자를 적을 수 있도록 함
 - (24.87) 그리드 위치 이동 기능이 작동하지 않던 버그 수정
 - (24.87) 사이드 바 UI 미조정, 슬라이드 바 모양 바꿈
 - (24.87) 캡쳐모드에서 도장 기능 추가, 도장기능 단축키 f 또는 h
@@ -34,6 +35,7 @@ https://guljam.github.io/2020FlashPaint/
 - (24.82) 드래그 드롭 메뉴를 esc와 백스페이스 키로 꺼지게 함
 - (24.81) 라소툴 메뉴 일부 버튼을 마우스 클릭을 뗄 때 작동하게 변경
 
+- (24.88) In capture mode, all letters can be written in the stamp text input box
 - (24.86) Fine-adjusted sidebar button positions
 - (24.85) Upgraded the Adobe air SDK version to 50.2.4.4. If the update fails, a new runtime must be installed from https://airsdk.harman.com/runtime
 - (24.85) Adjusting the order of the sidebar menu (Pen size, transparency, and color adjustments must be done together to shorten the cursor movement distance and make it more convenient)

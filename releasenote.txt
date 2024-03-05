@@ -21,8 +21,9 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-25.05
+25.06
 ---------------
+- (25.06) 컬러 히스토리에서 스포이드로 뽑은 색은 기록하지 않음(옛날 방식으로 돌아감)
 - (25.05) 반복재생 관련 버그 수정
 - (25.04) 마우스 휠 버튼 기능추가, 커서가 캔버스에 있으면 줌, 사이드바에 있으면 사이드바 스크롤을 할 수 있음
 - (25.02) 리플레이 모드에서 반복재생을 켜고 끌수 있는 버튼 추가
@@ -34,6 +35,7 @@ https://guljam.github.io/2020FlashPaint/
 - (24.95) 내부 코드 최적화
 - (24.92) 캡쳐모드에서 스탬프 글자색을 결정하는 방식을 약간 변경
 
+- (25.06) Colors picked with an eyedropper are not recorded in the color history (return to the old method)
 - (25.05) Bug fix related to repeat playback
 - (25.04) Added mouse wheel button function. If the cursor is on the canvas, you can zoom, and if the cursor is on the sidebar, you can scroll the sidebar
 - (25.02) Added button to turn on/off repeat play in replay mode

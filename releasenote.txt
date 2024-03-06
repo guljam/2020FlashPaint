@@ -21,6 +21,13 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
+25.07
+---------------
+- (25.07) 캡쳐모드에서 스탬프 배경식을 약간 더 투명하게 함
+
+- (25.07) Make the stamp background slightly more transparent in capture mode
+
+---------------
 25.06
 ---------------
 - (25.06) 컬러 히스토리에서 스포이드로 뽑은 색은 기록하지 않음(옛날 방식으로 돌아감)

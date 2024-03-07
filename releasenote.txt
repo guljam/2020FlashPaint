@@ -21,11 +21,13 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-25.08
+25.10
 ---------------
+- (25.10) 리플레이모드와 캡쳐모드에서 타이머 초기화가 되지 않는 버그 수정
 - (25.08) 캡쳐모드에서 단축키를 변경,  저장: Ctrl+S 또는 Ctrl+K, 클립보드로 복사: Ctrl+C 또는 Ctrl+M
 - (25.07) 캡쳐모드에서 스탬프 배경식을 약간 더 투명하게 함
 
+- (25.10) Fixed bug where timer was not initialized in replay mode and capture mode
 - (25.08) Change shortcut keys in capture mode, save: Ctrl+S or Ctrl+K, copy to clipboard: Ctrl+C or Ctrl+M
 - (25.07) Make the stamp background slightly more transparent in capture mode
 

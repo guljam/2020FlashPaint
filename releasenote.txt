@@ -21,13 +21,19 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-25.12
+25.13
 ---------------
+- (25.13) 마우스 휠 클릭으로 캔버스 이동 할 수 있음
+- (25.13) 마우스 휠로 줌 조정 할 때, 감도를 약간 낮춤
+- (25.13) 마우스 휠로 줌 조정 하는 기능이 캡쳐모드에서 작동하던 버그 수정
 - (25.12) 레이어 선택 버튼에 커서를 올려두거나, 단축키로 레이어 선택을 했을때 미리보기 창에 해당 레이어만 표시하는 기능을 지움
 - (25.11) 캡쳐모드에서 스탬프 배경색을 약간 더 투명하게 함
 - (25.10) 리플레이모드와 캡쳐모드에서 타이머 초기화가 되지 않는 버그 수정
 - (25.08) 캡쳐모드에서 단축키를 변경,  저장: Ctrl+S 또는 Ctrl+K, 클립보드로 복사: Ctrl+C 또는 Ctrl+M
 
+- (25.13) You can move the canvas by clicking the mouse wheel(middle-click)
+- (25.13) Slightly lower the sensitivity when zooming with the mouse wheel
+- (25.13) Fixed a bug where the zoom adjustment function with the mouse wheel worked in capture mode
 - (25.12) When you place the cursor on the layer selection button or select a layer with a shortcut key, the function to display only that layer in the preview window has been deleted
 - (25.11) Make the stamp background slightly more transparent in capture mode
 - (25.10) Fixed bug where timer was not initialized in replay mode and capture mode

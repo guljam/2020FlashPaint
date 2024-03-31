@@ -21,6 +21,13 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
+25.20
+---------------
+- (25.20) UI버튼 작동 관련 작은 버그들 수정
+
+- (25.20) Fixed small bugs related to UI button operation
+
+---------------
 25.18
 ---------------
 - (25.17) 캡쳐 모드에서 영역크기가 소수점이 되는 버그 수정

@@ -21,8 +21,9 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-25.16
+25.17
 ---------------
+- (25.17) 캡쳐 모드에서 영역크기가 소수점이 되는 버그 수정
 - (25.16) 캡쳐 모드에서 영역그리기 관련 버그 수정
 - (25.15) 그리드 메뉴에서 슬라이드 버튼을 오른쪽 클릭하여 끄기 가능
 - (25.15) 그리드 메뉴에서 격자 이동 초기화가 바로 적용되지 않는 버그 수정
@@ -34,6 +35,7 @@ https://guljam.github.io/2020FlashPaint/
 - (25.10) 리플레이모드와 캡쳐모드에서 타이머 초기화가 되지 않는 버그 수정
 - (25.08) 캡쳐모드에서 단축키를 변경,  저장: Ctrl+S 또는 Ctrl+K, 클립보드로 복사: Ctrl+C 또는 Ctrl+M
 
+- (25.17) Fixed a bug where the area size was a decimal point in capture mode
 - (25.16) Fixed bug related to area drawing in capture mode
 - (25.15) The slide button can be turned off by right-clicking on the grid menu
 - (25.15) Fixed a bug where grid movement initialization was not applied immediately in the grid menu

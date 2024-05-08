@@ -25,9 +25,12 @@ https://guljam.github.io/2020FlashPaint/
 ---------------
 - Adobe Air SDK버전을 50.2.5.1로 업데이트함
 - 인증서 만료 문제로 새 인증서로 앱을 빌드함.
-기존 앱을 지운 후, https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파일(fofopaint.exe)을 받아 수동으로 재설치 필요.
+기존 앱을 지운 후, https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파일(fofopaint.air)을 받아 수동으로 재설치 필요.
 - 길게 눌러야 작동하는 버튼의 시간을 2초에서 1초로 단축시키고 카운트를 10 9 8...에서 3 2 1...로 변경
 
+- Adobe Air SDK version updated to 50.2.5.1
+- Due to certificate expiration issue, the app was built with a new certificate.
+After deleting the existing app, you need to download the new file (fofopaint.air) directly from the https://guljam.github.io/2020FlashPaint/ site and reinstall it manually.
 - Shortened the time of the button that requires a long press to operate from 2 seconds to 1 second and changed the count from 10 9 8... to 3 2 1...
 
 ---------------

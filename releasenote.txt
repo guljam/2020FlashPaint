@@ -21,6 +21,13 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
+25.26
+---------------
+- 길게 눌러야 작동하는 버튼의 시간을 2초에서 1초로 단축시키고 카운트를 10 9 8...에서 3 2 1...로 변경
+
+- Shortened the time of the button that requires a long press to operate from 2 seconds to 1 second and changed the count from 10 9 8... to 3 2 1...
+
+---------------
 25.25
 ---------------
 - (25.25) 리플레이가 재생되고 있을 때, 파일을 로드하면 오류가 나는 버그를 수정

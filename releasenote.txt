@@ -21,8 +21,9 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-25.28
+25.30
 ---------------
+- (25.30) 사이드바 표시 관련 작은 버그 수정
 - (25.28) 퀵 사이드바가 활성화 되었을 때 창 크기가 조정되면 사이드 바가 원래 위치로 되돌아 갈때 위치가 어긋나는 버그 수정
 - (25.27) 마이팔레트 색상 등록 마우스 동작을 해당 칸을 오른쪽 클릭에서 길게 클릭으로 변경
 - (25.27) 마이팔레트 리셋 마우스 동작을 길게 오른쪽 클릭에서 길게 클릭으로 변경 왜냐하면 퀵 사이드바를 마우스 오른쪽 클릭으로 닫을때 오동작을 방지하기 위함
@@ -31,6 +32,7 @@ https://guljam.github.io/2020FlashPaint/
 기존 앱을 지운 후, https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파일(fofopaint.air)을 받아 수동으로 재설치 필요.
 - (25.26) 길게 눌러야 작동하는 버튼의 시간을 2초에서 1초로 단축시키고 카운트를 10 9 8...에서 3 2 1...로 변경
 
+- (25.30) Fixed small bug related to sidebar display
 - (25.28) Fixed a bug where when the quick sidebar is activated and the window is resized, the sidebar is misaligned when it returns to its original position
 - (25.27) Change the mouse action for My Palette color registration from right-clicking to long-clicking in the relevant field
 - (25.27) My Palette reset mouse action changed from long right click to long click to prevent malfunction when closing the quick sidebar by right clicking

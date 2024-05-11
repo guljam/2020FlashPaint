@@ -21,7 +21,7 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-25.32
+25.33
 ---------------
 ***인증서 만료 문제로 새 인증서로 앱을 빌드함
 기존 앱을 지운 후, https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파일(fofopaint.air)을 받아 수동으로 재설치 필요
@@ -29,9 +29,11 @@ https://guljam.github.io/2020FlashPaint/
 ***Due to certificate expiration issue, the app was built with a new certificate
 After deleting the existing app, you need to download the new file (fofopaint.air) directly from the https://guljam.github.io/2020FlashPaint/ site and reinstall it manually
 
+- (25.33) 줌 확대, 축소 버튼 관련 버그 수정
 - (25.32) 사이드 바에서 마우스 동작 거리를 최소화 하기 위해서 툴 버튼 배치를 변경
 - (25.31) 사이드 바에서 줌툴 아이콘 선택 커서 관련 버그 수정
 
+- (25.33) Fixed bug related to zoom in and out buttons
 - (25.32) Changed tool button placement to minimize mouse movement distance in the sidebar
 - (25.31) Fixed a bug related to the zoom tool icon selection cursor in the sidebar
 

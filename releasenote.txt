@@ -30,10 +30,10 @@ https://guljam.github.io/2020FlashPaint/
 After deleting the existing app, you need to download the new file (fofopaint.air) directly from the https://guljam.github.io/2020FlashPaint/ site and reinstall it manually
 
 - (25.45) Adobe air SDK 51.1.3버전으로 빌드 함. 새 런타임 설치 필요
-- (25.45) 캡쳐 모드에스 스탬프 폰트위치 관련 버그를 수정
+- (25.45) 캡쳐 모드에서 스탬프 폰트 관련 버그를 수정
 
-- (25.45) Build with Adobe Air SDK 51.1.3. New runtime installation required
-- (25.45) Fixed bug related to stamp font location in capture mode
+- (25.45) Build with Adobe air SDK version 51.1.3. New runtime installation required
+- (25.45) Fixed a bug related to stamp font in capture mode
 
 ---------------
 25.42

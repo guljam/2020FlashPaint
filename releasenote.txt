@@ -21,14 +21,29 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-25.46
+25.50
 ---------------
-***인증서 만료 문제로 새 인증서로 앱을 빌드 함
+***인증서 만료 문제로 새 인증서로 앱을 빌드함
 기존 앱을 지운 후, https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파일(fofopaint.air)을 받아 수동으로 재설치 필요
 
 ***Due to certificate expiration issue, the app was built with a new certificate
 After deleting the existing app, you need to download the new file (fofopaint.air) directly from the https://guljam.github.io/2020FlashPaint/ site and reinstall it manually
 
+- (25.50) 힌트 동작 변경, 클릭하지 않고 커서가 버튼들을 1초 이상 배회하면 힌트가 나타남
+- (25.50) 스크롤바 동작 변경, 항상 표시되며 창 크기에 상관 없이 사이드바 메뉴를 스크롤을 할 수 있음
+- (25.50) 마이팔레트 관련 버그 수정
+- (25.50) 컬러 히스토리에 색깔을 드래그하여 마이팔레트에 추가하는 기능 추가
+- (25.50) 캔버스 회전시 나타나는 커서 디자인 변경
+
+- (25.50) Changed hint behavior, if the cursor hovers over buttons for more than 1 second without clicking, a hint appears
+- (25.50) Changed scrollbar behavior, it is always visible and the sidebar menu can be scrolled regardless of the window size
+- (25.50) Fixed bug related to MyPalette
+- (25.50) Added the ability to drag colors from the color history to add them to MyPalette.
+- (25.50) Changed the design of the cursor that appears when rotating the canvas
+
+---------------
+25.45
+---------------
 - (25.45) Adobe air SDK 51.1.3버전으로 빌드 함. 새 런타임 설치 필요
 - (25.45) 캡쳐 모드에서 스탬프 폰트 관련 버그를 수정
 

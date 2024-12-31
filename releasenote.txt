@@ -21,7 +21,7 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-25.53
+25.55
 ---------------
 ***인증서 만료 문제로 새 인증서로 앱을 빌드함
 기존 앱을 지운 후, https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파일(fofopaint.air)을 받아 수동으로 재설치 필요
@@ -29,6 +29,7 @@ https://guljam.github.io/2020FlashPaint/
 ***Due to certificate expiration issue, the app was built with a new certificate
 After deleting the existing app, you need to download the new file (fofopaint.air) directly from the https://guljam.github.io/2020FlashPaint/ site and reinstall it manually
 
+- (25.55) 사이드 바 스크롤 관련 버그 수정
 - (25.53) about에서 제작자 이름 변경
 - (25.52) 리플레이를 탐색할때 2번 레이어에 그려지는 과정이 1번 레이어에 표시되는 버그 수정
 - (25.51) 라소툴에서 참조레이어로 이미지를 이동시킬때 제대로 전송되지 않는 버그 수정
@@ -38,6 +39,7 @@ After deleting the existing app, you need to download the new file (fofopaint.ai
 - (25.50) 컬러 히스토리에 색깔을 드래그하여 마이팔레트에 추가하는 기능 추가
 - (25.50) 캔버스 회전시 나타나는 커서 디자인 변경
 
+- (25.55) Fixed bug related to sidebar scrolling
 - (25.53) Changed the creator name in about
 - (25.52) Fixed a bug where the process drawn on layer 2 would be displayed on layer 1 when exploring the replay
 - (25.51) Fixed a bug where moving an image from the Lasso tool to a reference layer would not transfer properly

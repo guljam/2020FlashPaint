@@ -21,7 +21,7 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
-25.57
+25.58
 ---------------
 ***인증서 만료 문제로 새 인증서로 앱을 빌드함
 기존 앱을 지운 후, https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파일(fofopaint.air)을 받아 수동으로 재설치 필요
@@ -29,7 +29,8 @@ https://guljam.github.io/2020FlashPaint/
 ***Due to certificate expiration issue, the app was built with a new certificate
 After deleting the existing app, you need to download the new file (fofopaint.air) directly from the https://guljam.github.io/2020FlashPaint/ site and reinstall it manually
 
-- (25.57) 레이어 선택관련 버그 수정
+- (25.58) 사이드바 관련 버그 수정
+- (25.57) 레이어 선택 관련 버그 수정
 - (25.56) 드로우 모드에서 캔버스를 마우스 오른쪽 클릭으로 1초 이상 누르면 배경이 투명하게 됨
 - (25.55) 사이드 바 스크롤 관련 버그 수정
 - (25.53) about에서 제작자 이름 변경
@@ -41,6 +42,7 @@ After deleting the existing app, you need to download the new file (fofopaint.ai
 - (25.50) 컬러 히스토리에 색깔을 드래그하여 마이팔레트에 추가하는 기능 추가
 - (25.50) 캔버스 회전시 나타나는 커서 디자인 변경
 
+- (25.58) Fixed sidebar related bugs
 - (25.57) Fixed bug related to layer selection
 - (25.56) Right-clicking on the canvas in draw mode for more than 1 second makes the background transparent
 - (25.55) Fixed bug related to sidebar scrolling

@@ -21,7 +21,11 @@ https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
 
 ---------------
+<<<<<<< Updated upstream
 25.60
+=======
+25.50
+>>>>>>> Stashed changes
 ---------------
 ***인증서 만료 문제로 새 인증서로 앱을 빌드함
 기존 앱을 지운 후, https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파일(fofopaint.air)을 받아 수동으로 재설치 필요
@@ -29,6 +33,7 @@ https://guljam.github.io/2020FlashPaint/
 ***Due to certificate expiration issue, the app was built with a new certificate
 After deleting the existing app, you need to download the new file (fofopaint.air) directly from the https://guljam.github.io/2020FlashPaint/ site and reinstall it manually
 
+<<<<<<< Updated upstream
 - (25.60) 사이드바 관련 버그 수정
 - (25.57) 레이어 선택 관련 버그 수정
 - (25.56) 드로우 모드에서 캔버스를 마우스 오른쪽 클릭으로 1초 이상 누르면 배경이 투명하게 됨
@@ -36,12 +41,15 @@ After deleting the existing app, you need to download the new file (fofopaint.ai
 - (25.53) about에서 제작자 이름 변경
 - (25.52) 리플레이를 탐색할때 2번 레이어에 그려지는 과정이 1번 레이어에 표시되는 버그 수정
 - (25.51) 라소툴에서 참조레이어로 이미지를 이동시킬때 제대로 전송되지 않는 버그 수정
+=======
+>>>>>>> Stashed changes
 - (25.50) 힌트 동작 변경, 클릭하지 않고 커서가 버튼들을 1초 이상 배회하면 힌트가 나타남
 - (25.50) 스크롤바 동작 변경, 항상 표시되며 창 크기에 상관 없이 사이드바 메뉴를 스크롤을 할 수 있음
 - (25.50) 마이팔레트 관련 버그 수정
 - (25.50) 컬러 히스토리에 색깔을 드래그하여 마이팔레트에 추가하는 기능 추가
 - (25.50) 캔버스 회전시 나타나는 커서 디자인 변경
 
+<<<<<<< Updated upstream
 - (25.60) Fixed sidebar related bugs
 - (25.57) Fixed bug related to layer selection
 - (25.56) Right-clicking on the canvas in draw mode for more than 1 second makes the background transparent
@@ -49,6 +57,8 @@ After deleting the existing app, you need to download the new file (fofopaint.ai
 - (25.53) Changed the creator name in about
 - (25.52) Fixed a bug where the process drawn on layer 2 would be displayed on layer 1 when exploring the replay
 - (25.51) Fixed a bug where moving an image from the Lasso tool to a reference layer would not transfer properly
+=======
+>>>>>>> Stashed changes
 - (25.50) Changed hint behavior, if the cursor hovers over buttons for more than 1 second without clicking, a hint appears
 - (25.50) Changed scrollbar behavior, it is always visible and the sidebar menu can be scrolled regardless of the window size
 - (25.50) Fixed bug related to MyPalette
@@ -56,6 +66,7 @@ After deleting the existing app, you need to download the new file (fofopaint.ai
 - (25.50) Changed the design of the cursor that appears when rotating the canvas
 
 ---------------
+<<<<<<< Updated upstream
 25.45
 ---------------
 - (25.45) Adobe air SDK 51.1.3버전으로 빌드 함. 새 런타임 설치 필요
@@ -65,6 +76,8 @@ After deleting the existing app, you need to download the new file (fofopaint.ai
 - (25.45) Fixed a bug related to stamp font in capture mode
 
 ---------------
+=======
+>>>>>>> Stashed changes
 25.42
 ---------------
 

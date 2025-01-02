@@ -12,9 +12,7 @@ Features
 - Replay mode. You can watch the whole process like a movie, you can even go back to a specific point and redraw it.
 - Unlimited undo, redo.
 
-developer : c301
-- twitter : [https://twitter.com/ninanoninini](https://twitter.com/ninanoninini)
-- tumblr : [https://www.tumblr.com/blog/chickenmayozmt](https://www.tumblr.com/chickenmayozmt)
+developer : chickenmayozmt (cube4none@gmail.com)
 - drawin 98 : [https://guljam.github.io/drawin98LiteWeb/](https://guljam.github.io/drawin98LiteWeb/)
 
 # 1.Install Adobe Air Runtime

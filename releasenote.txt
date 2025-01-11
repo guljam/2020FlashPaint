@@ -26,13 +26,15 @@ https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파�
 https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofopaint.air) directly from the site and reinstall it manually.
 
 ---------------
-25.62
+25.63
 ---------------
+- (25.63) 채우기 펜(Fill Pen) 사용 할 때 사이드 바 메뉴에 채우기 펜 관련 버튼이 활성되게 함
 - (25.62) 캡쳐 모드에서 캔버스를 클릭하면 저장하는 기능 제거 (오작동 방지)
 - (25.62) 캡쳐 모드에서 스탬프 글꼴꼴 변경 기능 추가
 - (25.62) 힌트 표시를 한 줄 변경
 - (25.62) 힌트 길이가 창 크기보다 크면 좌우로 움직이는 기능 추가
 
+- (25.63) When using the Fill Pen, the Fill Pen related buttons in the sidebar menu are activated
 - (25.62) Removed the function to save when clicking on the canvas in capture mode (to prevent malfunction)
 - (25.62) Added the function to change the stamp font in capture mode
 - (25.62) Changed the hint display to one line

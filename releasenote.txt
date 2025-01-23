@@ -26,10 +26,11 @@ https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파�
 https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofopaint.air) directly from the site and reinstall it manually.
 
 ---------------
-25.67
+25.68
 ---------------
-- (25.67) 사이드바와 캡쳐모드 관련 작은 버그 수정
+- (25.68) 이전버전에서 코드 최적화 하면서 라소툴이 작동하지 않던 버그 수정
 
+- (25.67) 사이드바와 캡쳐모드 관련 작은 버그 수정
 - (25.66) 캡쳐모드 관련 작은 버그 수정
 - (25.65) 채우기 펜(Fill Pen) 아이콘을 바꿈 (일반 펜 아이콘이랑 햇갈림)
 - (25.65) 캡쳐모드에서 이전에 사용한 스탬프 글꼴을 저장해 둠
@@ -39,8 +40,9 @@ https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofo
 - (25.62) 힌트 표시를 한 줄 변경
 - (25.62) 힌트 길이가 창 크기보다 크면 좌우로 움직이는 기능 추가
 
-- (25.67) Fixed minor bugs related to sidebar and capture mode.
+- (25.68) Fixed a bug where the Lasso tool did not work while optimizing code in previous versions.
 
+- (25.67) Fixed minor bugs related to sidebar and capture mode.
 - (25.66) Fixed minor bugs related to capture mode
 - (25.65) Changed Fill Pen icon (confused with the normal pen icon)
 - (25.65) Save previously used stamp fonts in capture mode

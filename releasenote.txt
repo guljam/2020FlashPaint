@@ -26,13 +26,13 @@ https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파�
 https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofopaint.air) directly from the site and reinstall it manually.
 
 ---------------
-25.70
+25.71
 ---------------
-- (25.70) 팔레트 색을 선택할때 임시적으로 선택된 색과 같으면 팔레트 색이 선택되지 않던 버그 수정
-- (25.70) drawr와 tegaki프리셋에 스크래치 패드 추가
+- (25.71) 팔레트 색을 선택할때 임시적으로 선택된 색과 같으면 팔레트 색이 선택되지 않던 버그 수정
+- (25.71) drawr와 tegaki프리셋에 스크래치 패드 추가
 
-- (25.70) Fixed a bug where palette colors would not be selected if they were the same as the temporarily selected color when selecting a palette color
-- (25.70) Added scratch pad to drawr and tegaki color presets
+- (25.71) Fixed a bug where palette colors would not be selected if they were the same as the temporarily selected color when selecting a palette color
+- (25.71) Added scratch pad to drawr and tegaki color presets
 
 ---------------
 25.68

@@ -29,6 +29,7 @@ https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofo
 25.75
 ---------------
 - (25.75) 스포이드 색 비교 링 애니메이션 관련 버그 수정
+- (25.75) 스크래치 패드 활성시 컬러 히스토리 보이도록 함
 
 - (25.73) 스크래치 패드 관련 버그 수정
 - (25.72) 스포이드로 색을 선택할때 색 비교 링에 애니메이션을 추가함
@@ -37,6 +38,7 @@ https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofo
 - (25.71) drawr와 tegaki프리셋에 스크래치 패드 추가
 
 - (25.75) Fixed bug related to eyedropper color comparison ring animation
+- (25.75) Make color history visible when scratch pad is active
 
 - (25.73) Fixed bug related to scratch pad\
 - (25.72) Add animation to color comparison ring when picking color with eyedropper

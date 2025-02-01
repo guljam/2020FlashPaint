@@ -40,7 +40,7 @@ https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofo
 - (25.75) Fixed bug related to eyedropper color comparison ring animation
 - (25.75) Make color history visible when scratch pad is active
 
-- (25.73) Fixed bug related to scratch pad\
+- (25.73) Fixed bug related to scratch pad
 - (25.72) Add animation to color comparison ring when picking color with eyedropper
 - (25.72) Make selected pixel visible when picking color in scratch pad
 - (25.71) Fixed a bug where palette colors would not be selected if they were the same as the temporarily selected color when selecting a palette color

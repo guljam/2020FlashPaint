@@ -26,20 +26,26 @@ https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파�
 https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofopaint.air) directly from the site and reinstall it manually.
 
 ---------------
-25.75
+25.76
 ---------------
+- (25.76) 스포이드 툴 애니메이션 삭제
+- (25.76) 스크래치 패드에 커서를 두고 c, m(스포이드 단축키)를 눌러도 색이 선택되게 함
+- (25.76) 사이드바 UI미조정
+
 - (25.75) 스포이드 색 비교 링 애니메이션 관련 버그 수정
 - (25.75) 스크래치 패드 활성시 컬러 히스토리 보이도록 함
-
 - (25.73) 스크래치 패드 관련 버그 수정
 - (25.72) 스포이드로 색을 선택할때 색 비교 링에 애니메이션을 추가함
 - (25.72) 스크래치 패드에 색을 선택할때 선택한 픽셀이 표시되도록 함
 - (25.71) 팔레트 색을 선택할때 임시적으로 선택된 색과 같으면 팔레트 색이 선택되지 않던 버그 수정
 - (25.71) drawr와 tegaki프리셋에 스크래치 패드 추가
 
+- (25.76) Removed eyedropper tool animation
+- (25.76) Allowed color selection when cursor is placed on scratch pad and c, m (eyedropper shortcut) is pressed
+- (25.76) Sidebar UI tweaks
+
 - (25.75) Fixed bug related to eyedropper color comparison ring animation
 - (25.75) Make color history visible when scratch pad is active
-
 - (25.73) Fixed bug related to scratch pad
 - (25.72) Add animation to color comparison ring when picking color with eyedropper
 - (25.72) Make selected pixel visible when picking color in scratch pad

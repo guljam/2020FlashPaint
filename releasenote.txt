@@ -26,8 +26,9 @@ https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파�
 https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofopaint.air) directly from the site and reinstall it manually.
 
 ---------------
-25.81
+25.82
 ---------------
+- (25.82) 스크래치 패드 동작 변경, 색깔을 선택할 때 오른쪽 클릭 대신 스크래치 패드에 그리지 않고 그 자리를 클릭하면 색을 선택하게 바꿈
 - (25.81) 라소 툴에서 선택 된 이미지가 반전되어 있을 때 크기를 조정하면 반전이 풀리는 버그 수정
 - (25.80) 스포이드 툴을 사용하고 나서 펜 툴이 선택되는 버그 수정
 
@@ -43,6 +44,7 @@ https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofo
 - (25.71) 팔레트 색을 선택할때 임시적으로 선택된 색과 같으면 팔레트 색이 선택되지 않던 버그 수정
 - (25.71) drawr와 tegaki프리셋에 스크래치 패드 추가
 
+- (25.82) Changed the scratchpad behavior, when selecting a color, instead of right clicking, you now select the color by clicking on the spot without drawing on the scratchpad
 - (25.81) Fixed a bug where the selection area in the Lasso tool would be uninverted when resized
 - (25.80) Fixed bug where pen tool would be selected after using eyedropper tool
 

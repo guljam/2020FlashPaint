@@ -26,11 +26,12 @@ https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파�
 https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofopaint.air) directly from the site and reinstall it manually.
 
 ---------------
-25.80
+25.81
 ---------------
+- (25.81) 라소 툴에서 선택 된 이미지가 반전되어 있을 때 크기를 조정하면 반전이 풀리는 버그 수정
 - (25.80) 스포이드 툴을 사용하고 나서 펜 툴이 선택되는 버그 수정
-- (25.78) 단축키를 눌러서 퀵사이드 바를 켰을때 오른쪽 클릭으로 닫히지 않게 함
 
+- (25.78) 단축키를 눌러서 퀵사이드 바를 켰을때 오른쪽 클릭으로 닫히지 않게 함
 - (25.76) 스포이드 툴 애니메이션 삭제
 - (25.76) 스크래치 패드에 커서를 두고 c, m(스포이드 단축키)를 눌러도 색이 선택되게 함
 - (25.76) 사이드바 UI미조정
@@ -42,9 +43,10 @@ https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofo
 - (25.71) 팔레트 색을 선택할때 임시적으로 선택된 색과 같으면 팔레트 색이 선택되지 않던 버그 수정
 - (25.71) drawr와 tegaki프리셋에 스크래치 패드 추가
 
+- (25.81) Fixed a bug where the selection area in the Lasso tool would be uninverted when resized
 - (25.80) Fixed bug where pen tool would be selected after using eyedropper tool
-- (25.78) When the quick side bar is turned on by pressing a shortcut key, it will not close by right clicking
 
+- (25.78) When the quick side bar is turned on by pressing a shortcut key, it will not close by right clicking
 - (25.76) Removed eyedropper tool animation
 - (25.76) Allowed color selection when cursor is placed on scratch pad and c, m (eyedropper shortcut) is pressed
 - (25.76) Sidebar UI tweaks

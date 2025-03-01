@@ -36,7 +36,6 @@ https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofo
 - (25.85) Fixed bug where mouse click point and pen start point were misaligned in pen tool
 - (25.83) Fixed a bug where the sidebar would not disappear when changing to capture mode while the sidebar was visible in hidden sidebar mode
 
-
 ---------------
 25.82
 ---------------

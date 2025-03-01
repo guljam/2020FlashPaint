@@ -29,11 +29,11 @@ https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofo
 25.85
 ---------------
 - (25.85) 스크래치 패드 이미지를 보존함
-- (25.85) 펜툴에서 마우스 클릭지점과 펜 시작 지점이 어긋나는 버그 수정
+- (25.85) 펜툴에서 마우스 클릭지점과 펜 시작 지점이 약간 어긋나는 버그 수정
 - (25.83) 사이드바 숨김 모드에서, 사이드바가 표시되어있을때 캡쳐모드로 변경하면 사이드바가 사라지지 않은 버그 수정
 
 - (25.85) Preserve scratch pad image
-- (25.85) Fixed bug where mouse click point and pen start point were misaligned in pen tool
+- (25.85) Fixed a bug where the mouse click point and pen start point were slightly misaligned in the pen tool
 - (25.83) Fixed a bug where the sidebar would not disappear when changing to capture mode while the sidebar was visible in hidden sidebar mode
 
 ---------------

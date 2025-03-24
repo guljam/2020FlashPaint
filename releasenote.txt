@@ -26,14 +26,16 @@ https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파�
 https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofopaint.air) directly from the site and reinstall it manually.
 
 ---------------
-25.89
+25.90
 ---------------
+- (25.90) 6번 키에 퀵사이드바 단축키를 할당 함
 - (25.89) 채우기 펜(fill-pen) 최적화 및 버그 수정
 - (25.87) 사이드바 관련 버그 수정
 - (25.85) 스크래치 패드 이미지를 보존함
 - (25.85) 펜툴에서 마우스 클릭지점과 펜 시작 지점이 약간 어긋나는 버그 수정
 - (25.83) 사이드바 숨김 모드에서, 사이드바가 표시되어있을때 캡쳐모드로 변경하면 사이드바가 사라지지 않은 버그 수정
 
+- (25.90) ​​Assign quick sidebar shortcut to key 6
 - (25.89) Fill-pen optimization and bug fixes
 - (25.87) Fixed sidebar related bugs
 - (25.85) Preserve scratch pad image

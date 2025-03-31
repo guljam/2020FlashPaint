@@ -26,14 +26,16 @@ https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파�
 https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofopaint.air) directly from the site and reinstall it manually.
 
 ---------------
-25.92
+25.93
 ---------------
+- (25.93) 새로 변경 된 사이드바 버튼 배치에서 캔버스 줌과 회전 단축키를 눌렀을때 주황색 선택 커서 이동시키는거 까먹어서 추가 함
 - (25.92) 채우기 펜(fill-pen)에서 자유선에 대해서 작업 취소(undo)할 때 취소되는 간격을 좁게 함
 - (25.92) 캔버스 회전 90도 스냅을 방식을 약간 변경
 - (25.91) 사이드바와 오를쪽 클릭 메뉴 UI디자인 변경
 - (25.91) 파일저장 할 때 해당 경로가 없으면 상위폴더로 탐색하는 기능 추가(이전에는 데스크톱 경로로 이동했었음)
 - (25.90) 6번 키에 퀵사이드바 단축키를 할당 함
 
+- (25.93) Added the orange selection cursor movement when pressing the canvas zoom and rotation shortcuts in the newly changed sidebar button layout because I forgot to do so
 - (25.92) Narrow the gap between undos when undoing a free line in the fill-pen
 - (25.92) Slightly changed the way canvas rotation snaps to 90 degrees
 - (25.91) Changed the UI design of the sidebar and right-click menu

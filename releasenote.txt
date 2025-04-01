@@ -26,8 +26,15 @@ https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파�
 https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofopaint.air) directly from the site and reinstall it manually.
 
 ---------------
-25.93
+25.95
 ---------------
+- (25.95) 라소툴, 참고레이어, 채우기펜(fill-pen) 메뉴상자의 상하좌우 여백을 줌
+- (25.95) 채우기펜(fill-pen) 오른쪽 클릭 메뉴에서 퀵사이드바 버튼을 추가
+- (25.95) 채우기펜(fill-pen)을 그리고 있을 때 채우기 펜 투명도, 색깔을 즉시 변경 가능, 캔버스 확대, 축소, 회전도 됨
+- (25.95) 배경색 버튼을 눌렀을때 마우스 커서가 색상선택기(picker box)위에 있지 않으면 자동으로 펜 색깔 선택으로 복귀하도록 함
+- (25.95) 사이드바에 마우스 오른쪽 클릭하면 스크롤 위치 초기화하는 기능 추가
+
+
 - (25.93) about버튼을 눌렀을떼 나오는 정보 창에 메모리 사용량 제거 함(이유: 앱 자체가 사용하는 메모리 양을 정확하게 계산 할 수 없음)
 - (25.93) 새로 변경 된 사이드바 버튼 배치에서 캔버스 줌과 회전 단축키를 눌렀을때 주황색 선택 커서 이동시키는거 까먹어서 추가 함
 - (25.92) 채우기 펜(fill-pen)에서 자유선에 대해서 작업 취소(undo)할 때 취소되는 간격을 좁게 함
@@ -35,6 +42,12 @@ https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofo
 - (25.91) 사이드바와 오를쪽 클릭 메뉴 UI디자인 변경
 - (25.91) 파일저장 할 때 해당 경로가 없으면 상위폴더로 탐색하는 기능 추가(이전에는 데스크톱 경로로 이동했었음)
 - (25.90) 6번 키에 퀵사이드바 단축키를 할당 함
+
+- (25.95) Increase the top, bottom, left, and right margins of the Lasso tool, reference layer, and fill-pen menu boxes
+- (25.95) Added quick sidebar button to the fill-pen right-click menu
+- (25.95) When drawing with fill-pen, you can change the fill pen transparency and color on the fly, and also zoom in, out, and rotate the canvas
+- (25.95) When you press the background color button, if the mouse cursor is not over the picker box, it will automatically return to the pen color selection
+- (25.95) Added a function to reset the scroll position when right-clicking on the sidebar
 
 - (25.93) Removed memory usage from the information window that appears when pressing about button (reason: the app itself cannot accurately calculate the amount of memory it uses)
 - (25.93) Added the orange selection cursor movement when pressing the canvas zoom and rotation shortcuts in the newly changed sidebar button layout because I forgot to do so

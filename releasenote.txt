@@ -26,8 +26,10 @@ https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파�
 https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofopaint.air) directly from the site and reinstall it manually.
 
 ---------------
-25.96
+25.97
 ---------------
+- (25.97) 이전 버전에서 세이브 폴더 탐색에서 버그가 나서 저장되지 않는 버그 수정
+
 - (25.96) 채우기펜(fill-pen)에서 색깔이나 투명도를 즉시 변경을 할 때, 레이어 2번에 그려진 영역이 레이어 1번에 그려지는 버그 수정
 - (25.95) 라소툴, 참고레이어, 채우기펜(fill-pen) 메뉴상자의 상하좌우 여백을 줌
 - (25.95) 채우기펜(fill-pen) 오른쪽 클릭 메뉴에서 퀵사이드바 버튼을 추가
@@ -42,6 +44,8 @@ https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofo
 - (25.91) 사이드바와 오를쪽 클릭 메뉴 UI디자인 변경
 - (25.91) 파일저장 할 때 해당 경로가 없으면 상위폴더로 탐색하는 기능 추가(이전에는 데스크톱 경로로 이동했었음)
 - (25.90) 6번 키에 퀵사이드바 단축키를 할당 함
+
+- (25.97) Fixed a bug in save folder navigation in previous versions that prevented saving.
 
 - (25.96) Fixed a bug where when changing the color or transparency of the fill-pen immediately, the area drawn on layer 2 would be drawn on layer 1
 - (25.95) Increase the top, bottom, left, and right margins of the Lasso tool, reference layer, and fill-pen menu boxes

@@ -26,6 +26,13 @@ https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파�
 https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofopaint.air) directly from the site and reinstall it manually.
 
 ---------------
+25.98
+---------------
+- (25.98) 스포이드 툴에서, 레이어가 보이지 않는데도 스포이드 확대 커서에 레이어가 표시되는 버그 수정
+
+- (25.98) Fixed a bug in the Eyedropper tool where layers would appear in the Eyedropper zoom cursor even though the layers were not visible
+
+---------------
 25.97
 ---------------
 - (25.97) 이전 버전에서 세이브 폴더 탐색에서 버그가 나서 저장되지 않는 버그 수정

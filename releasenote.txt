@@ -28,13 +28,13 @@ https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofo
 ---------------
 26.05
 ---------------
-- (26.05) Adobe air SDK를 AIRSDK_51.2.1.5로 버전을 올림, 마이너 업그레이드라 런타임
+- (26.05) Adobe air SDK를 AIRSDK_51.1.2로 버전을 내림, 최신 SDK버전에서 실행이 안되는 문제 때문에(내 컴퓨터에서, 다른 사용자들은 모르겠음 문제있으면 메일주세요)
 - (26.03) 레이어가 체크된 상태에서 참조레이어로 보내기 버튼을 클릭하면 해당 레이어만 참조레이어로 이동되게 바꿈(이전에는 레이어체크 상관없이 모든 레이어가 이동되었음)
 - (26.02) Adobe air SDK를 51.2.1로 업데이트 함, 사용자는 런타임 업데이트 필요 https://airsdk.harman.com/download 에서 최신 버전 다운로드
 - (26.01) 파일을 클립보드로 붙여넣기 하고 저장하면 오류나는 버그 수정
 - (25.98) 스포이드 툴에서, 레이어가 보이지 않는데도 스포이드 확대 커서에 레이어가 표시되는 버그 수정
 
-- (26.05) Adobe air SDK version downgraded to AIRSDK_51.1.2, due to a problem with not running on the latest SDK version (on my computer, not sure about other users, if there is a problem, please email me)
+- (26.05) Adobe air SDK version downgraded to AIRSDK_51.1.2, due to an issue with not running on the latest SDK version (only on my computer)
 - (26.03) When you click the Send to Reference Layer button while a layer is checked, only that layer is moved to the reference layer (previously, all layers were moved regardless of layer check)
 - (26.02) Updated Adobe air SDK to 51.2.1, users need to update the runtime, download the latest version from https://airsdk.harman.com/download
 - (26.01) Fixed bug where pasting a file to the clipboard and saving would result in an error

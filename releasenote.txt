@@ -26,12 +26,14 @@ https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파�
 https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofopaint.air) directly from the site and reinstall it manually.
 
 ---------------
-26.02
+26.03
 ---------------
+- (26.03) 레이어가 체크된 상태에서 참조레이어로 보내기 버튼을 클릭하면 해당 레이어만 참조레이어로 이동되게 바꿈(이전에는 레이어체크 상관없이 모든 레이어가 이동되었음)
 - (26.02) Adobe air SDK를 51.2.1로 업데이트 함, 사용자는 런타임 업데이트 필요 https://airsdk.harman.com/download 에서 최신 버전 다운로드
 - (26.01) 파일을 클립보드로 붙여넣기 하고 저장하면 오류나는 버그 수정
 - (25.98) 스포이드 툴에서, 레이어가 보이지 않는데도 스포이드 확대 커서에 레이어가 표시되는 버그 수정
 
+- (26.03) When you click the Send to Reference Layer button while a layer is checked, only that layer is moved to the reference layer (previously, all layers were moved regardless of layer check)
 - (26.02) Updated Adobe air SDK to 51.2.1, users need to update the runtime, download the latest version from https://airsdk.harman.com/download
 - (26.01) Fixed bug where pasting a file to the clipboard and saving would result in an error
 - (25.98) Fixed a bug in the Eyedropper tool where layers would appear in the Eyedropper zoom cursor even though the layers were not visible

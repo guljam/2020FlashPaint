@@ -1,7 +1,7 @@
 
 # What is FOFO Paint?
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/303a2343-55d3-428a-90f6-c5074cbdc5e7" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/2207e253-b388-4c64-ac9a-45e378e66df3" />
 
 
 FOFO PAINT is painting application and freeware. developed with Adobe Air SDK.<br>

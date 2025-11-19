@@ -13,17 +13,14 @@
 ⠀⠘⠿⠿⠿⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠻⠿⠿⠟⠛⠉⠀⠀⠀⠛⠛⠛⠃⠀⠀⠀⠀⠀⠉⠛⠿⠿⠿⠿⠛⠁
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣲⣔⡆⢲⢰⣄⠐⡖⠂
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠀⠃⠃⠚⠘⠘⠀⠃
-https://guljam.github.io/2020FlashPaint/
 
-*업데이트 설치가 오류가 날 경우, https://airsdk.harman.com/runtime 에서 새 런타임을 설치하고 fofopaint.air를 직접 다운받아 설치하시기 바랍니다
+---------------
+NOTICE
+---------------
+Github : https://guljam.github.io/2020FlashPaint/
 
-*If an error occurs when installing the update, please install a new runtime from https://airsdk.harman.com/runtime and download and install fofopaint.air directly.
-
-**인증서 만료 문제로 새 인증서로 앱을 빌드함. 인증서 문제로 설치가 되지 않을시 기존 앱을 지운 후
-https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파일(fofopaint.air)을 받아 수동으로 재설치 필요
-
-**Build the app with a new certificate due to certificate expiration issues. If the installation fails due to certificate issues, delete the existing app and
-https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofopaint.air) directly from the site and reinstall it manually.
+*업데이트 설치가 오류가 날 경우, [ https://airsdk.harman.com/runtime ] 에서 새 런타임을 설치하고 fofopaint.air를 직접 다운받아 설치하시기 바랍니다
+*If an error occurs when installing the update, please install a new runtime from [ https://airsdk.harman.com/runtime ] and download and install fofopaint.air directly.
 
 ---------------
 27.01
@@ -42,23 +39,18 @@ https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofo
 - (27.01) webp, jpeg, jfif 파일을 불러올수있음
 - (27.01) 파일 로드시 나타나는 팝업화면 디자인 변경
 - (27.01) 각종 UI 조정
-
 - (27.01) 잘 사용하지 않는 단축키 제거
 - 그리기 모드에서 그리드, 사이드바 이동, UI색깔, DPI 변경, 레이어 체크, 레이어 병합, 레이어 위치 변경
 - 캡쳐 모드에서 저장, 클립보드로 복사를 제외한 모든 단축키 제거
 - 리플레이 모드에서 그리기모드, 캡쳐모드를 제외한 모든 단축키 제거
-
 - (27.01) 캡쳐모드에서 왼손 단축키 일부 변경 (ctrl키 조합키를 한칸씩 오른쪽으로 당김)
 - 저장 ctrl+k -> ctrl+;
 - 붙여넣기 ctrl+n -> ctrl+m
 - 캡쳐모드 진입 ctrl+m -> ctrl+,
 - 캡쳐모드에서 이미지 복사 ctrl+m -> ctrl+,
-
 - (27.01) 기능변경에 맞추어서 메뉴얼 수정
 - (27.01) 기타 버그 및 안정성 향상
-
 - 구버전 설치 링크 https://github.com/guljam/2020FlashPaint/releases/tag/oldversion
-
 
 - (27.01) Compile with Adobe AIR SDK 51.1.4
 - (27.01) Internal code refactored by over 80%
@@ -74,21 +66,17 @@ https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofo
 - (27.01) Support for loading webp, jpeg, and jfif files
 - (27.01) Changed design of pop-up screen when loading files
 - (27.01) Various UI adjustments
-
 - (27.01) Removal of unused shortcuts
 - In Draw mode, grid, sidebar movement, UI color, DPI change, layer check, layer merge, and layer position change were added
 - In Capture mode, all shortcuts except Save and Copy to Clipboard were removed
 - In Replay mode, all shortcuts except Draw and Capture modes were removed
-
 - (27.01) Changed some left-hand shortcuts in Capture mode (Ctrl key combinations now move one space to the right)
 - Save: ctrl+k -> ctrl+;
 - Paste: ctrl+n -> ctrl+m
 - Enter capture Mode: ctrl+m -> ctrl+,
 - Copy Image in Capture Mode ctrl+m -> ctrl+,
-
 - (27.01) Manual revised to reflect feature changes
 - (27.01) Other bug fixes and stability improvements
-
 - Older Version Installation Link https://github.com/guljam/2020FlashPaint/releases/tag/oldversion
 
 ---------------

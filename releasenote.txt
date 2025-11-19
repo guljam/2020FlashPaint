@@ -26,6 +26,72 @@ https://guljam.github.io/2020FlashPaint/ 해당 사이트에서 직접 새 파�
 https://guljam.github.io/2020FlashPaint/ You need to download the new file (fofopaint.air) directly from the site and reinstall it manually.
 
 ---------------
+27.01
+---------------
+- (27.01) Adobe AIR SDK 51.1.4로 컴파일
+- (27.01) 내부 코드 리팩토링 80%이상
+- (27.01) 레이어 1번과 2번 위치를 연속해서 바꾸면 나는 오류 수정
+- (27.01) 리플레이 탐색 캐시 이미지를 저장할때 현재 상태 캔버스 미러 상태를 저장하는 버그 수정
+- (27.01) 리플레이 모드에서 캔버스 부분 오른쪽 클릭으로 재생/정지 할 수 있음
+- (27.01) 리플레이 속도 최단 10초까지 재생가능
+- (27.01) 리플레이 모드에서 fit canvas to viewport기능을 이미지 크기에 상관없이 창크기에 맞추도록 함(원래는 캔버스 크기가 창크기보다 클때만 맞추어졌음)
+- (27.01) 그리기모드에서 최대 줌 배율 32배 -> 8배로 축소
+- (27.01) 라소와 참조레이어 확대 배율을 100배 -> 4배로까지로 축소(성능 문제)
+- (27.01) 색깔 미조정 OKLCH 슬라이더 추가 (컬러 픽커에 RGB x,x,x부분 클릭)
+- (27.01) RGB값 수동 입력 박스에서는 이제 마우스로만 조작 가능함
+- (27.01) webp, jpeg, jfif 파일을 불러올수있음
+- (27.01) 파일 로드시 나타나는 팝업화면 디자인 변경
+- (27.01) 각종 UI 조정
+
+- (27.01) 잘 사용하지 않는 단축키 제거
+- 그리기 모드에서 그리드, 사이드바 이동, UI색깔, DPI 변경, 레이어 체크, 레이어 병합, 레이어 위치 변경
+- 캡쳐 모드에서 저장, 클립보드로 복사를 제외한 모든 단축키 제거
+- 리플레이 모드에서 그리기모드, 캡쳐모드를 제외한 모든 단축키 제거
+
+- (27.01) 캡쳐모드에서 왼손 단축키 일부 변경 (ctrl키 조합키를 한칸씩 오른쪽으로 당김)
+- 저장 ctrl+k -> ctrl+;
+- 붙여넣기 ctrl+n -> ctrl+m
+- 캡쳐모드 진입 ctrl+m -> ctrl+,
+- 캡쳐모드에서 이미지 복사 ctrl+m -> ctrl+,
+
+- (27.01) 기능변경에 맞추어서 메뉴얼 수정
+- (27.01) 기타 버그 및 안정성 향상
+
+- 구버전 설치 링크 https://github.com/guljam/2020FlashPaint/releases/tag/oldversion
+
+
+- (27.01) Compile with Adobe AIR SDK 51.1.4
+- (27.01) Internal code refactored by over 80%
+- (27.01) Fixed an error that occurred when switching layers 1 and 2 consecutively
+- (27.01) Fixed a bug that caused the current canvas mirror state to be saved when saving a replay search cache image
+- (27.01) Right-clicking on the canvas in replay mode to play/pause
+- (27.01) Replay speed: Up to 10 seconds
+- (27.01) In replay mode, the "Fit Canvas to Viewport" function now fits the window size regardless of the image size. (Previously, it only worked when the canvas size was larger than the window size)
+- (27.01) Reduced the maximum zoom factor in draw mode from 32x to 8x
+- (27.01) Reduced the lasso and reference layer zoom factor from 100x to 4x (performance Issues)
+- (27.01) Added OKLCH slider for fine-tuning colors (click RGB x,x,x in the color picker)
+- (27.01) Manual RGB value input box now only supports mouse operation
+- (27.01) Support for loading webp, jpeg, and jfif files
+- (27.01) Changed design of pop-up screen when loading files
+- (27.01) Various UI adjustments
+
+- (27.01) Removal of unused shortcuts
+- In Draw mode, grid, sidebar movement, UI color, DPI change, layer check, layer merge, and layer position change were added
+- In Capture mode, all shortcuts except Save and Copy to Clipboard were removed
+- In Replay mode, all shortcuts except Draw and Capture modes were removed
+
+- (27.01) Changed some left-hand shortcuts in Capture mode (Ctrl key combinations now move one space to the right)
+- Save: ctrl+k -> ctrl+;
+- Paste: ctrl+n -> ctrl+m
+- Enter capture Mode: ctrl+m -> ctrl+,
+- Copy Image in Capture Mode ctrl+m -> ctrl+,
+
+- (27.01) Manual revised to reflect feature changes
+- (27.01) Other bug fixes and stability improvements
+
+- Older Version Installation Link https://github.com/guljam/2020FlashPaint/releases/tag/oldversion
+
+---------------
 26.10
 ---------------
 - (26.10) 스크래치 패드에서 색을 칠하기 시작하는 타이밍을 약간 더 빠르게 함

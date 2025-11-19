@@ -23,8 +23,9 @@ Github : https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from [ https://airsdk.harman.com/runtime ] and download and install fofopaint.air directly.
 
 ---------------
-27.02
+27.03
 ---------------
+- (27.03) Undo기능 관련 버그 수정
 - (27.02) 필펜 관련 작은 버그 수정
 
 - (27.01) Adobe AIR SDK 51.1.4로 컴파일
@@ -54,6 +55,7 @@ Github : https://guljam.github.io/2020FlashPaint/
 - (27.01) 기타 버그 및 안정성 향상
 - 구버전 설치 링크 https://github.com/guljam/2020FlashPaint/releases/tag/oldversion
 
+- (27.03) Fixed bug in the related undo function
 - (27.02) Fixed bug in the related fill-pen tool
 
 - (27.01) Compile with Adobe AIR SDK 51.1.4

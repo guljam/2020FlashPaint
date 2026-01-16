@@ -23,6 +23,19 @@ Github : https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from [ https://airsdk.harman.com/runtime ] and download and install fofopaint.air directly.
 
 ---------------
+27.07
+---------------
+- (27.07) 레이어 1 선택 툴팁이 시간이 지나도 사라지지 않는 버그 수정
+- (27.07) 툴팁 표시 시간을 3초에서 2초로 줄임
+- (27.07) 줌툴 드래그 감도를 약간 예민하게 함
+- (27.07) 라소툴 1픽셀 이동 버튼 위치 변경
+
+- (27.07) Fixed a bug where the Layer 1 selection tooltip wouldn't disappear over time
+- (27.07) Reduced temporary tooltip display time from 3 seconds to 2 seconds
+- (27.07) Slightly increased the drag sensitivity of the Zoom tool
+- (27.07) Changed the position of the Lasso tool's 1-pixel move button
+
+---------------
 27.06
 ---------------
 - (27.06) 펜 스무딩 관련 작은 버그 수정
@@ -35,7 +48,7 @@ Github : https://guljam.github.io/2020FlashPaint/
 - (27.01) Adobe AIR SDK 51.1.4로 컴파일
 - (27.01) 내부 코드 리팩토링 80%이상
 - (27.01) 레이어 1번과 2번 위치를 연속해서 바꾸면 나는 오류 수정
-- (27.01) 리플레이 탐색 캐시 이미지를 저장할때 현재 상태 캔버스 미러 상태를 저장하는 버그 수정
+- (27.01) 리플레이 탐색 캐시 이미지를 저장할때 현재 캔버스의 미러 상태를 저장하는 버그 수정
 - (27.01) 리플레이 모드에서 캔버스 부분 오른쪽 클릭으로 재생/정지 할 수 있음
 - (27.01) 리플레이 속도 최단 10초까지 재생가능
 - (27.01) 리플레이 모드에서 fit canvas to viewport기능을 이미지 크기에 상관없이 창크기에 맞추도록 함(원래는 캔버스 크기가 창크기보다 클때만 맞추어졌음)

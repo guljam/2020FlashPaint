@@ -23,8 +23,9 @@ Github : https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from [ https://airsdk.harman.com/runtime ] and download and install fofopaint.air directly.
 
 ---------------
-27.07
+27.08
 ---------------
+- (27.07)
 - (27.07) 레이어 1 선택 툴팁이 시간이 지나도 사라지지 않는 버그 수정
 - (27.07) 툴팁 표시 시간을 3초에서 2초로 줄임
 - (27.07) 줌툴 드래그 감도를 약간 예민하게 함

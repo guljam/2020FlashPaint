@@ -22,7 +22,7 @@ You must install the latest version of Adobe air runtime.
 [https://airsdk.harman.com/runtime](https://airsdk.harman.com/runtime)
 
 # 2. Download fofoPaint.air
-  [fofoPaint.air (version 27.07, 2026-01-16)](https://github.com/guljam/2020FlashPaint/releases/download/update2/fofoPaint.air)
+  [fofoPaint.air (version 27.08, 2026-02-02)](https://github.com/guljam/2020FlashPaint/releases/download/update2/fofoPaint.air)
 
   [Release note](https://raw.githubusercontent.com/guljam/2020FlashPaint/master/releasenote.txt)
 

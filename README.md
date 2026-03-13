@@ -31,3 +31,8 @@ You must install the latest version of Adobe air runtime.
   [日本語](https://github.com/guljam/2020FlashPaint/wiki/FOFO-Paint-%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB)
   [English](https://github.com/guljam/2020FlashPaint/wiki/FOFO-Paint-manual)
 
+# 4. Updates Discontinued
+- I've lost interest in this project, and I've heard the news that Adobe's Animate app is officially discontinued.
+- I've canceled my subscription to Animate, and updates are now discontinued. After years of testing, I believe most of the major bugs have been fixed, but there are still some areas where optimizations can be made.
+- I believe it will probably be fine for a few years, but please note that this project is approaching its end of life as time goes on.
+- [All source code is open to the public.](https://github.com/guljam/fofopaint-source)

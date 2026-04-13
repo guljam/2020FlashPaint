@@ -32,4 +32,4 @@ You must install the latest version of Adobe air runtime.
   [English](https://github.com/guljam/2020FlashPaint/wiki/FOFO-Paint-manual)
 
 # 4. Source code
-- [All source code is open to the public](https://github.com/guljam/fofopaint-source)
+  [All source code is open to the public](https://github.com/guljam/fofopaint-source)

@@ -23,12 +23,14 @@ Github : https://guljam.github.io/2020FlashPaint/
 *If an error occurs when installing the update, please install a new runtime from [ https://airsdk.harman.com/runtime ] and download and install fofopaint.air directly.
 
 ---------------
-27.11
+27.12
 ---------------
+- (27.12) 패키지 안에 메뉴얼을 포함 (About 창에 "manual folder"항목 추가)
 - (27.11) 힌트 표시 기능 개선 및 오타 수정
 - (27.10) Adobe Air SDK 51.3.1 버전으로 빌드함 최신 SDK 런타임 설치 필요
 - (27.10) 라소툴 힌트가 뜨지 않던 버그 수정
 
+- (27.12) Include manual in package (Add "manual folder" item to About window)
 - (27.11) Improved hint display function and corrected typos
 - (27.10) Built with Adobe Air SDK version 51.3.1. Requires installation of the latest SDK runtime
 - (27.10) Fixed a bug where Lasso Tool hints were not appearing

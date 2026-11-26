@@ -16,7 +16,7 @@ Features
 developer : chickenmayozmt (cube4none@gmail.com)
 - drawin 98 : [https://guljam.github.io/drawin98LiteWeb/](https://guljam.github.io/drawin98LiteWeb/)
 
-# 1. Download (version 30.0.0, 2026-11-26)
+# 1. Download (version 30.0.1, 2026-11-26)
   [Download page (GitHub Releases)](https://github.com/guljam/2020FlashPaint/releases/latest)
 
 - Windows: unzip and run `fofoPaint.exe`.

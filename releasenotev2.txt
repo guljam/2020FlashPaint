@@ -1,1 +1,88 @@
-release note v2
+FOFO Paint 30.0.0
+
+■ 설치 전에 꼭 확인해 주세요
+- 서명 인증서가 바뀌어 기존 버전과 호환되지 않습니다. 기존 버전에서 작업을 파일로 저장한 뒤, 기존 앱을 삭제하고 설치해 주세요.
+- Windows는 설치 없이 압축만 풀어 실행하는 zip 버전을 권장합니다. 더 빠르게 동작합니다. (64비트 / 32비트, 32비트는 충분히 테스트하지 못했습니다)
+- .air 버전(macOS, Windows)은 Adobe AIR 런타임 51.4.1.2 이상이 필요하며, zip 버전보다 느립니다.
+- 직접 서명한 앱이라 처음 실행할 때 경고 창이 뜰 수 있습니다.
+
+■ 주요 변화
+- AI를 활용해 코드를 대대적으로 정리하고 많은 버그를 고쳐 안정성을 높였습니다.
+- 새 저장 형식 *.fofo: 기존보다 파일 용량이 50~90% 줄었습니다. 파일이 클수록 저장과 불러오기 시간은 조금 늘어날 수 있습니다. 예전 *.2020 파일도 불러와 이어서 작업할 수 있지만, *.fofo 파일은 구버전에서 열 수 없습니다.
+- 리플레이가 실제로 그린 속도와 리듬 그대로 재생됩니다. 오래 쉰 구간은 자동으로 짧게 줄여 보여줍니다.
+- 라인 툴로 선을 계속 이어서 다각형을 그릴 수 있습니다.
+- 펜 보정(스무딩)이 새로워져 선이 늦게 따라오는 지연이 사라졌습니다.
+
+■ 리플레이
+- 카메라가 그리는 위치를 따라가며 자동으로 확대/축소합니다.
+- 채우기, 올가미, 이동, 라인 작업이 한순간에 나타나지 않고 애니메이션으로 보입니다.
+- 빠른 배속에서는 구간을 건너뛰며, 최고 배속으로는 전체 과정을 약 30초 만에 볼 수 있습니다.
+- 재생 중에는 상단바와 마우스 커서가 자동으로 숨겨집니다.
+- 파일을 읽는 도중에 앱을 껐다 켜면 이어서 읽습니다.
+
+■ 그리기와 화면
+- 펜 커서에서 선택한 색과 투명도를 미리 볼 수 있고, 배경에 묻히지 않게 커서 색이 자동으로 바뀝니다.
+- 펜 크기와 투명도 버튼을 드래그해 연속으로 바꿀 수 있습니다.
+- 채우기 펜의 에어브러시에 전용 크기 설정과 흐림 미리보기가 생겼습니다.
+- 지우개 미리보기가 아래 레이어까지 가리던 문제를 고쳤습니다.
+- 레이어 버튼에 커서를 올려두거나 레이어 단축키를 길게 누르면 레이어를 비스듬히 눕혀 층별로 볼 수 있습니다.
+- 레이어 버튼을 한 번 더 누르면 해당 레이어만 볼 수 있습니다.
+- 참조 레이어의 기억 훈련은 화면 전체 대신 커서 주변만 가립니다.
+- 내 팔레트가 100칸으로 늘고 색 히스토리와 분리되었습니다. 색을 드래그해서 추가, 이동, 삭제합니다.
+- OKLCH 색 슬라이더를 OKLSH로 바꿔, 색이 틀어지던 문제를 해결했습니다.
+- 캡처 영역은 네 변을 끌어 크기를 조절할 수 있습니다.
+- 숨긴 사이드바는 화면 왼쪽과 오른쪽 가장자리 어디서든 불러올 수 있습니다.
+- 손으로 그린 듯한 느낌으로 UI를 다듬었습니다.
+- 작업 시간 타이머에 앱 총 실행 시간이 함께 표시됩니다.
+
+■ 안정성과 데이터 보호
+- 정전 등으로 앱이 갑자기 꺼져도 남은 데이터를 읽어 복구합니다.
+- 파일을 불러올 때 항상 그리기 과정을 다시 읽어, 리플레이와 그림이 어긋나지 않습니다. 큰 파일은 불러오는 데 시간이 걸립니다.
+- 저장하고 다시 열 때 반투명 색이 조금씩 어두워지던 문제를 해결했습니다.
+- 저장 결과와 오류를 화면의 메시지 상자로 알려주고, 오류가 나면 기록 파일을 남깁니다.
+- 새 버전이 나오면 알려주고 다운로드 페이지를 엽니다. (자동 설치 기능은 없어졌습니다)
+
+
+FOFO Paint 30.0.0
+
+■ Please read before installing
+- The signing certificate has changed, so this version cannot be installed over older ones. Save your work as a file in the old version, uninstall the old app, then install this one.
+- On Windows, we recommend the zip version (no installation, just unzip and run). It runs faster. (64-bit / 32-bit; the 32-bit build has not been fully tested)
+- The .air version (macOS, Windows) requires Adobe AIR runtime 51.4.1.2 or later and is slower than the zip version.
+- The app is self-signed, so a warning may appear on the first run.
+
+■ Highlights
+- The code was extensively reorganized with the help of AI, many bugs were fixed, and stability is improved.
+- New *.fofo file format: files are 50-90% smaller. Saving and loading may take a little longer for large files. You can still open old *.2020 files and keep working, but old versions cannot open *.fofo files.
+- Replays now play back with the actual speed and rhythm of your drawing. Long pauses are automatically shortened.
+- The Line tool can now draw connected lines continuously to make polygons.
+- New pen smoothing removes the lag behind your pen.
+
+■ Replay
+- The camera follows your drawing and zooms in and out automatically.
+- Fill, lasso, move, and line actions are animated instead of appearing instantly.
+- At high speeds the replay skips ahead, and at maximum speed you can watch the whole process in about 30 seconds.
+- The top bar and mouse cursor hide automatically during playback.
+- If you close the app while a file is being read, it resumes where it left off.
+
+■ Drawing and interface
+- The pen cursor previews the selected color and opacity, and changes its color automatically to stay visible.
+- Drag across the pen size and opacity buttons to change them continuously.
+- Airbrush in the Fill pen now has its own size setting and a blur preview.
+- Fixed the eraser preview hiding the layer underneath.
+- Hover over a layer button or hold a layer shortcut key to see the layers in a tilted view.
+- Click a layer button again to show only that layer.
+- Memory training for the reference layer now covers only the area around the cursor instead of the whole canvas.
+- My Palette now has 100 slots and is separate from the color history. Drag colors to add, move, or delete them.
+- The OKLCH color slider is now OKLSH, which fixes colors shifting unexpectedly.
+- Resize the capture area by dragging any of its four edges.
+- A hidden sidebar can be brought up from either the left or right edge of the screen.
+- The interface has a new hand-drawn look.
+- The work timer also shows the total time the app has been running.
+
+■ Stability and data safety
+- If the app closes unexpectedly (e.g. a power outage), your work is recovered from the data left on disk.
+- Loading a file now always rebuilds it from the drawing history, so the picture and the replay never get out of sync. Large files take longer to load.
+- Fixed semi-transparent colors getting slightly darker each time you saved and reopened.
+- Save results and errors are shown in on-screen messages, and a log file is written when an error occurs.
+- The app notifies you of new versions and opens the download page. (Automatic installation has been removed)

@@ -40,9 +40,4 @@ The `.air` file needs Adobe AIR runtime **51.4.1.2 or later**. The Windows zip f
 - `.air` 설치가 기존 FOFO Paint(27.xx) 때문에 실패하면 기존 FOFO Paint를 삭제한 뒤 다시 설치하세요.
 
 # 3. Manual
-  [한국어](https://github.com/guljam/2020FlashPaint/wiki/FOFO-Paint-%EC%84%A4%EB%AA%85%EC%84%9C)
-  [日本語](https://github.com/guljam/2020FlashPaint/wiki/FOFO-Paint-%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB)
-  [English](https://github.com/guljam/2020FlashPaint/wiki/FOFO-Paint-manual)
-
-# 4. Open Source
-  [All source code is open to the public](https://github.com/guljam/fofopaint-source)
+앱 내부의 처음 뜨는 창(상단 메뉴 ? 아이콘)을 클릭하여 Manual 버튼을 눌러 페이지를 참고하세요

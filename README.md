@@ -16,15 +16,28 @@ Features
 developer : chickenmayozmt (cube4none@gmail.com)
 - drawin 98 : [https://guljam.github.io/drawin98LiteWeb/](https://guljam.github.io/drawin98LiteWeb/)
 
-# 1.Install Adobe Air Runtime
-You must install the latest version of Adobe air runtime.
+# 1. Download (version 30.0.0, 2026-11-26)
+  [Download page (GitHub Releases)](https://github.com/guljam/2020FlashPaint/releases/latest)
 
-[https://airsdk.harman.com/runtime](https://airsdk.harman.com/runtime)
+| File | For | How to start |
+|---|---|---|
+| [fofopaint-30.0.0-win64.zip](https://github.com/guljam/2020FlashPaint/releases/download/v30.0.0/fofopaint-30.0.0-win64.zip) | Windows 64-bit | Unzip and run `fofoPaint.exe` (no runtime install needed) |
+| [fofopaint-30.0.0-win32.zip](https://github.com/guljam/2020FlashPaint/releases/download/v30.0.0/fofopaint-30.0.0-win32.zip) | Windows 32-bit | Unzip and run `fofoPaint.exe` (no runtime install needed) |
+| [fofopaint-30.0.0-win-mac.air](https://github.com/guljam/2020FlashPaint/releases/download/v30.0.0/fofopaint-30.0.0-win-mac.air) | macOS (also Windows) | Install the Adobe AIR runtime first (see 2.), then open the `.air` file |
 
-# 2. Download fofoPaint.air
-  [fofoPaint.air (version 27.13, 2026-04-25)](https://github.com/guljam/2020FlashPaint/releases/download/update2/fofoPaint.air)
+- 윈도우: zip을 풀고 `fofoPaint.exe`를 실행하세요 (런타임 설치 필요 없음). / Windows: unzip and run `fofoPaint.exe`.
+- Windows may show "Windows protected your PC" on the first run. Click "More info" → "Run anyway". / 처음 실행할 때 "Windows의 PC 보호" 창이 뜨면 "추가 정보" → "실행"을 누르세요.
+- Old versions (27.xx and earlier) are no longer supported. Save your work as a file in the old version before switching. / 기존 버전(27.xx 이하)은 더 이상 지원하지 않습니다. 옮기기 전에 기존 버전에서 작업을 파일로 저장해 주세요.
 
   [Release note](https://raw.githubusercontent.com/guljam/2020FlashPaint/master/releasenote.txt)
+
+# 2. Install Adobe AIR Runtime (only for the .air file)
+The `.air` file needs Adobe AIR runtime **51.4.1.2 or later**. The Windows zip files already include the runtime.
+
+[https://airsdk.wxlift.com/runtime](https://airsdk.wxlift.com/runtime)
+
+- If installing the `.air` fails because an old FOFO Paint (27.xx) is installed, uninstall the old FOFO Paint first and install again.
+- `.air` 설치가 기존 FOFO Paint(27.xx) 때문에 실패하면 기존 FOFO Paint를 삭제한 뒤 다시 설치하세요.
 
 # 3. Manual
   [한국어](https://github.com/guljam/2020FlashPaint/wiki/FOFO-Paint-%EC%84%A4%EB%AA%85%EC%84%9C)

@@ -29,7 +29,7 @@ developer : chickenmayozmt (cube4none@gmail.com)
 - Windows may show "Windows protected your PC" on the first run. Click "More info" → "Run anyway". / 처음 실행할 때 "Windows의 PC 보호" 창이 뜨면 "추가 정보" → "실행"을 누르세요.
 - Old versions (27.xx and earlier) are no longer supported. Save your work as a file in the old version before switching. / 기존 버전(27.xx 이하)은 더 이상 지원하지 않습니다. 옮기기 전에 기존 버전에서 작업을 파일로 저장해 주세요.
 
-  [Release note](https://raw.githubusercontent.com/guljam/2020FlashPaint/master/releasenote.txt)
+  [Release note](https://raw.githubusercontent.com/guljam/2020FlashPaint/refs/heads/master/releasenotev2.txt)
 
 # 2. Install Adobe AIR Runtime (only for the .air file)
 The `.air` file needs Adobe AIR runtime **51.4.1.2 or later**. The Windows zip files already include the runtime.
